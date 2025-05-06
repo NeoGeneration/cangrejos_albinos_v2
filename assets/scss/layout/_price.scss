@@ -1,0 +1,90 @@
+@use '../utils' as *;
+
+/*=============================
+    	18. price
+===============================*/
+
+.td-pricing{
+    &-2{
+        &-price{
+            padding: 29px 52px;
+            background: #e22ca0;
+            border-radius: 20px;
+            display: inline-block;
+            & .subtitle{
+                font-weight: 500;
+                font-size: 16px;
+                text-transform: capitalize;
+                color: var(--td-common-white);
+                display: block;
+            }
+            & .price{
+                font-weight: 800;
+                font-size: 30px;
+                color: var(--td-common-white);
+            }
+        }
+        &-feature{
+            & ul{
+                & li{
+                    font-family: var(--td-ff-poppins);
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: var(--td-common-white);
+                    display: flex;
+                    &:not(:last-child){
+                        margin-bottom: 17px;
+                    }
+                    & svg{
+                        margin-right: 5px;
+                        transform: translateY(-1px);
+                    }
+                }
+            }
+        }
+        &-item{
+            padding: 60px 20px 78px 92px;
+            @media #{$xl,$md,$xs} {
+                padding: 60px 40px 78px 40px;
+                text-align: center;
+            }
+            & .td-btn-square{
+                background: var(--td-common-white);
+                color: var(--td-common-black);
+                padding: 22px 30px;
+                box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.25);
+                clip-path: polygon(0 0, 93% 0%, 100% 28%, 100% 80%, 100% 100%, 7% 100%, 0% 72%, 0% 20%);
+                &:hover{
+                    background: var(--td-theme-primary);
+                    color: var(--td-common-white);
+                }
+            }
+        }
+    }
+    &-3{
+        &-item{
+            border-radius: 50px 8px;
+            background: var(--td-common-white);
+            & .td-btn-3-squre{
+                margin-left: 22px;
+                @media #{$xl,$lg,$md,$sm,$xs} {
+                    margin-left: 0;
+                }
+            }
+            & .td-pricing-2-feature ul li {
+                color: var(--td-common-black);
+            }
+            & .td-pricing-2-price {
+                background: none;
+                border-radius: 0;
+                padding-top: 15px;
+            }
+            & .td-pricing-2-price .subtitle {
+                color: var(--td-common-black);
+            }
+            & .td-pricing-2-price .price {
+                color: var(--td-common-black);
+            }
+        }
+    }
+}
