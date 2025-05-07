@@ -685,6 +685,9 @@ textarea {
 .green-bg {
   background: var(--td-theme-primary);
 }
+.black-bg {
+  background: var(--td-common-black);
+}
 
 .grey-bg {
   background: #f2f7f7;

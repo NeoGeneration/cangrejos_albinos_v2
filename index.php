@@ -457,7 +457,7 @@
         <!-- td-hero-area-end -->
 
         <!-- td-about-area-start -->
-        <div class="td-about-area pt-150 bg-position pb-130" data-background="assets/img/about/bg.jpg">
+        <div class="td-about-area pt-100 bg-position pb-100" data-background="assets/img/about/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center mb-85">
                     <div class="col-lg-11">
@@ -1081,31 +1081,31 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                       <div class="swiper-wrapper slide-transtion">
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                               <h3 class="text">Business Conference </h3>
+                               <h3 class="text">Jameos del Agua</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                               <h3 class="text">Book Your Ticket</h3>
+                               <h3 class="text">Reserva tu Entrada</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                               <h3 class="text">Industry Lead Company</h3>
+                               <h3 class="text">Inteligencia Artificial</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                               <h3 class="text">Business Conference 2025</h3>
+                               <h3 class="text">Energías Límpias</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                                <h3 class="text">Industry Lead Company</h3>
+                                <h3 class="text">Desarrollo Personal</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
@@ -1117,12 +1117,12 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-text-slider-area-end -->
 
         <!-- td-brands-area-start -->
-        <div class="td-brands-area blue-bg pt-110 pb-115">
+        <div class="td-brands-area black-bg pt-110 pb-115">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="td-brands-title-wrap mb-45 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".2s">
-                            <span class="td-section-subtitle mb-20">Our Official Sponsors</span>
+                            <!--<span class="td-section-subtitle mb-20">Our Official Sponsors</span>-->
                             <h2 class="td-section-title">Trusted by over 150  organizations in more than 50 countries</h2>
                         </div>
                     </div>
