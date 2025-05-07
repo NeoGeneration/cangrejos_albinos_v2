@@ -383,7 +383,7 @@
                                         <p>LZ 204, Parcela 109, Carretera Arrieta - Órzola S/N Lanzarote, LZ-204, 109, 35542 Punta Mujeres, Las Palmas</p>
                                     </div>
                                 </div>                                
-                                <div class="td-venue-info">
+                                <div class="td-venue-info mb-25">
                                     <span class="td-venue-info-icon">
                                         <i class="fa-regular fa-ticket"></i>
                                     </span>
