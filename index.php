@@ -446,8 +446,19 @@
                                         </div>
                                     </div>
                                     <div class="row">
+                                        <div class="col-12 mb-15">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="privacidad" name="privacidad" required>
+                                                <label class="form-check-label" for="privacidad">
+                                                    He leído y acepto la <a href="politica-privacidad.html" target="_blank" class="text-decoration-underline">política de privacidad</a> y el tratamiento de mis datos personales.
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
                                         <div class="col-12">
-                                            <button type="submit" class="td-btn">Reservar</button>
+                                            <button type="submit" class="td-btn">Reservar</button> 
                                             <small class="d-block text-muted mt-1 fst-italic small">Máximo 4 entradas por persona</small>
                                         </div>
                                     </div>
