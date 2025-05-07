@@ -2893,7 +2893,7 @@ textarea {
   content: "";
   width: 0;
   height: 4px;
-  background: var(--td-theme-secondary);
+  background: var(--td-common-yellow);
   right: 0;
   left: auto;
   bottom: 40px;
