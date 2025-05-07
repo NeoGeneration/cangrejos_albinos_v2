@@ -300,7 +300,7 @@
     <main>
 
         <!-- td-hero-area-start -->
-        <div class="td-hero-area td-hero-spacing bg-position p-relative fix" data-background="assets/img/hero/bg.jpg">
+        <div class="td-hero-area td-hero-spacing bg-position p-relative fix" data-background="assets/img/hero/bg.png">
             <div class="td-hero-text-shape">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1170 409">
                 <defs>
