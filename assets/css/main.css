@@ -5786,7 +5786,6 @@ textarea {
     	08. cta
 ===============================*/
 .td-cta-2-subtitle {
-  font-weight: 600;
   font-size: 15px;
   color: var(--td-common-white);
 }
