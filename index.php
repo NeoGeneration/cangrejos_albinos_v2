@@ -92,13 +92,13 @@
                             <nav class="tdmenu__nav ml-50 mr-50 d-none d-xl-flex">
                                 <div class="tdmenu__navbar-wrap tdmenu__main-menu">
                                     <ul class="navigation">
-                                        <li class="active"><a href="index.html">Inicio</a></li>
-                                        <li class=""><a href="events.html">Experiencia</a></li>
-                                        <li class=""><a href="team.html">Evento</a></li>
-                                        <li class=""><a href="blog.html">Entradas</a></li>
-                                        <li class=""><a href="blog.html">Agenda</a></li>
-                                        <li><a href="contact.html">Ponentes</a></li>
-                                        <li><a href="contact.html">Empresas</a></li>
+                                        <li class="active"><a href="#inicio">Inicio</a></li>
+                                        <li class=""><a href="#experiencia">Experiencia</a></li>
+                                        <li class=""><a href="#evento">Evento</a></li>
+                                        <li class=""><a href="#entradas">Entradas</a></li>
+                                        <li class=""><a href="#agenda">Agenda</a></li>
+                                        <li><a href="#ponentes">Ponentes</a></li>
+                                        <li><a href="#empresas">Empresas</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -155,7 +155,7 @@
     <main>
 
         <!-- td-hero-area-start -->
-        <div class="td-hero-area td-hero-spacing bg-position p-relative fix" data-background="assets/img/hero/bg.png">
+        <div id="inicio" class="td-hero-area td-hero-spacing bg-position p-relative fix" data-background="assets/img/hero/bg.png">
             <div class="td-hero-text-shape">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1170 409">
                 <defs>
@@ -312,7 +312,7 @@
         <!-- td-hero-area-end -->
 
         <!-- td-about-area-start -->
-        <div class="td-about-area pt-100 bg-position pb-100" data-background="assets/img/about/bg.jpg">
+        <div id="experiencia" class="td-about-area pt-100 bg-position pb-100" data-background="assets/img/about/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center mb-85">
                     <div class="col-lg-11">
@@ -344,12 +344,12 @@
         <!-- td-about-area-end -->
 
         <!-- td-venue-area-start -->
-        <div class="td-venue-area pt-140 pb-110">
+        <div id="evento" class="td-venue-area pt-140 pb-110">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 mb-30">
                         <div class="td-venue-thumb">
-                            <img class="w-100 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s" src="assets/img/venue/thumb.jpg" alt="">
+                            <img class="w-100 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s" src="assets/img/angeles_blanco.png" alt="Ángeles Blanco">
                         </div>
                     </div>
                     <div class="col-lg-6 mb-30">
@@ -411,7 +411,7 @@
         <!-- td-venue-area-end -->
 
         <!-- td-contact-form-area-start -->
-        <div class="td-contact-form-area pb-115">
+        <div id="entradas" class="td-contact-form-area pb-115">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -451,7 +451,7 @@
         <!-- td-contact-form-area-end -->
 
         <!-- td-schedule-area-start -->
-        <div class="td-schedule-area  pt-140 pb-110 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
+        <div id="agenda" class="td-schedule-area  pt-140 pb-110 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
@@ -723,7 +723,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-cta-area-end -->
 
         <!-- td-team-area-start -->
-        <div class="td-team-area pt-140 pb-115 p-relative fix">
+        <div id="ponentes" class="td-team-area pt-140 pb-115 p-relative fix">
             <h2 class="td-team-bigtext mb-0">SPEAKERS</h2>
             <div class="container">
                 <div class="row">
@@ -826,7 +826,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-text-slider-area-end -->
 
         <!-- td-brands-area-start -->
-        <div class="td-brands-area black-bg pt-110 pb-115">
+        <div id="empresas" class="td-brands-area black-bg pt-110 pb-115">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">

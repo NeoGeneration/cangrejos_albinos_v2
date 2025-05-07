@@ -486,4 +486,72 @@
 		td_tab_line_2();
 	}
 
+	// Smooth scroll para los enlaces del menú
+	document.addEventListener('DOMContentLoaded', function() {
+		// Selecciona todos los enlaces que comienzan con #
+		const menuLinks = document.querySelectorAll('a[href^="#"]');
+		
+		menuLinks.forEach(link => {
+			link.addEventListener('click', function(e) {
+				// Previene el comportamiento predeterminado del enlace
+				e.preventDefault();
+				
+				// Obtiene el destino del enlace
+				const targetId = this.getAttribute('href');
+				const targetSection = document.querySelector(targetId);
+				
+				// Si existe el elemento de destino, hace el scroll suave
+				if (targetSection) {
+					// Calcula la posición del elemento
+					const offsetTop = targetSection.offsetTop - 100; // 100px de offset para el menú fijo
+					
+					// Realiza el scroll suave
+					window.scrollTo({
+						top: offsetTop,
+						behavior: 'smooth'
+					});
+					
+					// Actualiza la URL pero sin saltar a la sección (opcional)
+					history.pushState(null, null, targetId);
+					
+					// Cierra el menú móvil si está abierto
+					const mobileMenu = document.querySelector('.tdmobile__menu');
+					if (mobileMenu && mobileMenu.classList.contains('tdmobile-menu-visible')) {
+						document.querySelector('.tdmobile__menu-backdrop').click();
+					}
+				}
+			});
+		});
+		
+		// Añade la clase activa al link del menú según la sección visible
+		function highlightActiveMenuItem() {
+			const scrollPosition = window.scrollY;
+			
+			// Recorre todas las secciones con ID
+			const sections = document.querySelectorAll('div[id]');
+			sections.forEach(section => {
+				const sectionTop = section.offsetTop - 150;
+				const sectionHeight = section.offsetHeight;
+				const sectionId = '#' + section.getAttribute('id');
+				
+				if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+					// Quita la clase active de todos los links del menú
+					document.querySelectorAll('.tdmenu__navbar-wrap li').forEach(item => {
+						item.classList.remove('active');
+					});
+					
+					// Añade la clase active al link correspondiente a la sección actual
+					const activeLink = document.querySelector(`.tdmenu__navbar-wrap li a[href="${sectionId}"]`);
+					if (activeLink) {
+						activeLink.parentElement.classList.add('active');
+					}
+				}
+			});
+		}
+		
+		// Ejecuta la función al cargar y al hacer scroll
+		window.addEventListener('scroll', highlightActiveMenuItem);
+		window.addEventListener('load', highlightActiveMenuItem);
+	});
+
 })(jQuery);
