@@ -112,7 +112,11 @@ img,
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-
+.logo-fixed {
+  width: 220px;
+  max-width: none;
+  height: auto;
+}
 a,
 button {
   color: inherit;

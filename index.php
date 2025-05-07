@@ -86,8 +86,8 @@
                     <div class="col-xxl-9 col-xl-10 col-lg-10 col-6">
                         <div class="tdmenu__wrap d-flex align-items-center justify-content-between">
                             <div class="logo">
-                                <a class="logo-1 logo-sticky-none" href="index.html"><img data-width="220" src="assets/img/logo/logo-white.png" alt="Cangrejos Albinos"></a>
-                                <a class="logo-2 d-none" href="index.html"><img data-width="220" src="assets/img/logo/logo-black.png" alt="Cangrejos Albinos"></a>
+                                <a class="logo-1 logo-sticky-none" href="index.html"><img class="logo-fixed" data-width="220" src="assets/img/logo/logo-white.png" alt="Cangrejos Albinos"></a>
+                                <a class="logo-2 d-none" href="index.html"><img class="logo-fixed" data-width="220" src="assets/img/logo/logo-black.png" alt="Cangrejos Albinos"></a>
                             </div>
                             <nav class="tdmenu__nav ml-50 mr-50 d-none d-xl-flex">
                                 <div class="tdmenu__navbar-wrap tdmenu__main-menu">
