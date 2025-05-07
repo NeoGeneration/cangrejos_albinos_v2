@@ -107,11 +107,6 @@
                     <div class="col-xxl-3 col-xl-2 col-lg-2 col-6">
                         <div class="td-menu-right-action d-flex align-items-center justify-content-end">
                             <div class="td-header-menu-bar lh-1 p-relative ml-15">
-                                <button class="tdmenu-offcanvas-open-btn menu-tigger d-none d-xl-block">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </button>
                                 <button class="tdmenu-offcanvas-open-btn mobile-nav-toggler d-block d-xl-none">
                                     <span></span>
                                     <span></span>
@@ -152,40 +147,6 @@
         </div>
         <div class="tdmobile__menu-backdrop"></div>
         <!-- End Mobile Menu -->
-
-        <!-- offCanvas-menu -->
-        <div class="offCanvas__info">
-            <div class="offCanvas__close-icon menu-close">
-                <button><i class="fa-sharp fa-regular fa-xmark"></i></button>
-            </div>
-            <div class="offCanvas__logo mb-30">
-                <a href="index.html"><img src="assets/img/logo/logo-black.png" alt="Logo"></a>
-            </div>
-            <div class="offCanvas__side-info mb-30">
-                <div class="contact-list mb-30">
-                    <h4>Office Address</h4>
-                    <a href="https://www.google.com/maps" target="_blank">123/A, Miranda City Likaoli <br> Prikano, Dope</a>
-                </div>
-                <div class="contact-list mb-30">
-                    <h4>Phone Number</h4>
-                    <a href="tel:(090)87658654385">+0989 7876 9865 9</a>
-                    <a href="tel:(090)87658654385">+(090) 8765 86543 85</a>
-                </div>
-                <div class="contact-list mb-30">
-                    <h4>Email Address</h4>
-                    <a href="mailto:info@example.com">info@example.com</a>
-                    <a href="mailto:info@example.com">example.mail@hum.com</a>
-                </div>
-            </div>
-            <div class="offCanvas__social-icon mt-30">
-                <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
-                <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-                <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a>
-                <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-        <div class="offCanvas__overly"></div>
-        <!-- offCanvas-menu-end -->
 
     </header>
     <!-- header-area-end -->
