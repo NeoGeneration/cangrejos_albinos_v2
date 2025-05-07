@@ -461,7 +461,7 @@
                             <div>
                                 <div class="td-venue-info mb-25">
                                     <span class="td-venue-info-icon">
-                                        <i class="flaticon-calendar"></i>
+                                        <i class="fa-regular fa-calendar"></i>
                                     </span>
                                     <div>
                                         <span class="subtitle">Fecha</span>
@@ -470,7 +470,7 @@
                                 </div>
                                 <div class="td-venue-info mb-25">
                                     <span class="td-venue-info-icon">
-                                        <i class="flaticon-clock"></i>
+                                        <i class="fa-regular fa-clock"></i>
                                     </span>
                                     <div>
                                         <span class="subtitle">Hora</span>
@@ -479,7 +479,7 @@
                                 </div>
                                 <div class="td-venue-info mb-25">
                                     <span class="td-venue-info-icon">
-                                        <i class="flaticon-calendar"></i>
+                                        <i class="fa-regular fa-location-dot"></i>
                                     </span>
                                     <div>
                                         <span class="subtitle">Dirección</span>
@@ -488,7 +488,7 @@
                                 </div>                                
                                 <div class="td-venue-info">
                                     <span class="td-venue-info-icon">
-                                        <i class="flaticon-mail"></i>
+                                        <i class="fa-regular fa-ticket"></i>
                                     </span>
                                     <div>
                                         <span class="subtitle">Entrada</span>
@@ -497,13 +497,13 @@
                                 </div>
                                 <div class="td-venue-info">
                                     <span class="td-venue-info-icon">
-                                        <i class="flaticon-mail"></i>
+                                        <i class="fa-regular fa-user"></i>
                                     </span>
                                     <div>
                                         <span class="subtitle">Presenta</span>
                                         <p>Ángeles Blanco</p>
                                     </div>                                 
-                                </div>                                
+                                </div>                               
                             </div>
                         </div>
                     </div>
@@ -557,23 +557,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
                         <div class="td-schedule-2-title-wrap text-center mb-40 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                            <span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3 mb-30">Event Schedule</span>
-                            <h2 class="td-section-title">Join the world's leading companies  at Business Conference</h2>
+                            <h2 class="td-section-title">Descubre nuestros próximos encuentros</h2>
                         </div>
-                        <div class="nav td-schedule-tab-btn td-schedule-3-tab-btn justify-content-center mb-50 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <button class="nav-link active p-relative" id="v-pills-home1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home1" type="button" role="tab" aria-controls="v-pills-home1" aria-selected="false">
-                                <span class="td-counts">Day-01</span>
-                                Digital Marketing
-                            </button>
-                            <button class="nav-link p-relative" id="v-pills-health-tab" data-bs-toggle="pill" data-bs-target="#v-pills-health" type="button" role="tab" aria-controls="v-pills-health " aria-selected="false">
-                                <span class="td-counts">Day-02</span>
-                                Marketing Strategy
-                            </button>
-                            <button class="nav-link p-relative" id="v-pills-life-tab" data-bs-toggle="pill" data-bs-target="#v-pills-life" type="button" role="tab" aria-controls="v-pills-life" aria-selected="false">
-                                <span class="td-counts">Day-03</span>
-                                Modern Trend of Marketing
-                            </button>
-                         </div>
                     </div>
                 </div>
                 <div class="row">
@@ -596,353 +581,6 @@
                                                 </span>
                                             </div>
                                             <p class="mb-25 para">Cocinero visionario, investigador del mar y chef con tres estrellas Michelin. Hablaremos de gastronomía, sostenibilidad marina y creatividad sin límites.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-2.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i>jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2022 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-2.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-3.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2023 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-3.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-4.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i>jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2023 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-3.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-health" role="tabpanel" aria-labelledby="v-pills-health-tab">
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-2.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2025 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-2.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-3.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2022 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-3.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-life" role="tabpanel" aria-labelledby="v-pills-life-tab">
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i>jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2025 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-2.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2021 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-2.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
