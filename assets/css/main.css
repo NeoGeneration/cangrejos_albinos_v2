@@ -601,7 +601,7 @@ textarea {
   font-size: 12px;
   text-transform: uppercase;
   color: #000e2b;
-  background: var(--td-common-white);
+  background: var(--td-common-yellow);
   line-height: 1;
   display: inline-block;
   border-radius: 100px;
@@ -2977,7 +2977,7 @@ textarea {
   margin: 0;
 }
 .tdmenu__navbar-wrap > ul > li .sub-menu li:hover > a, .tdmenu__navbar-wrap > ul > li .sub-menu li.active > a {
-  color: var(--td-theme-secondary);
+  color: var(--td-common-yellow);
 }
 .tdmenu__navbar-wrap > ul > li:hover > .sub-menu {
   opacity: 1;
@@ -2985,7 +2985,7 @@ textarea {
   transform: scale(1);
 }
 .tdmenu__navbar-wrap > ul > li.active > a, .tdmenu__navbar-wrap > ul > li:hover > a {
-  color: var(--td-theme-secondary) !important;
+  color: var(--td-common-yellow) !important;
 }
 .tdmenu__main-menu li.menu-item-has-children .dropdown-btn {
   display: none;
