@@ -91,7 +91,7 @@
                             </div>
                             <nav class="tdmenu__nav ml-50 mr-50 d-none d-xl-flex">
                                 <div class="tdmenu__navbar-wrap tdmenu__main-menu">
-                                    <ul class="navigation">
+                                    <ul class="navigation flex-nowrap">
                                         <li class="active"><a href="#inicio">Inicio</a></li>
                                         <li class=""><a href="#experiencia">Experiencia</a></li>
                                         <li class=""><a href="#evento">Evento</a></li>
