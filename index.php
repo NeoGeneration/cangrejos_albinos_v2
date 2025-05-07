@@ -381,17 +381,18 @@
                             </a>
                             <div class="td-hero-social d-flex align-items-center">
                                 <span>Síguenos en:</span>
-                                <span><a href="#"><i class="fa-brands fa-whatsapp"></i></a></span>
-                                <span><a href="#"><i class="fa-brands fa-linkedin"></i></a></span>
-                                <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+                                <span><a href="http://pinterest.com/cactlanzarote" target="_blank" ><i class="fa-brands fa-pinterest"></i></a></span>
+                                <span><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w" target="_blank" ><i class="fa-brands fa-youtube"></i></a></span>
+                                <span><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></span>
+                                <span><a href="https://facebook.com/CACTLAnzarote" target="_blank" ><i class="fa-brands fa-facebook"></i></a></span>
                                 <span>
-                                    <a href="#">
-                                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M13.8679 1.60596H16.4382L10.8229 8.02398L17.4289 16.7575H12.2564L8.20515 11.4607L3.56956 16.7575H0.997689L7.00391 9.89267L0.666687 1.60596H5.97049L9.6325 6.44745L13.8679 1.60596ZM12.9658 15.219H14.3901L5.1966 3.06361H3.66824L12.9658 15.219Z" fill="currentColor" />
+                                    <a href="https://x.com/Cactlanzarote" target="_blank" >
+                                        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.3783 0.111328H19.3942L12.8054 7.64181L20.5565 17.8891H14.4875L9.73399 11.6742L4.2949 17.8891H1.27723L8.32453 9.83441L0.888855 0.111328H7.11199L11.4087 5.79201L16.3783 0.111328ZM15.3199 16.084H16.991L6.20396 1.82164H4.41068L15.3199 16.084Z" fill="currentColor" />
                                         </svg>
                                     </a>
-                                </span>
-                                <span><a href="#"><i class="fa-brands fa-facebook"></i></a></span>
+                                </span>                                  
+                                <span><a href="https://instagram.com/cact_lanzarote" target="_blank" ><i class="fa-brands fa-instagram"></i></a></span>
                                 <span class="hero-border"></span>
                             </div>
                         </div>
@@ -1482,21 +1483,23 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                             <div class="row align-items-center">
                                 <div class="col-md-9">
                                     <div class="td-footer-bottom-copyright mb-30">
-                                        <p>Copyright © 2025 evente.com. All rights reserved.</p>
+                                        <p>Copyright © 2025 Cangrejos Albinos. Todos los derechos reservados.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="td-footer-bottom-social text-right mb-30">
-                                        <span><a href="#"><i class="fa-brands fa-linkedin"></i></a></span>
-                                        <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+                                        <span><a href="https://instagram.com/cact_lanzarote" target="_blank" ><i class="fa-brands fa-instagram"></i></a></span>
+                                        <span><a href="https://facebook.com/CACTLAnzarote" target="_blank" ><i class="fa-brands fa-facebook"></i></a></span>
+                                        <span><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w" target="_blank" ><i class="fa-brands fa-youtube"></i></a></span>
+                                        <span><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></span>
                                         <span>
-                                            <a href="#">
+                                            <a href="https://x.com/Cactlanzarote" target="_blank" >
                                                 <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M16.3783 0.111328H19.3942L12.8054 7.64181L20.5565 17.8891H14.4875L9.73399 11.6742L4.2949 17.8891H1.27723L8.32453 9.83441L0.888855 0.111328H7.11199L11.4087 5.79201L16.3783 0.111328ZM15.3199 16.084H16.991L6.20396 1.82164H4.41068L15.3199 16.084Z" fill="currentColor" />
                                                 </svg>
                                             </a>
-                                        </span>
-                                        <span><a href="#"><i class="fa-brands fa-whatsapp"></i></a></span>
+                                        </span>                                  
+                                        <span><a href="http://pinterest.com/cactlanzarote" target="_blank" ><i class="fa-brands fa-pinterest"></i></a></span>
                                     </div>
                                 </div>
                             </div>
