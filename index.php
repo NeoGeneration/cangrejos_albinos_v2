@@ -723,8 +723,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-cta-area-end -->
 
         <!-- td-team-area-start -->
-        <div class="td-team-area pt-140 pb-115 p-relative fix">
-            <h2 class="td-team-bigtext mb-0">SPEAKERS</h2>
+        <div id="ponentes" class="td-team-area pt-140 pb-115 p-relative fix">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -832,62 +831,24 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                     <div class="col-lg-6">
                         <div class="td-brands-title-wrap mb-45 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".2s">
                             <!--<span class="td-section-subtitle mb-20">Our Official Sponsors</span>-->
-                            <h2 class="td-section-title">Trusted by over 150  organizations in more than 50 countries</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="td-brands-btn mb-45 wow fadeInRight" data-wow-duration=".9s" data-wow-delay=".2s">
-                            <a class="td-btn td-left-right" href="about.html">
-                                <span class="mr10 td-text d-inline-block mr-5">Become a Sponsor</span>
-                                <span class="td-arrow-angle">
-                                    <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                        <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                    </svg> 
-                                </span>
-                            </a>
+                            <h2 class="td-section-title">Un evento con grandes medios</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/brands.png" alt=""></a>
+                            <a href="#"><img src="assets/img/brands/cact.png" alt="CACT Lanzarote"></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                         <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/brands-2.png" alt=""></a>
+                            <a href="#"><img src="assets/img/brands/mediaset.png" alt="Mediaset España"></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".4s">
                         <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/brands-3.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/brands-4.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".6s">
-                        <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/brands-5.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".7s">
-                        <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/brands-6.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".8s">
-                        <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/brands-7.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".9s">
-                        <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/brands-8.png" alt=""></a>
+                            <a href="#"><img src="assets/img/brands/fumio.png" alt="La Escalera de Fumio"></a>
                         </div>
                     </div>
                 </div>
@@ -898,7 +859,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-map-area-start -->
         <div class="td-map-area fix">
             <div class="td-map-inner">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31078.361591144112!2d-74.0256365664179!3d40.705584751235754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1724572184688!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.2430439950913!2d-13.434720623769536!3d29.157509375382105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc48a3cae1795a81%3A0x30e1e3972e3751ca!2sJameos%20del%20Agua!5e0!3m2!1ses!2ses!4v1746650119158!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <!-- td-map-area-end -->
@@ -959,53 +920,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                             <div class="td-footer-logo mb-20">
                                 <a href="index.html"><img src="assets/img/logo/logo-white.png" alt="logo"></a>
                             </div>
-                            <p class="text mb-10">Middlest 2 East 42nd Streearketplace
-                                New York, NY 10017</p>
-                            <a class="number mb-10 d-inline-block" href="tel:+123(55)90067990">+123(55) 90067990</a>
-                            <a class="email" href="mailto:info@gmail.com">info@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-7">
-                        <div class="td-footer-widget space ml-90 mb-40">
-                            <h3 class="td-footer-title mb-20">Quick links</h3>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="td-footer-links">
-                                        <ul>
-                                            <li><a href="#">About this Event</a></li>
-                                            <li><a href="#">Venue</a></li>
-                                            <li><a href="#">Speakers</a></li>
-                                            <li><a href="#">Agenda</a></li>
-                                            <li><a href="#">Sponsors</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="td-footer-links">
-                                        <ul>
-                                            <li><a href="#">News</a></li>
-                                            <li><a href="#">Get Tickets</a></li>
-                                            <li><a href="#">Benefits</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="td-footer-widget td-footer-subscribe mb-40">
-                            <h3 class="td-footer-title mb-20">Quick links</h3>
-                            <p class="text mb-0">Our expertise, as well as our passion for web 
-                                design, sets us apart from other agencies.</p>
-                            <div class="td-footer-form p-relative">
-                                <input type="text" placeholder="E-mail Address">
-                                <button type="submit" class="td-footer-form-btn">
-                                    <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.03931 8.9707H19.0393M19.0393 8.9707L12.0393 1.9707M19.0393 8.9707L12.0393 15.9707" stroke="#F248B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </button>
-                            </div>
+                            <p class="text mb-10">LZ 204, Parcela 109, Carretera Arrieta - Órzola S/N Lanzarote, LZ-204, 109, 35542 Punta Mujeres, Las Palmas</p>
                         </div>
                     </div>
                 </div>
