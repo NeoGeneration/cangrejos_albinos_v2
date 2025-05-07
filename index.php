@@ -98,7 +98,6 @@
                                         <li class=""><a href="#entradas">Entradas</a></li>
                                         <li class=""><a href="#agenda">Agenda</a></li>
                                         <li><a href="#ponentes">Ponentes</a></li>
-                                        <li><a href="#empresas">Empresas</a></li>
                                     </ul>
                                 </div>
                             </nav>
