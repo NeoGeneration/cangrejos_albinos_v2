@@ -611,7 +611,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-xl-4 col-lg-5">
                                         <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule.jpg" alt="">
+                                            <img class="w-100" src="assets/img/schedule/angel_leon.png" alt="Ángel León">
                                         </div>
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
