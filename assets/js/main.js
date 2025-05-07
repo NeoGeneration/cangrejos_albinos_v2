@@ -294,10 +294,10 @@
 		if (hours < "10") { hours = "0" + hours; }
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
-		$(".days").html(days + "<span>Days</span>");
+		$(".days").html(days + "<span>Días</span>");
 		$(".hours").html(hours + "<span>Hrs</span>");
 		$(".minutes").html(minutes + "<span>Mins</span>");
-		$(".seconds").html(seconds + "<span>Secs</span>");
+		$(".seconds").html(seconds + "<span>segs</span>");
 	}
 	setInterval(function() { makeTimer(); }, 1000);
 
