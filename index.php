@@ -575,13 +575,14 @@
                                             <input  class="td-input" name="phone" type="text" placeholder="Teléfono">
                                         </div>
                                         <div class="col-12 mb-20">
-                                            <input  class="td-input" name="website" type="text" placeholder="Website">
+                                            <input  class="td-input" name="DNI" type="text" placeholder="DNI/NIF">
                                         </div>
                                         <div class="col-md-12 mb-15">
                                             <textarea  class="td-input message" name="message"  cols="30" rows="10" placeholder="Comentarios"></textarea>
                                         </div>
                                         <div class="col-12">
                                             <button type="submit" class="td-btn">Reservar</button>
+                                            <small class="d-block text-muted mt-1">Máximo de 4 entradas por persona</small>
                                         </div>
                                         <p class="ajax-response pt-20"></p>
                                     </div>
@@ -1202,31 +1203,31 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                       <div class="swiper-wrapper slide-transtion">
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                               <h3 class="text">Business Conference </h3>
+                               <h3 class="text">Jameos del Agua</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                               <h3 class="text">Book Your Ticket</h3>
+                               <h3 class="text">Reserva tu Entrada</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                               <h3 class="text">Industry Lead Company</h3>
+                               <h3 class="text">Inteligencia Artificial</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                               <h3 class="text">Business Conference 2025</h3>
+                               <h3 class="text">Energías Límpias</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
                          <div class="swiper-slide">
                             <div class="td-text-slider-item">
-                                <h3 class="text">Industry Lead Company</h3>
+                                <h3 class="text">Desarrollo Personal</h3>
                                <img src="assets/img/text/round.png" alt="round">
                             </div>
                          </div>
