@@ -77,64 +77,6 @@
     <div class="search-popup-overlay"></div>
     <!-- header-search-end -->
 
-    <!-- cart mini area start -->
-    <div class="cartmini__area">
-        <div class="cartmini__wrapper d-flex justify-content-between flex-column">
-            <div class="cartmini__top-wrapper ">
-                <div class="cartmini__top p-relative">
-                    <div class="cartmini__title">
-                        <h4>Your cart</h4>
-                    </div>
-                    <div class="cartmini__close">
-                        <button type="button" class="cartmini__close-btn cartmini-close-btn"><i class="fal fa-times"></i></button>
-                    </div>
-                </div>
-                <div class="cartmini__widget">
-                    <div class="cartmini__widget-item">
-                        <div class="cartmini__thumb">
-                            <a href="product-details.html">
-                                <img src="assets/img/shop/sm-product-1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="cartmini__content">
-                            <h5><a href="product-details.html">Colmi Smart Wathc</a></h5>
-                            <div class="cartmini__price-wrapper">
-                                <span class="cartmini__price">$36.00</span>
-                            </div>
-                        </div>
-                        <button class="cartmini__del"><i class="fal fa-times"></i></button>
-                    </div>
-                    <div class="cartmini__widget-item">
-                        <div class="cartmini__thumb">
-                            <a href="product-details.html">
-                                <img src="assets/img/shop/sm-product-2.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="cartmini__content">
-                            <h5><a href="product-details.html">Apple Air Pods</a></h5>
-                            <div class="cartmini__price-wrapper">
-                                <span class="cartmini__price">$28.00</span>
-                            </div>
-                        </div>
-                        <button class="cartmini__del"><i class="fal fa-times"></i></button>
-                    </div>
-                </div>
-                <!-- for wp -->
-            </div>
-            <div class="cartmini__checkout">
-                <div class="cartmini__checkout-title mb-30">
-                    <h4>Subtotal:</h4>
-                    <span>$113.00</span>
-                </div>
-                <div class="cartmini__checkout-btn">
-                    <a href="#" class="cartmini-btn mb-10 w-100"> <span></span> view cart</a>
-                    <a href="#" class="cartmini-btn-border w-100"> <span></span> checkout</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="body-overlay"></div>
-    <!-- cart mini area end -->
 
     <!-- header-area -->
     <header class="td-header-height">
@@ -150,40 +92,13 @@
                             <nav class="tdmenu__nav ml-50 mr-50 d-none d-xl-flex">
                                 <div class="tdmenu__navbar-wrap tdmenu__main-menu">
                                     <ul class="navigation">
-                                        <li class="active menu-item-has-children"><a href="index.html">Home</a>
-                                            <ul class="sub-menu">
-                                                <li class="active"><a href="index.html">Home One</a></li>
-                                                <li><a href="index-2.html">Home Two</a></li>
-                                                <li><a href="index-3.html">Home Three</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="events.html">Events</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="events.html">Events</a></li>
-                                                <li><a href="about.html">About Events</a></li>
-                                                <li><a href="events-venue.html">Events Venue</a></li>
-                                                <li><a href="gallery.html">Events Gallery</a></li>
-                                                <li><a href="events-details.html">Events Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="team.html">Speakers</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="team.html">Speakers</a></li>
-                                                <li><a href="team-details.html">Speakers Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="blog.html">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                                <li><a href="error.html">Error</a></li>
-                                                <li><a href="faq.html">Faq</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="product.html">Product</a></li>
-                                                <li><a href="product-details.html">Product Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li class="active"><a href="index.html">Inicio</a></li>
+                                        <li class=""><a href="events.html">Experiencia</a></li>
+                                        <li class=""><a href="team.html">Evento</a></li>
+                                        <li class=""><a href="blog.html">Entradas</a></li>
+                                        <li class=""><a href="blog.html">Agenda</a></li>
+                                        <li><a href="contact.html">Ponentes</a></li>
+                                        <li><a href="contact.html">Empresas</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -191,15 +106,6 @@
                     </div>
                     <div class="col-xxl-3 col-xl-2 col-lg-2 col-6">
                         <div class="td-menu-right-action d-flex align-items-center justify-content-end">
-                            <button class="search-button search-open-btn">
-                                <i class="flaticon-search"></i>
-                            </button>
-                            <div class="td-header-cart p-relative ml-5">
-                                <button class="cart-button cartmini-open-btn">
-                                    <i class="flaticon-shopping-cart"></i>
-                                    <span class="td-header-cart-count">0</span>
-                                </button>
-                            </div>
                             <div class="td-header-menu-bar lh-1 p-relative ml-15">
                                 <button class="tdmenu-offcanvas-open-btn menu-tigger d-none d-xl-block">
                                     <span></span>
@@ -225,33 +131,21 @@
                 <div class="nav-logo">
                     <a href="index.html"><img src="assets/img/logo/logo-black.png" alt="logo"></a>
                 </div>
-                <div class="tdmobile__search">
-                    <form action="#">
-                        <input type="text" placeholder="Search here...">
-                        <button><i class="fas fa-search"></i></button>
-                    </form>
-                </div>
                 <div class="tdmobile__menu-outer">
                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 </div>
-                <div class="mt-30 ml-25 mr-25">
-                    <a class="td-btn td-left-right w-100 text-center" href="contact.html">
-                        <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                        <span class="td-arrow-angle">
-                            <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                            </svg> 
-                        </span>
-                    </a>
-                </div>
                 <div class="social-links">
                     <ul class="list-wrap">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://instagram.com/cact_lanzarote"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://facebook.com/CACTLAnzarote"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/Cactlanzarote" target="_blank" >
+                                        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.3783 0.111328H19.3942L12.8054 7.64181L20.5565 17.8891H14.4875L9.73399 11.6742L4.2949 17.8891H1.27723L8.32453 9.83441L0.888855 0.111328H7.11199L11.4087 5.79201L16.3783 0.111328ZM15.3199 16.084H16.991L6.20396 1.82164H4.41068L15.3199 16.084Z" fill="currentColor" />
+                                        </svg>
+                                    </a>
+                        </li>                        
+                        <li><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </nav>
