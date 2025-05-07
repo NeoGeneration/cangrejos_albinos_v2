@@ -411,7 +411,7 @@
         <!-- td-venue-area-end -->
 
         <!-- td-contact-form-area-start -->
-        <div class="td-contact-form-area pb-60">
+        <div id="entradas" class="td-contact-form-area pb-60">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
