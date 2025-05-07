@@ -419,27 +419,39 @@
                                 <div class="td-contact-form-box">
                                     <h3 class="td-postbox-form-title mb-15">Reserva tu sitio en esta noche inspiradora</h3>
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 mb-20">
+                                        <!-- Fila 1: Nombre y Apellidos -->
+                                        <div class="col-lg-6 col-md-6 mb-20">
                                             <input class="td-input" name="name" type="text" placeholder="Nombre">
                                         </div>
-                                        <div class="col-lg-4 col-md-6 mb-20">
-                                            <input  class="td-input" name="email" type="email" placeholder="Email">
+                                        <div class="col-lg-6 col-md-6 mb-20">
+                                            <input class="td-input" name="apellidos" type="text" placeholder="Apellidos">
                                         </div>
-                                        <div class="col-lg-4 col-12 mb-20">
-                                            <input  class="td-input" name="phone" type="text" placeholder="Teléfono">
+                                    </div>
+                                    <div class="row">
+                                        <!-- Fila 2: Email, Teléfono y DNI -->
+                                        <div class="col-lg-4 col-md-4 mb-20">
+                                            <input class="td-input" name="email" type="email" placeholder="Email">
                                         </div>
-                                        <div class="col-lg-4 col-md-6 mb-20">
-                                            <input  class="td-input" name="DNI" type="text" placeholder="DNI/NIF">
+                                        <div class="col-lg-4 col-md-4 mb-20">
+                                            <input class="td-input" name="phone" type="text" placeholder="Teléfono">
                                         </div>
-                                        <div class="col-md-12 mb-15">
-                                            <textarea  class="td-input message" name="message"  cols="30" rows="10" placeholder="Comentarios"></textarea>
+                                        <div class="col-lg-4 col-md-4 mb-20">
+                                            <input class="td-input" name="DNI" type="text" placeholder="DNI/NIF">
                                         </div>
+                                    </div>
+                                    <div class="row">
+                                        <!-- Fila 3: Comentarios -->
+                                        <div class="col-12 mb-15">
+                                            <textarea class="td-input message" name="message" cols="30" rows="10" placeholder="Comentarios"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
                                         <div class="col-12">
                                             <button type="submit" class="td-btn">Reservar</button>
                                             <small class="d-block text-muted mt-1 fst-italic small">Máximo 4 entradas por persona</small>
                                         </div>
-                                        <p class="ajax-response pt-20"></p>
                                     </div>
+                                    <p class="ajax-response pt-20"></p>
                                 </div>
                             </form>
                         </div>
