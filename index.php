@@ -399,12 +399,6 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="td-hero-thumb mb-30 p-relative">
-                            <div class="td-hero-shape-one up-down">
-                                <img src="assets/img/hero/shape.png" alt="">
-                            </div>
-                            <div class="td-hero-shape-two up-down">
-                                <img src="assets/img/hero/shape.png" alt="">
-                            </div>
                             <img class="w-100" src="assets/img/hero/thumb.png" alt="">
                         </div>
                     </div>
