@@ -451,7 +451,7 @@
         <!-- td-contact-form-area-end -->
 
         <!-- td-schedule-area-start -->
-        <div class="td-schedule-area  pt-80 pb-60 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
+        <div id="agenda" class="td-schedule-area  pt-80 pb-60 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
