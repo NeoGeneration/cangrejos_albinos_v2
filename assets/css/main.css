@@ -592,6 +592,17 @@ textarea {
   border-radius: 100px;
   padding: 18px 28px;
 }
+.td-btn-white {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000e2b;
+  background: var(--td-common-white);
+  line-height: 1;
+  display: inline-block;
+  border-radius: 100px;
+  padding: 18px 28px;
+}
 .td-btn:hover {
   color: var(--td-common-white);
 }
