@@ -419,7 +419,7 @@
                 <div class="row justify-content-center mb-85">
                     <div class="col-lg-11">
                         <div class="td-about-title-wrap text-center mb-30  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
-                            <span class="td-section-subtitle mb-30">Sobre este evento</span>
+                            <!--<span class="td-section-subtitle mb-30">Sobre este evento</span>-->
                             <h2 class="td-section-title">Una experiencia inspiradora, en un lugar único.</h2>
                             <p>El Auditorio de Jameos del Agua acoge el primer episodio de Cangrejos Albinos, un ciclo de charlas con voces únicas que inspiran, conmueven y nos conectan con lo más profundo de la cultura, el pensamiento y la sostenibilidad.</p>
                             <p>En este primer encuentro, nos sumergimos en el universo de Gemma Mengual, referente del deporte español y símbolo de belleza, fuerza y disciplina. Una conversación íntima con la periodista Ángeles Blanco, rodeados por la cueva, la roca y el eco de las ideas.</p>
@@ -523,22 +523,22 @@
                                     <h3 class="td-postbox-form-title mb-15">Reserva tu sitio en esta noche inspiradora</h3>
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 mb-20">
-                                            <input class="td-input" name="name" type="text" placeholder="Name">
+                                            <input class="td-input" name="name" type="text" placeholder="Nombre">
                                         </div>
                                         <div class="col-lg-4 col-md-6 mb-20">
                                             <input  class="td-input" name="email" type="email" placeholder="Email">
                                         </div>
                                         <div class="col-lg-4 col-12 mb-20">
-                                            <input  class="td-input" name="phone" type="text" placeholder="Phone">
+                                            <input  class="td-input" name="phone" type="text" placeholder="Teléfono">
                                         </div>
                                         <div class="col-12 mb-20">
                                             <input  class="td-input" name="website" type="text" placeholder="Website">
                                         </div>
                                         <div class="col-md-12 mb-15">
-                                            <textarea  class="td-input message" name="message"  cols="30" rows="10" placeholder="Comment"></textarea>
+                                            <textarea  class="td-input message" name="message"  cols="30" rows="10" placeholder="Comentarios"></textarea>
                                         </div>
                                         <div class="col-12">
-                                            <button type="submit" class="td-btn">Submit Your Message</button>
+                                            <button type="submit" class="td-btn">Reservar</button>
                                         </div>
                                         <p class="ajax-response pt-20"></p>
                                     </div>
@@ -557,24 +557,25 @@
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
                         <div class="td-schedule-2-title-wrap text-center mb-40 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                            <span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3 mb-30">Event Schedule</span>
-                            <h2 class="td-section-title">Join the world's leading companies  at Business Conference</h2>
+                            <!--<span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3 mb-30">Agenda de Eventos</span>-->
+                            <h2 class="td-section-title">Las especies únicas merecen ser protegidas. Las historias irrepetibles merecen ser contadas...</h2>
                         </div>
+                        
                         <div class="nav td-schedule-tab-btn td-schedule-3-tab-btn justify-content-center mb-50 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <button class="nav-link active p-relative" id="v-pills-home1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home1" type="button" role="tab" aria-controls="v-pills-home1" aria-selected="false">
-                                <span class="td-counts">Day-01</span>
-                                Digital Marketing
+                                <span class="td-counts">28 junio</span>
+                                Ángel Leon
                             </button>
-                            <button class="nav-link p-relative" id="v-pills-health-tab" data-bs-toggle="pill" data-bs-target="#v-pills-health" type="button" role="tab" aria-controls="v-pills-health " aria-selected="false">
-                                <span class="td-counts">Day-02</span>
-                                Marketing Strategy
+                            <button class="nav-link p-relative" id="v-pills-home2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home2" type="button" role="tab" aria-controls="v-pills-health " aria-selected="false">
+                                <span class="td-counts">6 septiembre</span>
+                                Iñaky Gabilondo
                             </button>
-                            <button class="nav-link p-relative" id="v-pills-life-tab" data-bs-toggle="pill" data-bs-target="#v-pills-life" type="button" role="tab" aria-controls="v-pills-life" aria-selected="false">
-                                <span class="td-counts">Day-03</span>
-                                Modern Trend of Marketing
+                            <button class="nav-link p-relative" id="v-pills-home3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home3" type="button" role="tab" aria-controls="v-pills-life" aria-selected="false">
+                                <span class="td-counts">25 octubre</span>
+                                Elsa Punset
                             </button>
                          </div>
-                    </div>
+                            
                 </div>
                 <div class="row">
                     <div class="tp-contact-form-wrapper tp-black-bg9  tab-content" id="v-pills-tabContent">
@@ -591,52 +592,25 @@
                                             <h2 class="td-schedule-3-title"><a href="contact.html">Ángel León</a></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    28 de junio
+                                                    <i class="flaticon-time"></i>
+                                                    Sábado, 28 de Junio
                                                 </span>
                                             </div>
                                             <p class="mb-25 para">Cocinero visionario, investigador del mar y chef con tres estrellas Michelin. Hablaremos de gastronomía, sostenibilidad marina y creatividad sin límites.</p>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-2.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i>jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2022 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
+                                        <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                                 <div class="td-schedule-3-user-wrap d-flex align-items-center">
                                                     <span class="td-schedule-3-user mr-10">
                                                         <img src="assets/img/schedule/schedule-3/user-2.jpg" alt="">
                                                     </span>
                                                     <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
+                                                        <h6 class="name">Ángeles Blanco</h6>
+                                                        <span class="position">Presentadora</span>
                                                     </div>
                                                 </div>
                                                 <span class="dvdr"></span>
                                                 <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
+                                                    <span class="mr10 td-text d-inline-block mr-5">Reservar entrada</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
@@ -645,309 +619,52 @@
                                                     </span>
                                                 </a>
                                             </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            
+                        </div>
+                        
+                        <div class="tab-pane fade" id="v-pills-home2" role="tabpanel" aria-labelledby="v-pills-home2-tab">
                             <div class="td-schedule-3-wrap mb-30">
                                 <div class="row align-items-center">
                                     <div class="col-xl-4 col-lg-5">
                                         <div class="td-schedule-3-thumb p-relative">
                                             <img class="w-100" src="assets/img/schedule/schedule-3/schedule-3.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10, 2025</span>
+                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i>Sábado, 6 de Septiembre</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2023 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-3.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-4.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i>jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2023 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-3.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
+                                            <h2 class="td-schedule-3-title">Iñaki Gabilondo</h2>
+                                            <p class="mb-25 para">Periodista. Locutor de radio en Cadena Ser y director de Noticias Cuatro (2005-2010).</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-health" role="tabpanel" aria-labelledby="v-pills-health-tab">
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-2.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2025 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-2.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        
+                        
+                        <div class="tab-pane fade" id="v-pills-home3" role="tabpanel" aria-labelledby="v-pills-home3-tab">
                             <div class="td-schedule-3-wrap mb-30">
                                 <div class="row align-items-center">
                                     <div class="col-xl-4 col-lg-5">
                                         <div class="td-schedule-3-thumb p-relative">
                                             <img class="w-100" src="assets/img/schedule/schedule-3/schedule-3.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10, 2025</span>
+                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i>Sábado, 25 de octubre</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2022 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-3.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
+                                            <h2 class="td-schedule-3-title">Elsa Punset</h2>
+                                            <p class="mb-25 para">Escritora, divulgadora y filósofa. Experta en educación e inteligencia emocional.</p>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-life" role="tabpanel" aria-labelledby="v-pills-life-tab">
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i>jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2025 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="td-schedule-3-wrap mb-30">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-4 col-lg-5">
-                                        <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-2.jpg" alt="">
-                                            <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10, 2025</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-7">
-                                        <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Innovate 2021 Your Pathway to Business<br> 
-                                                Transformation Energy Save</a></h2>
-                                            <div class="td-schedule-3-destination mb-10">
-                                                <span class="mr-25">
-                                                    <i class="flaticon-gps"></i>
-                                                    Apple Upper West Side, Brooklyn
-                                                </span>
-                                                <span>
-                                                    <i class="flaticon-time"></i>
-                                                    19:15 a.m. – 07:15 a.m.
-                                                </span>
-                                            </div>
-                                            <p class="mb-25 para">when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt 
-                                                has survived not only five centuries, but also the leap into electronic.</p>
-                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <div class="td-schedule-3-user-wrap d-flex align-items-center">
-                                                    <span class="td-schedule-3-user mr-10">
-                                                        <img src="assets/img/schedule/schedule-3/user-2.jpg" alt="">
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="name">Parker Roben</h6>
-                                                        <span class="position">Author, Cleaner</span>
-                                                    </div>
-                                                </div>
-                                                <span class="dvdr"></span>
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Buy Ticket</span>
-                                                    <span class="td-arrow-angle">
-                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -972,7 +689,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                                 <div class="col-lg-7">
                                     <div class="td-cta-2-form mb-25">
                                         <form action="#" class="p-relative">
-                                            <input class="td-input" type="text" placeholder="E-mail">
+                                            <input class="td-input" type="text" placeholder="Email">
                                             <button class="cta-btn" type="submit">Avísame</button>
                                         </form>
                                     </div>
@@ -987,261 +704,56 @@ Déjanos tus datos y te avisaremos antes que a nadie.
 
         <!-- td-team-area-start -->
         <div class="td-team-area pt-140 pb-115 p-relative fix">
-            <h2 class="td-team-bigtext mb-0">SPEKAERS</h2>
+            <h2 class="td-team-bigtext mb-0">SPEAKERS</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="td-team-title-wrap text-center mb-50  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
-                            <span class="td-section-subtitle mb-25">Learn From Spekaers</span>
-                            <h2 class="td-section-title">Our Amazing & learned<br>
-                                event Speakrs</h2>
+                            <!--<span class="td-section-subtitle mb-25">Learn From Speakers</span>-->
+                            <h2 class="td-section-title">Nuestros ponentes</h2>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Cody Fisher</a></h3>
-                                <span class="td-team-member-position">Sr. Software Engineer</span>
+                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Gemma Mengual</a></h3>
+                                <span class="td-team-member-position">Nadadora</span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/member-1.png" alt="">
-                            </div>
-                            <div class="td-team-social-wrap">
-                                <div class="team__social td-team-social td-social-icon-style">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
-                                        <li>
-                                            <a href="#">
-                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M13.8678 1.42407H16.4381L10.8227 7.8421L17.4288 16.5756H12.2563L8.20503 11.2788L3.56944 16.5756H0.997567L7.00378 9.71078L0.666565 1.42407H5.97037L9.63238 6.26556L13.8678 1.42407ZM12.9657 15.0371H14.39L5.19648 2.88173H3.66812L12.9657 15.0371Z" fill="currentColor" />
-                                                </svg>
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
-                                    </ul>
-                                    <div class="social-toggle-icon">
-                                        <i class="fa-sharp fa-light fa-share-nodes"></i>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".3s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Floyd Miles</a></h3>
-                                <span class="td-team-member-position">CEO</span>
+                                <h3 class="td-team-member-name mb-0">Ángel Leon</h3>
+                                <span class="td-team-member-position">Cocinero</span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/member-2.png" alt="">
-                            </div>
-                            <div class="td-team-social-wrap">
-                                <div class="team__social td-team-social td-social-icon-style">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
-                                        <li>
-                                            <a href="#">
-                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M13.8678 1.42407H16.4381L10.8227 7.8421L17.4288 16.5756H12.2563L8.20503 11.2788L3.56944 16.5756H0.997567L7.00378 9.71078L0.666565 1.42407H5.97037L9.63238 6.26556L13.8678 1.42407ZM12.9657 15.0371H14.39L5.19648 2.88173H3.66812L12.9657 15.0371Z" fill="currentColor" />
-                                                </svg>
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
-                                    </ul>
-                                    <div class="social-toggle-icon">
-                                        <i class="fa-sharp fa-light fa-share-nodes"></i>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Esther Howard</a></h3>
-                                <span class="td-team-member-position">Marketing Manager</span>
+                                <h3 class="td-team-member-name mb-0">Iñaki Gabilondo</h3>
+                                <span class="td-team-member-position">Periodista/span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/member-3.png" alt="">
-                            </div>
-                            <div class="td-team-social-wrap">
-                                <div class="team__social td-team-social td-social-icon-style">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
-                                        <li>
-                                            <a href="#">
-                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M13.8678 1.42407H16.4381L10.8227 7.8421L17.4288 16.5756H12.2563L8.20503 11.2788L3.56944 16.5756H0.997567L7.00378 9.71078L0.666565 1.42407H5.97037L9.63238 6.26556L13.8678 1.42407ZM12.9657 15.0371H14.39L5.19648 2.88173H3.66812L12.9657 15.0371Z" fill="currentColor" />
-                                                </svg>
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
-                                    </ul>
-                                    <div class="social-toggle-icon">
-                                        <i class="fa-sharp fa-light fa-share-nodes"></i>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Devon Lane</a></h3>
-                                <span class="td-team-member-position">Sr. Software Engineer</span>
+                                <h3 class="td-team-member-name mb-0">Elsa Punset</h3>
+                                <span class="td-team-member-position">Escritora</span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/member-4.png" alt="">
-                            </div>
-                            <div class="td-team-social-wrap">
-                                <div class="team__social td-team-social td-social-icon-style">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
-                                        <li>
-                                            <a href="#">
-                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M13.8678 1.42407H16.4381L10.8227 7.8421L17.4288 16.5756H12.2563L8.20503 11.2788L3.56944 16.5756H0.997567L7.00378 9.71078L0.666565 1.42407H5.97037L9.63238 6.26556L13.8678 1.42407ZM12.9657 15.0371H14.39L5.19648 2.88173H3.66812L12.9657 15.0371Z" fill="currentColor" />
-                                                </svg>
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
-                                    </ul>
-                                    <div class="social-toggle-icon">
-                                        <i class="fa-sharp fa-light fa-share-nodes"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".6s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Cody Fisher</a></h3>
-                                <span class="td-team-member-position">Sr. Software Engineer</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/member-5.png" alt="">
-                            </div>
-                            <div class="td-team-social-wrap">
-                                <div class="team__social td-team-social td-social-icon-style">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
-                                        <li>
-                                            <a href="#">
-                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M13.8678 1.42407H16.4381L10.8227 7.8421L17.4288 16.5756H12.2563L8.20503 11.2788L3.56944 16.5756H0.997567L7.00378 9.71078L0.666565 1.42407H5.97037L9.63238 6.26556L13.8678 1.42407ZM12.9657 15.0371H14.39L5.19648 2.88173H3.66812L12.9657 15.0371Z" fill="currentColor" />
-                                                </svg>
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
-                                    </ul>
-                                    <div class="social-toggle-icon">
-                                        <i class="fa-sharp fa-light fa-share-nodes"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".7s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Cody Fisher</a></h3>
-                                <span class="td-team-member-position">Sr. Software Engineer</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/member-6.png" alt="">
-                            </div>
-                            <div class="td-team-social-wrap">
-                                <div class="team__social td-team-social td-social-icon-style">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
-                                        <li>
-                                            <a href="#">
-                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M13.8678 1.42407H16.4381L10.8227 7.8421L17.4288 16.5756H12.2563L8.20503 11.2788L3.56944 16.5756H0.997567L7.00378 9.71078L0.666565 1.42407H5.97037L9.63238 6.26556L13.8678 1.42407ZM12.9657 15.0371H14.39L5.19648 2.88173H3.66812L12.9657 15.0371Z" fill="currentColor" />
-                                                </svg>
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
-                                    </ul>
-                                    <div class="social-toggle-icon">
-                                        <i class="fa-sharp fa-light fa-share-nodes"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".8s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Esther Howard</a></h3>
-                                <span class="td-team-member-position">Marketing Manager</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/member-7.png" alt="">
-                            </div>
-                            <div class="td-team-social-wrap">
-                                <div class="team__social td-team-social td-social-icon-style">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
-                                        <li>
-                                            <a href="#">
-                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M13.8678 1.42407H16.4381L10.8227 7.8421L17.4288 16.5756H12.2563L8.20503 11.2788L3.56944 16.5756H0.997567L7.00378 9.71078L0.666565 1.42407H5.97037L9.63238 6.26556L13.8678 1.42407ZM12.9657 15.0371H14.39L5.19648 2.88173H3.66812L12.9657 15.0371Z" fill="currentColor" />
-                                                </svg>
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
-                                    </ul>
-                                    <div class="social-toggle-icon">
-                                        <i class="fa-sharp fa-light fa-share-nodes"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".9s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Devon Lane</a></h3>
-                                <span class="td-team-member-position">Sr. Software Engineer</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/member-8.png" alt="">
-                            </div>
-                            <div class="td-team-social-wrap">
-                                <div class="team__social td-team-social td-social-icon-style">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
-                                        <li>
-                                            <a href="#">
-                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M13.8678 1.42407H16.4381L10.8227 7.8421L17.4288 16.5756H12.2563L8.20503 11.2788L3.56944 16.5756H0.997567L7.00378 9.71078L0.666565 1.42407H5.97037L9.63238 6.26556L13.8678 1.42407ZM12.9657 15.0371H14.39L5.19648 2.88173H3.66812L12.9657 15.0371Z" fill="currentColor" />
-                                                </svg>
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
-                                    </ul>
-                                    <div class="social-toggle-icon">
-                                        <i class="fa-sharp fa-light fa-share-nodes"></i>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
