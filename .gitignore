@@ -42,3 +42,4 @@ temp/
 # System
 Thumbs.db
 Desktop.ini
+.DS_Store
