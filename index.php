@@ -831,7 +831,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                     <div class="col-lg-6">
                         <div class="td-brands-title-wrap mb-45 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".2s">
                             <!--<span class="td-section-subtitle mb-20">Our Official Sponsors</span>-->
-                            <h2 class="td-section-title">Un evento con grandes medios</h2>
+                            <h2 class="td-section-title">CACT Lanzarote & Mediaset España</h2>
                         </div>
                     </div>
                 </div>
@@ -844,11 +844,6 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                     <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                         <div class="td-brands-item mb-25">
                             <a href="#"><img src="assets/img/brands/mediaset.png" alt="Mediaset España"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".4s">
-                        <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/fumio.png" alt="La Escalera de Fumio"></a>
                         </div>
                     </div>
                 </div>
