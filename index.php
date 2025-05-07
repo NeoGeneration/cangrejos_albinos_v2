@@ -411,7 +411,7 @@
         <!-- td-venue-area-end -->
 
         <!-- td-contact-form-area-start -->
-        <div id="entradas" class="td-contact-form-area pb-115">
+        <div class="td-contact-form-area pb-115">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -429,7 +429,7 @@
                                         <div class="col-lg-4 col-12 mb-20">
                                             <input  class="td-input" name="phone" type="text" placeholder="Teléfono">
                                         </div>
-                                        <div class="col-12 mb-20">
+                                        <div class="col-lg-4 col-md-6 mb-20">
                                             <input  class="td-input" name="DNI" type="text" placeholder="DNI/NIF">
                                         </div>
                                         <div class="col-md-12 mb-15">
@@ -437,7 +437,7 @@
                                         </div>
                                         <div class="col-12">
                                             <button type="submit" class="td-btn">Reservar</button>
-                                            <small class="d-block text-muted mt-1">Máximo de 4 entradas por persona</small>
+                                            <small class="d-block text-muted mt-1 fst-italic small">Máximo 4 entradas por persona</small>
                                         </div>
                                         <p class="ajax-response pt-20"></p>
                                     </div>
@@ -451,7 +451,7 @@
         <!-- td-contact-form-area-end -->
 
         <!-- td-schedule-area-start -->
-        <div id="agenda" class="td-schedule-area  pt-140 pb-110 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
+        <div class="td-schedule-area  pt-140 pb-110 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
@@ -692,7 +692,7 @@
         <!-- td-schedule-area-end -->
 
         <!-- td-cta-area-start -->
-        <div class="td-cta-area">
+        <div class="td-cta-area pt-20">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -723,7 +723,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-cta-area-end -->
 
         <!-- td-team-area-start -->
-        <div id="ponentes" class="td-team-area pt-140 pb-115 p-relative fix">
+        <div class="td-team-area pt-140 pb-115 p-relative fix">
             <h2 class="td-team-bigtext mb-0">SPEAKERS</h2>
             <div class="container">
                 <div class="row">
@@ -759,7 +759,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Iñaki Gabilondo</h3>
-                                <span class="td-team-member-position">Periodista/span>
+                                <span class="td-team-member-position">Periodista</span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/member-3.png" alt="">
