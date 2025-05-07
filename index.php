@@ -450,7 +450,7 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" id="privacidad" name="privacidad" required>
                                                 <label class="form-check-label" for="privacidad">
-                                                    He leído y acepto la <a href="politica-privacidad.html" target="_blank" class="text-decoration-underline">política de privacidad</a> y el tratamiento de mis datos personales.
+                                                    He leído y acepto la <a href="https://cactlanzarote.com/politica-de-privacidad/" target="_blank" class="text-decoration-underline">política de privacidad</a> y el tratamiento de mis datos personales.
                                                 </label>
                                             </div>
                                         </div>
