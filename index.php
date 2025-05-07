@@ -695,7 +695,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="td-cta-2-wrap bg-position" data-background="assets/img/cta/cta-bg.png">
+                        <div class="td-cta-2-wrap" style="border-radius: 20px; background: #000e2b;">
                             <div class="row align-items-end">
                                 <div class="col-lg-5">
                                     <div class="td-cta-2-content mb-20">
@@ -708,7 +708,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                                 <div class="col-lg-7">
                                     <div class="td-cta-2-form mb-25">
                                         <form action="#" class="p-relative">
-                                            <input class="td-input" type="text" placeholder="Email">
+                                            <input class="td-input" type="text" placeholder="tu@email.com" required>
                                             <button class="cta-btn" type="submit">Avísame</button>
                                         </form>
                                     </div>
