@@ -514,14 +514,46 @@
 					// Actualiza la URL pero sin saltar a la sección (opcional)
 					history.pushState(null, null, targetId);
 					
+						// Actualiza los elementos activos en ambos menús (desktop y móvil)
+					updateActiveMenuItems(targetId);
+					
 					// Cierra el menú móvil si está abierto
-					const mobileMenu = document.querySelector('.tdmobile__menu');
-					if (mobileMenu && mobileMenu.classList.contains('tdmobile-menu-visible')) {
-						document.querySelector('.tdmobile__menu-backdrop').click();
+					if ($('body').hasClass('mobile-menu-visible')) {
+						$('body').removeClass('mobile-menu-visible');
 					}
 				}
 			});
 		});
+		
+		// También para los enlaces en el menú móvil
+		$('.tdmobile__menu .navigation a').on('click', function() {
+			$('body').removeClass('mobile-menu-visible');
+		});
+		
+		// Función para actualizar los elementos activos en ambos menús
+		function updateActiveMenuItems(activeId) {
+			// Quita la clase active de todos los items en el menú desktop
+			document.querySelectorAll('.tdmenu__navbar-wrap li').forEach(item => {
+				item.classList.remove('active');
+			});
+			
+			// Quita la clase active de todos los items en el menú móvil
+			document.querySelectorAll('.tdmobile__menu-outer li').forEach(item => {
+				item.classList.remove('active');
+			});
+			
+			// Añade la clase active al link correspondiente en el menú desktop
+			const activeDesktopLink = document.querySelector(`.tdmenu__navbar-wrap li a[href="${activeId}"]`);
+			if (activeDesktopLink) {
+				activeDesktopLink.parentElement.classList.add('active');
+			}
+			
+			// Añade la clase active al link correspondiente en el menú móvil
+			const activeMobileLink = document.querySelector(`.tdmobile__menu-outer li a[href="${activeId}"]`);
+			if (activeMobileLink) {
+				activeMobileLink.parentElement.classList.add('active');
+			}
+		}
 		
 		// Añade la clase activa al link del menú según la sección visible
 		function highlightActiveMenuItem() {
@@ -535,16 +567,8 @@
 				const sectionId = '#' + section.getAttribute('id');
 				
 				if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-					// Quita la clase active de todos los links del menú
-					document.querySelectorAll('.tdmenu__navbar-wrap li').forEach(item => {
-						item.classList.remove('active');
-					});
-					
-					// Añade la clase active al link correspondiente a la sección actual
-					const activeLink = document.querySelector(`.tdmenu__navbar-wrap li a[href="${sectionId}"]`);
-					if (activeLink) {
-						activeLink.parentElement.classList.add('active');
-					}
+					// Actualiza los elementos activos en ambos menús
+					updateActiveMenuItems(sectionId);
 				}
 			});
 		}
