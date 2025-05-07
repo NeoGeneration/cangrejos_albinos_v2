@@ -312,7 +312,7 @@
         <!-- td-hero-area-end -->
 
         <!-- td-about-area-start -->
-        <div id="experiencia" class="td-about-area pt-100 bg-position pb-100" data-background="assets/img/about/bg.jpg">
+        <div id="experiencia" class="td-about-area pt-80 bg-position pb-60" data-background="assets/img/about/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center mb-85">
                     <div class="col-lg-11">
@@ -344,7 +344,7 @@
         <!-- td-about-area-end -->
 
         <!-- td-venue-area-start -->
-        <div id="evento" class="td-venue-area pt-140 pb-110">
+        <div id="evento" class="td-venue-area pt-80 pb-60">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 mb-30">
@@ -411,7 +411,7 @@
         <!-- td-venue-area-end -->
 
         <!-- td-contact-form-area-start -->
-        <div class="td-contact-form-area pb-115">
+        <div class="td-contact-form-area pb-60">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -451,7 +451,7 @@
         <!-- td-contact-form-area-end -->
 
         <!-- td-schedule-area-start -->
-        <div class="td-schedule-area  pt-140 pb-110 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
+        <div class="td-schedule-area  pt-80 pb-60 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
@@ -723,7 +723,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-cta-area-end -->
 
         <!-- td-team-area-start -->
-        <div id="ponentes" class="td-team-area pt-140 pb-115 p-relative fix">
+        <div id="ponentes" class="td-team-area pt-80 pb-60 p-relative fix">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -825,7 +825,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-text-slider-area-end -->
 
         <!-- td-brands-area-start -->
-        <div id="empresas" class="td-brands-area black-bg pt-110 pb-115">
+        <div id="empresas" class="td-brands-area black-bg pt-80 pb-60">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -912,7 +912,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
 
     <!-- footer-area-start -->
     <footer>
-        <div class="td-footer-area bg-position pt-130" data-background="assets/img/footer/bg.jpg">
+        <div class="td-footer-area bg-position pt-80" data-background="assets/img/footer/bg.jpg">
             <div class="container">
                 <div class="row mb-30">
                     <div class="col-lg-3 col-md-5">
