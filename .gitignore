@@ -48,6 +48,7 @@ Desktop.ini
 install.php
 check_connection.php
 setup_database.php
+setup_newsletter_db.php
 update_database.php
 update_db_password.php
 database.sql
@@ -61,5 +62,6 @@ test_email.php
 test_system.php
 setup_newsletter.php
 
-# Ignorar todos los archivos .sql en la raíz
+# Ignorar todos los archivos .sql y .md en la raíz
 /*.sql
+/*.md
