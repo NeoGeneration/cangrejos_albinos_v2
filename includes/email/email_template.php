@@ -50,6 +50,11 @@ function generate_email($email_type, $data, $baseURL = '') {
             $title = "Confirma tu suscripción";
             $confirmationURL = $baseURL . "/confirm_newsletter.php?token=" . $data['confirmation_token'];
             
+            // Si usamos la misma plantilla de verificación temporalmente, aseguramos que el link sea correcto
+            if (!isset($data['is_newsletter']) || $data['is_newsletter'] !== true) {
+                $data['is_newsletter'] = true;
+            }
+            
             $main_content = "
                 <p>Hola,</p>
                 <p>Gracias por suscribirte al newsletter de \"Cangrejos Albinos\". <strong>Para completar tu suscripción y comenzar a recibir nuestras novedades, confirma tu dirección de correo electrónico haciendo clic en el botón a continuación:</strong></p>
@@ -75,37 +80,69 @@ function generate_email($email_type, $data, $baseURL = '') {
         case EMAIL_TYPE_VERIFICATION:
             $subject = "Confirmación de reserva - Cangrejos Albinos";
             $title = "Confirmación Pendiente";
-            $confirmationURL = $baseURL . "/confirm_reservation.php?token=" . $data['confirmation_token'];
+            // Si es para newsletter, usa la URL de newsletter
+            if (isset($data['is_newsletter']) && $data['is_newsletter'] === true) {
+                $confirmationURL = $baseURL . "/confirm_newsletter.php?token=" . $data['confirmation_token'];
+            } else {
+                $confirmationURL = $baseURL . "/confirm_reservation.php?token=" . $data['confirmation_token'];
+            }
             
-            $main_content = "
-                <p>Hola <strong>{$full_name}</strong>,</p>
-                <p>Hemos recibido tu solicitud de reserva para el evento \"Cangrejos Albinos\". <strong>Para completar tu reserva, es necesario que confirmes tu dirección de correo electrónico haciendo clic en el botón a continuación:</strong></p>
-            ";
+            if (isset($data['is_newsletter']) && $data['is_newsletter'] === true) {
+                $main_content = "
+                    <p>Hola,</p>
+                    <p>Gracias por suscribirte al newsletter de \"Cangrejos Albinos\". <strong>Para completar tu suscripción y comenzar a recibir nuestras novedades, confirma tu dirección de correo electrónico haciendo clic en el botón a continuación:</strong></p>
+                ";
+            } else {
+                $main_content = "
+                    <p>Hola <strong>{$full_name}</strong>,</p>
+                    <p>Hemos recibido tu solicitud de reserva para el evento \"Cangrejos Albinos\". <strong>Para completar tu reserva, es necesario que confirmes tu dirección de correo electrónico haciendo clic en el botón a continuación:</strong></p>
+                ";
+            }
             
-            $action_button = "
-                <div style=\"text-align: center; margin: 30px 0;\">
-                    <a href=\"{$confirmationURL}\" style=\"background-color: #4CAF50; color: white; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;\">Confirmar mi reserva</a>
-                </div>
-                <p style=\"font-size: 13px; color: #666;\">Si el botón no funciona, copia y pega el siguiente enlace en tu navegador:</p>
-                <p style=\"font-size: 13px; word-break: break-all; background-color: #f5f5f5; padding: 10px; border-radius: 4px;\">{$confirmationURL}</p>
-            ";
+            if (isset($data['is_newsletter']) && $data['is_newsletter'] === true) {
+                $action_button = "
+                    <div style=\"text-align: center; margin: 30px 0;\">
+                        <a href=\"{$confirmationURL}\" style=\"background-color: #4CAF50; color: white; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;\">Confirmar mi suscripción</a>
+                    </div>
+                    <p style=\"font-size: 13px; color: #666;\">Si el botón no funciona, copia y pega el siguiente enlace en tu navegador:</p>
+                    <p style=\"font-size: 13px; word-break: break-all; background-color: #f5f5f5; padding: 10px; border-radius: 4px;\">{$confirmationURL}</p>
+                ";
+            } else {
+                $action_button = "
+                    <div style=\"text-align: center; margin: 30px 0;\">
+                        <a href=\"{$confirmationURL}\" style=\"background-color: #4CAF50; color: white; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;\">Confirmar mi reserva</a>
+                    </div>
+                    <p style=\"font-size: 13px; color: #666;\">Si el botón no funciona, copia y pega el siguiente enlace en tu navegador:</p>
+                    <p style=\"font-size: 13px; word-break: break-all; background-color: #f5f5f5; padding: 10px; border-radius: 4px;\">{$confirmationURL}</p>
+                ";
+            }
             
-            $details_content = "
-                <h3 style=\"margin-top: 0; color: #333;\">Detalles de la reserva:</h3>
-                <ul style=\"padding-left: 20px;\">
-                    <li><strong>Número de confirmación:</strong> {$data['confirmation_code']}</li>
-                    <li><strong>Número de entradas:</strong> {$data['num_tickets']}</li>
-                    <li><strong>Fecha del evento:</strong> 15 de mayo de 2025</li>
-                    <li><strong>Hora:</strong> 20:00</li>
-                    <li><strong>Lugar:</strong> Jameos del Agua, Lanzarote</li>
-                </ul>
-            ";
-            
-            $footer_content = "
-                <p><strong>Importante:</strong> Tu reserva no estará completa hasta que confirmes tu dirección de correo electrónico.</p>
-                <p>Si tienes alguna pregunta o necesitas ayuda, por favor contáctanos respondiendo a este correo o llamando al +34 928 849 444.</p>
-                <p>¡Gracias por tu interés en Cangrejos Albinos!</p>
-            ";
+            if (isset($data['is_newsletter']) && $data['is_newsletter'] === true) {
+                $details_content = "";
+                
+                $footer_content = "
+                    <p><strong>Importante:</strong> Si no has solicitado esta suscripción, simplemente ignora este mensaje.</p>
+                    <p>Respetamos tu privacidad y puedes darte de baja en cualquier momento con un solo clic desde cualquiera de nuestros emails.</p>
+                    <p>¡Gracias por tu interés en Cangrejos Albinos!</p>
+                ";
+            } else {
+                $details_content = "
+                    <h3 style=\"margin-top: 0; color: #333;\">Detalles de la reserva:</h3>
+                    <ul style=\"padding-left: 20px;\">
+                        <li><strong>Número de confirmación:</strong> {$data['confirmation_code']}</li>
+                        <li><strong>Número de entradas:</strong> {$data['num_tickets']}</li>
+                        <li><strong>Fecha del evento:</strong> 15 de mayo de 2025</li>
+                        <li><strong>Hora:</strong> 20:00</li>
+                        <li><strong>Lugar:</strong> Jameos del Agua, Lanzarote</li>
+                    </ul>
+                ";
+                
+                $footer_content = "
+                    <p><strong>Importante:</strong> Tu reserva no estará completa hasta que confirmes tu dirección de correo electrónico.</p>
+                    <p>Si tienes alguna pregunta o necesitas ayuda, por favor contáctanos respondiendo a este correo o llamando al +34 928 849 444.</p>
+                    <p>¡Gracias por tu interés en Cangrejos Albinos!</p>
+                ";
+            }
             break;
             
         case EMAIL_TYPE_CONFIRMATION:

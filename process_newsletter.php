@@ -86,12 +86,21 @@ try {
     // Datos para el email
     $email_data = array(
         'email' => $email,
-        'confirmation_token' => $confirmation_token
+        'confirmation_token' => $confirmation_token,
+        // Marcar este email como de newsletter
+        'is_newsletter' => true,
+        // Estos campos son necesarios para la plantilla de verificación
+        'name' => 'Suscriptor',
+        'last_name' => 'Newsletter',
+        'confirmation_code' => substr($confirmation_token, 0, 8),
+        'num_tickets' => 1
     );
     
-    // Preparar para agregar un nuevo tipo de email de confirmación de newsletter
-    // Por ahora, usemos la función y plantilla existente
-    if (send_template_email($email, EMAIL_TYPE_NEWSLETTER_CONFIRMATION, $email_data, $baseURL)) {
+    // La función de plantilla puede no tener el tipo EMAIL_TYPE_NEWSLETTER_CONFIRMATION implementado
+    // Usamos el tipo VERIFICATION como alternativa temporal
+    $email_type = defined('EMAIL_TYPE_NEWSLETTER_CONFIRMATION') ? EMAIL_TYPE_NEWSLETTER_CONFIRMATION : EMAIL_TYPE_VERIFICATION;
+    
+    if (send_template_email($email, $email_type, $email_data, $baseURL)) {
         $response['success'] = true;
         $response['message'] = 'Gracias por suscribirte. Te hemos enviado un email de confirmación.';
     } else {
@@ -100,7 +109,9 @@ try {
     
 } catch (PDOException $e) {
     error_log("Error en process_newsletter.php: " . $e->getMessage());
-    $response['message'] = 'Lo sentimos, ha ocurrido un error. Por favor, inténtalo de nuevo más tarde.';
+    // Mostrar el error para depuración
+    $response['message'] = 'Error: ' . $e->getMessage();
+    $response['trace'] = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
 }
 
 // Devolver respuesta como JSON
