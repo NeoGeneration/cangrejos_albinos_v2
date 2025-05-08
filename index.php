@@ -691,7 +691,7 @@
         <!-- td-schedule-area-end -->
 
         <!-- td-cta-area-start -->
-        <div class="td-cta-area pt-20">
+        <div class="td-cta-area" style="padding-top: 85px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
