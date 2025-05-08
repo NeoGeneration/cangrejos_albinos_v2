@@ -103,7 +103,7 @@ $tickets_row = $tickets_result->fetch_assoc();
 $total_tickets = isset($tickets_row['total_tickets']) ? $tickets_row['total_tickets'] : 0;
 
 // Define total capacity
-$total_capacity = 100; // Mismo valor que en process_reservation.php
+$total_capacity = 450; // Mismo valor que en process_reservation.php
 $tickets_available = $total_capacity - $total_tickets;
 
 // Handle reservation status update

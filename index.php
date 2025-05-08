@@ -8,7 +8,7 @@
 
   // Set maximum tickets available and per person
   $max_tickets_per_person = 4;
-  $total_tickets_available = 100; // Change this to your actual capacity
+  $total_tickets_available = 450; // Change this to your actual capacity
 
   // Check if form was submitted
   $form_submitted = false;
@@ -892,7 +892,7 @@
         <!-- td-schedule-area-end -->
 
         <!-- td-cta-area-start -->
-        <div class="td-cta-area pt-20">
+        <div class="td-cta-area" style="padding-top: 85px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
