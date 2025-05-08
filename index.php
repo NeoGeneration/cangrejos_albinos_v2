@@ -206,7 +206,21 @@
                                         <li class=""><a href="#experiencia">Experiencia</a></li>
                                         <li class=""><a href="#evento">Evento</a></li>
                                         <li class=""><a href="#entradas">Entradas</a></li>
+                                        <?php 
+                                        // Comprobar si estamos en o después del 16 de mayo de 2025
+                                        $showAgenda = false;
+                                        $currentDate = new DateTime();
+                                        $targetDate = new DateTime('2025-05-16');
+                                        
+                                        if ($currentDate >= $targetDate) {
+                                            $showAgenda = true;
+                                        }
+                                        
+                                        // Mostrar el enlace de la agenda solo si estamos en o después de la fecha objetivo
+                                        if ($showAgenda): 
+                                        ?>
                                         <li class=""><a href="#agenda">Agenda</a></li>
+                                        <?php endif; ?>
                                         <li><a href="#ponentes">Ponentes</a></li>
                                     </ul>
                                 </div>
@@ -650,6 +664,7 @@
   </div>
   <!-- td-contact-form-area-end -->
 
+    <?php if ($showAgenda): ?>
         <!-- td-schedule-area-start -->
         <div id="agenda" class="td-schedule-area  pt-50 pb-40 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
             <div class="container">
@@ -890,6 +905,7 @@
             </div>
         </div>
         <!-- td-schedule-area-end -->
+    <?php endif; ?>
 
         <!-- td-cta-area-start -->
         <div class="td-cta-area" style="padding-top: 85px;">
