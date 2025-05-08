@@ -46,7 +46,7 @@ if (mysqli_query($conn, $sql)) {
 }
 
 // Seleccionar la base de datos
-mysqli_select_db($conn, 'cangrejos_albinos');
+mysqli_select_db($conn, 'u534707074_cangrejosalbin');
 echo "Base de datos 'cangrejos_albinos' seleccionada.<br>";
 
 // Leer el archivo SQL
