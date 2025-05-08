@@ -41,11 +41,16 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(response => {
                 // Verificar si la respuesta es exitosa
                 if (!response.ok) {
-                    throw new Error('Error de red: ' + response.status);
+                    // Intentar leer el texto del error
+                    return response.text().then(errorText => {
+                        console.error('Respuesta del servidor (error):', errorText);
+                        throw new Error('Error de red: ' + response.status);
+                    });
                 }
                 
                 // Intentar parsear como JSON
                 return response.text().then(text => {
+                    console.log('Respuesta del servidor:', text); // Log de la respuesta para depuración
                     try {
                         return JSON.parse(text);
                     } catch (e) {
