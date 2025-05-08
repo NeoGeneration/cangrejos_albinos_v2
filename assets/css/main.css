@@ -979,7 +979,7 @@ textarea {
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
 .scroll__top:hover {
-  background: var(--td-theme-secondary);
+  background: #000e2b;
   color: var(--td-common-white);
 }
 
