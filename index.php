@@ -1000,6 +1000,22 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         </div>
         <!-- td-team-area-end -->
 
+        <!-- td-banner-area-start -->
+        <div class="td-banner-area td-banner-spacing bg-position jarallax" data-background="assets/img/banner/banner.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-9">
+                        <div class="td-banner-title-wrap  wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                            <span class="td-section-subtitle mb-20">REFLEXIÓN</span>
+                            <h2 class="td-section-title mb-15">Cada especie única cuenta una historia. Cada historia deja una huella. ¿Qué huella queremos dejar nosotros?</h2>
+                            <p class="mb-35">Síguenos en nuestras redes sociales y comparte tu experiencia con el hashtag #CangrejosAlbinos #CACT #Lanzarote</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- td-banner-area-end -->
+
         <!-- td-text-slider-area-start -->
         <div class="td-text-slider-area td-text-slider-spacing">
             <div class="container-fluid">
