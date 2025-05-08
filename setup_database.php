@@ -1,8 +1,9 @@
 <?php
 // Configuración inicial de la conexión sin especificar base de datos
 $db_host = '127.0.0.1'; // Usamos IP en lugar de localhost para evitar problemas de socket
-$db_user = 'root'; // Cambia esto por tu usuario de MySQL
-$db_pass = ''; // Cambia esto por tu contraseña de MySQL
+$db_user = 'u534707074_cangrejos'; // Cambia esto por tu usuario de MySQL
+$db_pass = 'QfyR[y?5ru822'; // Cambia esto por tu contraseña de MySQL
+$db_name = 'u534707074_cangrejosalbin'; // Cambia esto por el nombre de tu base de datos
 $db_port = 3306; // Puerto por defecto de MySQL
 
 // Mostrar información de configuración
@@ -37,6 +38,7 @@ if (!$conn) {
 echo "Conexión establecida con éxito.<br>";
 
 // Crear base de datos si no existe
+/*
 $sql = "CREATE DATABASE IF NOT EXISTS cangrejos_albinos CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci";
 if (mysqli_query($conn, $sql)) {
     echo "Base de datos 'cangrejos_albinos' creada o ya existente.<br>";
@@ -44,10 +46,11 @@ if (mysqli_query($conn, $sql)) {
     echo "Error al crear la base de datos: " . mysqli_error($conn) . "<br>";
     die();
 }
+*/
 
 // Seleccionar la base de datos
-mysqli_select_db($conn, 'cangrejos_albinos');
-echo "Base de datos 'cangrejos_albinos' seleccionada.<br>";
+mysqli_select_db($conn, $db_name) or die("Error al seleccionar la base de datos: " . mysqli_error($conn));
+echo "Base de datos '$db_name' seleccionada.<br>";
 
 // Leer el archivo SQL
 $sql_file = file_get_contents('database.sql');
