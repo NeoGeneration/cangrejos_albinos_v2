@@ -944,7 +944,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-team-area-start -->
         <div id="ponentes" class="td-team-area pt-80 pb-60 p-relative fix">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="td-team-title-wrap text-center mb-50  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                             <!--<span class="td-section-subtitle mb-25">Learn From Speakers</span>-->
@@ -954,47 +954,25 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0"><a href="team-details.html">Gemma Mengual</a></h3>
+                                <h3 class="td-team-member-name mb-0">Ángeles Blanco</h3>
+                                <span class="td-team-member-position">Presentadora</span>
+                            </div>
+                            <div class="td-team-thumb text-center">
+                                <img src="assets/img/team/angeles_blanco.png" alt="Ángeles Blanco">
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
+                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
+                            <div class="td-team-content">
+                                <h3 class="td-team-member-name mb-0">Gemma Mengual</h3>
                                 <span class="td-team-member-position">Nadadora</span>
                             </div>
                             <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/member-1.png" alt="">
+                                <img src="assets/img/team/gemma_mengual.png" alt="Gemma Mengual">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".3s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0">Ángel Leon</h3>
-                                <span class="td-team-member-position">Cocinero</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/member-2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0">Iñaki Gabilondo</h3>
-                                <span class="td-team-member-position">Periodista</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/member-3.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0">Elsa Punset</h3>
-                                <span class="td-team-member-position">Escritora</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/member-4.png" alt="">
-                            </div>
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>
