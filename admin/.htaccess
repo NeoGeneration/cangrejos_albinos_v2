@@ -1,0 +1,26 @@
+# Protect directory
+AuthType Basic
+AuthName "Área Restringida"
+#AuthUserFile /ruta/absoluta/a/.htpasswd
+#Require valid-user
+
+# Prevent directory listing
+Options -Indexes
+
+# Deny access to all .htaccess files
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Deny access to files with sensitive information
+<FilesMatch "^(db_config\.php|config\.php|configuration\.php|\.)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Prevent PHP execution in uploads directory (if you have one)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^uploads/.*\.(php|phtml|php3|php4|php5|php7|phps)$ - [NC,F]
+</IfModule>
