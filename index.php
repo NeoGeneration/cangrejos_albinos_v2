@@ -8,7 +8,7 @@
 
   // Set maximum tickets available and per person
   $max_tickets_per_person = 4;
-  $total_tickets_available = 100; // Change this to your actual capacity
+  $total_tickets_available = 450; // Change this to your actual capacity
 
   // Check if form was submitted
   $form_submitted = false;
