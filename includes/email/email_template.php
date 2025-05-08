@@ -20,7 +20,7 @@ define('EMAIL_TYPE_ADMIN_NOTIFICATION', 'admin_notification');
  */
 function generate_email($email_type, $data, $baseURL = '') {
     // Logo de CACT Lanzarote
-    $logo_url = 'https://cactlanzarote.com/wp-content/uploads/2023/03/logo-CACT-Lanzarote.png';
+    $logo_url = 'https://imgcact.b-cdn.net/spai/ret_img/cactlanzarote.com/wp-content/uploads/2022/04/logo.svg';
     
     // Si no se proporciona URL base, intentar detectarla
     if (empty($baseURL)) {
