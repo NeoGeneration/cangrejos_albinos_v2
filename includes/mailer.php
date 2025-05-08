@@ -44,7 +44,7 @@
   function send_email_phpmailer($to, $subject, $body, $from_name = 'Cangrejos Albinos', $from_email = 'noreply@cangrejosalbinos.com') {
       // Configuración de credenciales SMTP - Modifica estos valores con tus credenciales reales
       $smtp_host = 'smtp.hostinger.com';
-      $smtp_username = 'noreply@cangrejosalbinos.com'; // Cambia esto a tu dirección de correo real
+      $smtp_username = 'no-reply@cangrejosalbinos.com'; // Cambia esto a tu dirección de correo real
       $smtp_password = 't8B[b5$0['; // Cambia esto a tu contraseña
       $smtp_port = 465;
       $smtp_secure = 'ssl';

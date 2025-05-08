@@ -3,7 +3,7 @@
   require_once 'includes/mailer.php';
 
   // Dirección de prueba - cambia esto a tu propia dirección para pruebas
-  $test_email = 'tu_email@ejemplo.com';
+  $test_email = 'manuel@kibostudios.com';
 
   // Probar PHPMailer
   $result = send_email_phpmailer(
@@ -11,7 +11,7 @@
       'Prueba de PHPMailer - Cangrejos Albinos',
       '<html><body><h1>Prueba de PHPMailer</h1><p>Este es un correo de prueba enviado usando PHPMailer.</p></body></html>',
       'Cangrejos Albinos',
-      'noreply@cangrejosalbinos.com'
+      'no-reply@cangrejosalbinos.com'
   );
 
   // Mostrar resultado
