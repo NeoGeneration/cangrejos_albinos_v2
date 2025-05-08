@@ -104,6 +104,7 @@
     <link rel="stylesheet" href="assets/css/odometer.css">
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/newsletter.css">
 <!-- estilos para el formulario reserva -->
     <style>
       .error-message {
@@ -927,8 +928,8 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="td-cta-2-form mb-25">
-                                        <form action="#" class="p-relative">
-                                            <input class="td-input" type="text" placeholder="tu@email.com" required>
+                                        <form action="#" class="p-relative newsletter-form">
+                                            <input class="td-input" type="email" name="email" placeholder="tu@email.com" required>
                                             <button class="cta-btn" type="submit">Avísame</button>
                                         </form>
                                     </div>
@@ -1174,6 +1175,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/newsletter.js"></script>
 
     <!-- script para vormulario reservas -->
     <script>

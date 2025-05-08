@@ -9,6 +9,7 @@ define('EMAIL_TYPE_VERIFICATION', 'verification');
 define('EMAIL_TYPE_CONFIRMATION', 'confirmation');
 define('EMAIL_TYPE_CANCELLATION', 'cancellation');
 define('EMAIL_TYPE_ADMIN_NOTIFICATION', 'admin_notification');
+define('EMAIL_TYPE_NEWSLETTER_CONFIRMATION', 'newsletter_confirmation');
 
 /**
  * Genera un email HTML basado en el tipo y los datos proporcionados
@@ -44,6 +45,33 @@ function generate_email($email_type, $data, $baseURL = '') {
     
     // Configurar contenido según el tipo de email
     switch ($email_type) {
+        case EMAIL_TYPE_NEWSLETTER_CONFIRMATION:
+            $subject = "Confirma tu suscripción al newsletter - Cangrejos Albinos";
+            $title = "Confirma tu suscripción";
+            $confirmationURL = $baseURL . "/confirm_newsletter.php?token=" . $data['confirmation_token'];
+            
+            $main_content = "
+                <p>Hola,</p>
+                <p>Gracias por suscribirte al newsletter de \"Cangrejos Albinos\". <strong>Para completar tu suscripción y comenzar a recibir nuestras novedades, confirma tu dirección de correo electrónico haciendo clic en el botón a continuación:</strong></p>
+            ";
+            
+            $action_button = "
+                <div style=\"text-align: center; margin: 30px 0;\">
+                    <a href=\"{$confirmationURL}\" style=\"background-color: #4CAF50; color: white; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;\">Confirmar mi suscripción</a>
+                </div>
+                <p style=\"font-size: 13px; color: #666;\">Si el botón no funciona, copia y pega el siguiente enlace en tu navegador:</p>
+                <p style=\"font-size: 13px; word-break: break-all; background-color: #f5f5f5; padding: 10px; border-radius: 4px;\">{$confirmationURL}</p>
+            ";
+            
+            $details_content = "";
+            
+            $footer_content = "
+                <p><strong>Importante:</strong> Si no has solicitado esta suscripción, simplemente ignora este mensaje.</p>
+                <p>Respetamos tu privacidad y puedes darte de baja en cualquier momento con un solo clic desde cualquiera de nuestros emails.</p>
+                <p>¡Gracias por tu interés en Cangrejos Albinos!</p>
+            ";
+            break;
+            
         case EMAIL_TYPE_VERIFICATION:
             $subject = "Confirmación de reserva - Cangrejos Albinos";
             $title = "Confirmación Pendiente";

@@ -1,0 +1,43 @@
+/**
+ * Estilos para el sistema de newsletter
+ */
+
+/* Mensaje de respuesta */
+.newsletter-message {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: opacity 0.3s ease;
+}
+
+.newsletter-message.success {
+    background-color: rgba(40, 167, 69, 0.1);
+    border: 1px solid rgba(40, 167, 69, 0.2);
+    color: #28a745;
+}
+
+.newsletter-message.error {
+    background-color: rgba(220, 53, 69, 0.1);
+    border: 1px solid rgba(220, 53, 69, 0.2);
+    color: #dc3545;
+}
+
+/* Animación para el botón durante carga */
+.newsletter-form button[disabled] {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Contenedor para el estado del formulario */
+.newsletter-form {
+    position: relative;
+}
+
+/* Estilos responsivos */
+@media (max-width: 767px) {
+    .newsletter-message {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
