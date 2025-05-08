@@ -3,6 +3,17 @@
  * Procesa las solicitudes de suscripción al newsletter
  */
 
+// Asegurar que se envían cabeceras de JSON
+header('Content-Type: application/json');
+
+// Control de errores PHP
+error_reporting(E_ALL);
+ini_set('display_errors', 0); // No mostrar errores en la salida
+ini_set('log_errors', 1); // Log de errores activado
+
+// Capturar todas las salidas PHP
+ob_start();
+
 // Incluir la configuración de la base de datos
 require_once 'includes/db_config.php';
 require_once 'includes/email/email_template.php';
@@ -34,9 +45,37 @@ if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 try {
+    // Convertir variables a valores directos para depuración
+    $conn_string = "mysql:host=$db_host;dbname=$db_name;charset=utf8mb4";
+    $response['debug_connection'] = "Intentando conectar a: $db_host / $db_name";
+    
     // Conectar a la base de datos
-    $conn = new PDO("mysql:host=$db_host;dbname=$db_name;charset=utf8mb4", $db_user, $db_pass);
+    $conn = new PDO($conn_string, $db_user, $db_pass);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+    // Verificar estructura de la tabla (para depuración)
+    try {
+        $table_check = $conn->query("SHOW TABLES LIKE 'newsletter_subscribers'");
+        $table_exists = $table_check->rowCount() > 0;
+        $response['debug_table_exists'] = $table_exists;
+        
+        if (!$table_exists) {
+            // Si la tabla no existe, intenta crearla
+            $conn->exec("CREATE TABLE IF NOT EXISTS newsletter_subscribers (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                email VARCHAR(255) NOT NULL UNIQUE,
+                confirmation_token VARCHAR(255) NOT NULL,
+                is_confirmed TINYINT(1) NOT NULL DEFAULT 0,
+                subscribe_date DATETIME NOT NULL,
+                confirm_date DATETIME NULL,
+                ip_address VARCHAR(45) NULL,
+                UNIQUE KEY (email)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+            $response['debug_table_created'] = true;
+        }
+    } catch (Exception $e) {
+        $response['debug_table_check_error'] = $e->getMessage();
+    }
     
     // Verificar si el email ya existe y está confirmado
     $stmt = $conn->prepare("SELECT id, is_confirmed FROM newsletter_subscribers WHERE email = ?");
@@ -102,6 +141,14 @@ try {
     $response['trace'] = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
 }
 
-// Devolver respuesta como JSON
+// Capturar cualquier salida no deseada
+$output = ob_get_clean();
+if (!empty($output)) {
+    // Si hubo alguna salida no deseada (errores, advertencias, etc.)
+    error_log("Salida no deseada en process_newsletter.php: " . $output);
+    $response['debug_output'] = $output; // Esto es útil para depuración
+}
+
+// Devolver respuesta como JSON limpio
 echo json_encode($response);
 ?>

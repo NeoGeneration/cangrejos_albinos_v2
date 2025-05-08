@@ -38,18 +38,36 @@ document.addEventListener('DOMContentLoaded', function() {
                 method: 'POST',
                 body: formData
             })
-            .then(response => response.json())
+            .then(response => {
+                // Verificar si la respuesta es exitosa
+                if (!response.ok) {
+                    throw new Error('Error de red: ' + response.status);
+                }
+                
+                // Intentar parsear como JSON
+                return response.text().then(text => {
+                    try {
+                        return JSON.parse(text);
+                    } catch (e) {
+                        console.error('Error al parsear JSON:', text);
+                        throw new Error('Error al procesar la respuesta del servidor');
+                    }
+                });
+            })
             .then(data => {
                 if (data.success) {
                     showMessage(form, data.message, 'success');
                     form.reset();
                 } else {
+                    if (data.debug_output) {
+                        console.error('Debug output:', data.debug_output);
+                    }
                     showMessage(form, data.message || 'Ha ocurrido un error. Inténtalo de nuevo.', 'error');
                 }
             })
             .catch(error => {
                 console.error('Error:', error);
-                showMessage(form, 'Ha ocurrido un error. Inténtalo de nuevo.', 'error');
+                showMessage(form, 'Ha ocurrido un error en el envío: ' + error.message, 'error');
             })
             .finally(() => {
                 // Restaurar el botón
