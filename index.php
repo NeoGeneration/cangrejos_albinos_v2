@@ -627,6 +627,8 @@
                               <div class="row">
                                   <!-- Fila 3: Comentarios -->
                                   <div class="col-12 mb-15">
+                                      <p><strong>¿Qué te gustaría preguntarle a Gemma Mengual?</strong> (opcional)</p>
+                                      <p>(Seleccionaremos algunas preguntas del público para plantearlas durante el evento)</p>
                                       <textarea class="td-input message" name="comments" cols="30" rows="5" placeholder="Comentarios"><?php echo isset($form_data['comments']) ?
   htmlspecialchars($form_data['comments']) : ''; ?></textarea>
                                   </div>
@@ -650,8 +652,9 @@
 
                               <div class="row">
                                   <div class="col-12">
-                                      <button type="submit" class="td-btn">Reservar</button>
+                                      <button type="submit" class="td-btn">Asegura tu plaza</button>
                                       <small class="d-block text-muted mt-1 fst-italic small">Máximo 4 entradas por persona</small>
+                                      <small class="d-block text-muted mt-1 fst-italic small">Nota legal: Los datos recogidos se utilizarán exclusivamente para la gestión de accesos al evento. No se realizará ningún uso comercial posterior.</small>
                                   </div>
                               </div>
                               <div id="form-response" class="pt-20"></div>
