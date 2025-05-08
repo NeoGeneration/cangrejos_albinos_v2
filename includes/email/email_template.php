@@ -271,31 +271,31 @@ function generate_email($email_type, $data, $baseURL = '') {
     ];
 }
 
-/**
- * Función para enviar un email usando la plantilla
- * 
- * @param string $to Email del destinatario
- * @param string $email_type Tipo de email
- * @param array $data Datos para el email
- * @param string $baseURL URL base del sitio
- * @return boolean Resultado del envío
- */
-function send_template_email($to, $email_type, $data, $baseURL = '') {
+ /**
+   * Función para enviar un email usando la plantilla
+   *
+   * @param string $to Email del destinatario
+   * @param string $email_type Tipo de email
+   * @param array $data Datos para el email
+   * @param string $baseURL URL base del sitio
+   * @return boolean Resultado del envío
+   */
+  function send_template_email($to, $email_type, $data, $baseURL = '') {
+    // Incluir el sistema de PHPMailer
+    require_once __DIR__ . '/../mailer.php';
+
     // Generar el email
     $email = generate_email($email_type, $data, $baseURL);
-    
-    // Headers para el email
-    $headers = "MIME-Version: 1.0" . "\r\n";
-    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    
-    // Remitente según el tipo de email
+
+    // Determinar el nombre y email del remitente según el tipo
     if ($email_type == EMAIL_TYPE_ADMIN_NOTIFICATION) {
-        $headers .= "From: Sistema de Reservas <noreply@cactlanzarote.com>" . "\r\n";
+        $from_name = 'Sistema de Reservas';
     } else {
-        $headers .= "From: Cangrejos Albinos <noreply@cactlanzarote.com>" . "\r\n";
+        $from_name = 'Cangrejos Albinos';
     }
-    
-    // Enviar el email
-    return mail($to, $email['subject'], $email['body'], $headers);
+    $from_email = 'noreply@cangrejosalbinos.com'; // Cambia esto a tu email real
+
+    // Enviar el email usando PHPMailer
+    return send_email_phpmailer($to, $email['subject'], $email['body'], $from_name, $from_email);
 }
 ?>
