@@ -43,3 +43,22 @@ temp/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Archivos sensibles y scripts de instalación que no deben subirse a producción
+install.php
+check_connection.php
+setup_database.php
+update_database.php
+update_db_password.php
+database.sql
+database_update.sql
+database_newsletter.sql
+database_update_direct.sql
+admin/check_users.php
+admin/debug_login.php
+test_email_template.php
+test_email.php
+test_system.php
+
+# Ignorar todos los archivos .sql en la raíz
+/*.sql
