@@ -1064,14 +1064,6 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         </div>
         <!-- td-brands-area-end -->
 
-        <!-- td-map-area-start -->
-        <div class="td-map-area fix">
-            <div class="td-map-inner">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.2430439950913!2d-13.434720623769536!3d29.157509375382105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc48a3cae1795a81%3A0x30e1e3972e3751ca!2sJameos%20del%20Agua!5e0!3m2!1ses!2ses!4v1746650119158!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-        <!-- td-map-area-end -->
-
         <!-- td-text-slider-area-start -->
         <div class="td-text-slider-area td-text-slider-spacing">
             <div class="container-fluid">
