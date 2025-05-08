@@ -59,6 +59,7 @@ admin/debug_login.php
 test_email_template.php
 test_email.php
 test_system.php
+setup_newsletter.php
 
 # Ignorar todos los archivos .sql en la raíz
 /*.sql
