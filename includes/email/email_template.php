@@ -293,7 +293,7 @@ function generate_email($email_type, $data, $baseURL = '') {
     } else {
         $from_name = 'Cangrejos Albinos';
     }
-    $from_email = 'noreply@cangrejosalbinos.com'; // Cambia esto a tu email real
+    $from_email = 'no-reply@cangrejosalbinos.com'; // Cambia esto a tu email real
 
     // Enviar el email usando PHPMailer
     return send_email_phpmailer($to, $email['subject'], $email['body'], $from_name, $from_email);
