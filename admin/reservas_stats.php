@@ -14,8 +14,12 @@ require_once '../includes/db_config.php';
 // Obtener las estadísticas de reservas
 $stats = [];
 
-// Total de entradas disponibles
-$total_tickets = 100; // Debe coincidir con el valor en process_reservation.php
+// Leer el total de entradas disponibles desde index.php
+$total_tickets = 100; // Valor por defecto
+$index_file = file_get_contents('../index.php');
+if (preg_match('/\$total_tickets_available\s*=\s*(\d+)/', $index_file, $matches)) {
+    $total_tickets = (int)$matches[1];
+}
 
 // Contar reservas por estado
 $status_query = "SELECT status, COUNT(*) as count, SUM(num_tickets) as tickets FROM reservations GROUP BY status";
