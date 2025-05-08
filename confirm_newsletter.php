@@ -5,6 +5,17 @@
 
 // Incluir la configuración de la base de datos
 require_once 'includes/db_config.php';
+define('DB_HOST', '127.0.0.1'); // Usamos IP en lugar de localhost para evitar problemas de socket
+define('DB_USER', 'u534707074_cangrejos'); // Cambia esto a tu usuario de base de datos
+define('DB_PASS', 'QfyR[y?5ru822'); // Cambia esto a tu contraseña de base de datos
+define('DB_NAME', 'u534707074_cangrejosalbin');
+define('DB_PORT', 3306); // Puerto predeterminado de MySQL
+
+$db_host = DB_HOST;
+$db_user = DB_USER;
+$db_pass = DB_PASS;
+$db_name = DB_NAME;
+$db_port = DB_PORT; 
 
 // Inicializar variables
 $success = false;
