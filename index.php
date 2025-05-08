@@ -196,8 +196,8 @@
                     <div class="col-xxl-9 col-xl-10 col-lg-10 col-6">
                         <div class="tdmenu__wrap d-flex align-items-center justify-content-between">
                             <div class="logo">
-                                <a class="logo-1 logo-sticky-none" href="index.html"><img class="logo-fixed" data-width="220" src="assets/img/logo/logo-white.png" alt="Cangrejos Albinos"></a>
-                                <a class="logo-2 d-none" href="index.html"><img class="logo-fixed" data-width="220" src="assets/img/logo/logo-black.png" alt="Cangrejos Albinos"></a>
+                                <a class="logo-1 logo-sticky-none" href="/"><img class="logo-fixed" data-width="220" src="assets/img/logo/logo-white.png" alt="Cangrejos Albinos"></a>
+                                <a class="logo-2 d-none" href="/"><img class="logo-fixed" data-width="220" src="assets/img/logo/logo-black.png" alt="Cangrejos Albinos"></a>
                             </div>
                             <nav class="tdmenu__nav ml-50 mr-50 d-none d-xl-flex">
                                 <div class="tdmenu__navbar-wrap tdmenu__main-menu">
@@ -247,7 +247,7 @@
             <nav class="tdmobile__menu-box">
                 <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
                 <div class="nav-logo">
-                    <a href="index.html"><img src="assets/img/logo/logo-black.png" alt="logo"></a>
+                    <a href="/"><img src="assets/img/logo/logo-black.png" alt="logo"></a>
                 </div>
                 <div class="tdmobile__menu-outer">
                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -1132,7 +1132,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                     <div class="col-lg-3 col-md-5">
                         <div class="td-footer-widget mb-40">
                             <div class="td-footer-logo mb-20">
-                                <a href="index.html"><img src="assets/img/logo/logo-white.png" alt="Cangrejos Albinos"></a>
+                                <a href="/"><img src="assets/img/logo/logo-white.png" alt="Cangrejos Albinos"></a>
                             </div>
                             <p class="text mb-10">LZ 204, Parcela 109, Carretera Arrieta - Órzola S/N Lanzarote, LZ-204, 109, 35542 Punta Mujeres, Las Palmas</p>
                         </div>
