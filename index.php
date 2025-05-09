@@ -449,10 +449,10 @@
                         </div>
                         <div class="td-about-thumb-wrap bg-position p-relative text-center" data-background="assets/img/about/flower.png">
                             <div class="td-about-thumb">
-                                <img src="assets/img/about/thumb.jpg" alt="">
+                                <img src="assets/img/about/video.png" alt="Cangrejos Albinos - Vídeo de promoción">
                             </div>
                             <div class="td-about-video-inner text-center">
-                                <a class="td-video-play popup-video td-pulse-border" href="https://www.youtube.com/watch?v=TfU0qjuZkJ4">
+                                <a class="td-video-play popup-video td-pulse-border" href="https://player.vimeo.com/video/1082773473?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479">
                                     <span class="p-relative z-index-11">
                                         <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M19.8571 12L0.571429 23.1346L0.57143 0.865352L19.8571 12Z" fill="currentColor" />
