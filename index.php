@@ -447,7 +447,7 @@
                             <p>En este primer encuentro, nos sumergimos en el universo de Gemma Mengual, referente del deporte español y símbolo de belleza, fuerza y disciplina. Una conversación íntima con la periodista Ángeles Blanco, rodeados por la cueva, la roca y el eco de las ideas.</p>
                             <p>Si las especies únicas merecen ser protegidas, las historias irrepetibles merecen ser contadas.</p>
                         </div>
-                        <div class="td-about-thumb-wrap bg-position p-relative text-center" data-background="assets/img/about/flower.png">
+                        <div class="td-about-thumb-wrap bg-position p-relative text-center">
                             <div class="td-about-thumb">
                                 <img src="assets/img/about/thumb.jpg" alt="">
                             </div>
