@@ -62,6 +62,6 @@ test_email.php
 test_system.php
 setup_newsletter.php
 
-# Ignorar todos los archivos .sql y .md en la raíz
+# Ignorar todos los archivos .sql en la raíz
 /*.sql
-/*.md
+
