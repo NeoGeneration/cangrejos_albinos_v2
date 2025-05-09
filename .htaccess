@@ -1,5 +1,5 @@
 # Protect sensitive files
-<FilesMatch "^(db_config\.php|configuration\.php|\.)">
+<FilesMatch "^(db_config\.php|configuration\.php|\.|.*\.md|.*\.sql)">
     Order allow,deny
     Deny from all
 </FilesMatch>
