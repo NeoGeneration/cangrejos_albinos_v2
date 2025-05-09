@@ -11,16 +11,13 @@ Options -Indexes
 <IfModule mod_headers.c>
     # Protect against XSS attacks
     Header set X-XSS-Protection "1; mode=block"
-    
+
     # Prevent MIME-sniffing
     Header set X-Content-Type-Options "nosniff"
-    
+
     # Enable browser XSS filters
     Header set X-Frame-Options "SAMEORIGIN"
-    
-    # Set Content Security Policy
-    Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://code.jquery.com https://cdn.jsdelivr.net https://stackpath.bootstrapcdn.com https://cdnjs.cloudflare.com https://player.vimeo.com https://f.vimeocdn.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://stackpath.bootstrapcdn.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https://i.vimeocdn.com; connect-src 'self' https://player.vimeo.com; object-src 'none'; frame-src 'self' https://player.vimeo.com"
-    
+
     # Set Referrer Policy
     Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
