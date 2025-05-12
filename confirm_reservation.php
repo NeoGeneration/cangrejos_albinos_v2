@@ -159,7 +159,17 @@ $conn->close();
             <?php endif; ?>
             
             <p>Te recomendamos que guardes o imprimas esta página como confirmación.</p>
-            <p>Recuerda traer tu DNI/NIE a la entrada del evento para la verificación.</p>
+            <p><strong>Información importante para su asistencia:</strong></p>
+            <ul>
+                <li><strong>Llegue con anticipación</strong> para facilitar las tareas de acomodación. Tenga en cuenta que hay una caminata de varios minutos desde la entrada hasta el auditorio.</li>
+                <li><strong>Personas con movilidad reducida</strong>, póngase en contacto con atención al cliente (<a href=\"mailto:info@centrosturisticos.com\">info@centrosturisticos.com</a>) antes del evento.</li>
+                <li>Utilice la puerta superior de Jameos para el <strong>acceso</strong>.</li>
+                <li>Asegúrese de llevar su invitación, ya sea <strong>impresa o digital</strong>.</li>
+                <li>Tenga en cuenta que no es posible visitar el resto de espacios; el acceso está permitido solo al auditorio.</li>
+                <li>Debido a la superficie irregular del suelo volcánico, le recomendamos que use calzado cómodo.</li>
+                <li>Si tiene alguna duda, póngase en contacto con nosotros a través de <a href=\"mailto:info@centrosturisticos.com\">info@centrosturisticos.com</a></li>
+            </ul>
+            <p>¡Gracias por tu reserva y esperamos verte pronto!</p>
             
             <a href="index.php#entradas" class="td-btn mt-3">Volver a la página principal</a>
             

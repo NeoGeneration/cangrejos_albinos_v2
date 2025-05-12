@@ -129,7 +129,7 @@ function generate_email($email_type, $data, $baseURL = '') {
                 $details_content = "
                     <h3 style=\"margin-top: 0; color: #333;\">Detalles de la reserva:</h3>
                     <ul style=\"padding-left: 20px;\">
-                        <li><strong>Número de confirmación:</strong> {$data['confirmation_code']}</li>
+                        <<li><strong>Número de confirmación:</strong> {$data['confirmation_code']}</li>
                         <li><strong>Número de entradas:</strong> {$data['num_tickets']}</li>
                         <li><strong>Fecha del evento:</strong> 15 de mayo de 2025</li>
                         <li><strong>Hora:</strong> 20:00</li>
@@ -182,14 +182,11 @@ function generate_email($email_type, $data, $baseURL = '') {
                     <li><b>Llegue con anticipación</b> para facilitar las tareas de acomodación. Tenga en cuenta que hay una caminata de varios minutos desde la entrada hasta el auditorio.</li>
                     <li><b>Personas con movilidad reducida</b>, póngase en contacto con atención al cliente (<a href=\"mailto:info@centrosturisticos.com\">info@centrosturisticos.com</a>) antes del evento.</li>
                     <li>Utilice la puerta superior de Jameos para el <b>acceso</b>.</li>
-                    <li>Asegúrese de llevar su invitación, ya sea <b>impresa o digital</b>.</li>
+                    <li>Asegúrese de llevar su invitación, ya sea <b>impresa o digital</b>. Te recomendamos guardar este email o imprimirlo y traerlo contigo el día del evento.</li>
                     <li>Tenga en cuenta que no es posible visitar el resto de espacios; el acceso está permitido solo al auditorio.</li>
                     <li>Debido a la superficie irregular del suelo volcánico, le recomendamos que use calzado cómodo.</li>
                     <li>Si tiene alguna duda, póngase en contacto con nosotros a través de <a href=\"mailto:info@centrosturisticos.com\">info@centrosturisticos.com</a></li>
                 </ul>
-                <p>Te recomendamos guardar este email o imprimirlo y traerlo contigo el día del evento.</p>
-                <p>Recuerda también traer tu DNI/NIE para la verificación a la entrada.</p>
-                <p>Si tienes alguna pregunta, por favor contáctanos respondiendo a este correo o llamando al +34 928 849 444.</p>
                 <p>¡Gracias por tu reserva y esperamos verte pronto!</p>
             ";
             break;
