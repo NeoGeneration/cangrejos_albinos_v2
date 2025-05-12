@@ -133,6 +133,14 @@ $conn->close();
             margin-bottom: 15px;
         }
     </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-96MVM31JD0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-96MVM31JD0');
+</script>
 </head>
 <body>
     <div class="confirmation-container">
