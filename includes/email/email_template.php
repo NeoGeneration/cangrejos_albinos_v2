@@ -177,6 +177,16 @@ function generate_email($email_type, $data, $baseURL = '') {
             ";
             
             $footer_content = "
+                <p><strong>Información importante para su asistencia:</strong></p>
+                <ul>
+                    <li><b>Llegue con anticipación</b> para facilitar las tareas de acomodación. Tenga en cuenta que hay una caminata de varios minutos desde la entrada hasta el auditorio.</li>
+                    <li><b>Personas con movilidad reducida</b>, póngase en contacto con atención al cliente (<a href=\"mailto:info@centrosturisticos.com\">info@centrosturisticos.com</a>) antes del evento.</li>
+                    <li>Utilice la puerta superior de Jameos para el <b>acceso</b>.</li>
+                    <li>Asegúrese de llevar su invitación, ya sea <b>impresa o digital</b>.</li>
+                    <li>Tenga en cuenta que no es posible visitar el resto de espacios; el acceso está permitido solo al auditorio.</li>
+                    <li>Debido a la superficie irregular del suelo volcánico, le recomendamos que use calzado cómodo.</li>
+                    <li>Si tiene alguna duda, póngase en contacto con nosotros a través de <a href=\"mailto:info@centrosturisticos.com\">info@centrosturisticos.com</a></li>
+                </ul>
                 <p>Te recomendamos guardar este email o imprimirlo y traerlo contigo el día del evento.</p>
                 <p>Recuerda también traer tu DNI/NIE para la verificación a la entrada.</p>
                 <p>Si tienes alguna pregunta, por favor contáctanos respondiendo a este correo o llamando al +34 928 849 444.</p>
