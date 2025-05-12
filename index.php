@@ -1061,7 +1061,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/cact.png" alt="CACT Lanzarote"></a>
+                            <a href="#"><img src="assets/img/brands/cact2.png" alt="CACT Lanzarote"></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".3s">

@@ -55,7 +55,7 @@ database.sql
 database_update.sql
 database_newsletter.sql
 database_update_direct.sql
-#admin/check_users.php
+admin/check_users.php
 admin/debug_login.php
 test_email_template.php
 test_email.php
