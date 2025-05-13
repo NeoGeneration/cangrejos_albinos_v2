@@ -141,7 +141,7 @@ if ($num_tickets > $tickets_left) {
 }
 
 // Check if email already exists (limit one reservation per person)
-$stmt = $conn->prepare("SELECT * FROM reservations WHERE email = ?");
+$stmt = $conn->prepare("SELECT * FROM reservations WHERE email = ? AND status != 'cancelled'");
 $stmt->bind_param("s", $email);
 $stmt->execute();
 $result = $stmt->get_result();
