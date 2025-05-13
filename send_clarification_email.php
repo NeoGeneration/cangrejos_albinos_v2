@@ -18,7 +18,7 @@ function build_clarification_email($nombre, $mensaje_html) {
 
 // Puedes personalizar el mensaje aquí. Usa {NOMBRE} como placeholder si quieres personalizar con el nombre del usuario.
 $body_template = '<p>Hola {NOMBRE},</p>
-<p>Te escribimos para informarte de una corrección importante: la fecha y hora del evento <strong>Cangrejos Albinos</strong> que informamos anteriormente en la confirmación por email era incorrecta.</p>
+<p>Te escribimos para informarte de una corrección importante: la fecha y hora del evento <strong>Cangrejos Albinos</strong> con Gemma Mengual, y que te enviamos anteriormente en tu confirmación por email era incorrecta.</p>
 <p>La fecha y hora correctas son: <strong>17 de mayo de 2025, a las 20:30</strong>.</p>
 <p>Sentimos la confusión y agradecemos tu comprensión. Si tienes alguna duda, ponte en contacto con nosotros a través de <a href=\"mailto:info@centrosturisticos.com\">info@centrosturisticos.com</a></p>
 <p>¡Nos vemos en el evento!</p>
