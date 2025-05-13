@@ -80,8 +80,7 @@
           return true;
       } catch (Exception $e) {
           // Registrar el error para depuración
-          //error_log("Error al enviar email con PHPMailer: {$mail->ErrorInfo}");
-        return "Error PHPMailer: " . $mail->ErrorInfo;
-          //return false;
+          error_log("Error al enviar email con PHPMailer: {$mail->ErrorInfo}");
+          return false;
       }
   }
