@@ -129,7 +129,7 @@ function generate_email($email_type, $data, $baseURL = '') {
                 $details_content = "
                     <h3 style=\"margin-top: 0; color: #333;\">Detalles de la reserva:</h3>
                     <ul style=\"padding-left: 20px;\">
-                        <<li><strong>Número de confirmación:</strong> {$data['confirmation_code']}</li>
+                        <li><strong>Número de confirmación:</strong> {$data['confirmation_code']}</li>
                         <li><strong>Número de entradas:</strong> {$data['num_tickets']}</li>
                         <li><strong>Fecha del evento:</strong> 17 de mayo de 2025</li>
                         <li><strong>Hora:</strong> 20:30</li>
