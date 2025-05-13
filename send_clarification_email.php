@@ -66,10 +66,13 @@ foreach ($usuarios as $row) {
     } else {
         echo "<span style='color:red'>Fallo al enviar a: $to</span><br>\n";
         // Mostrar información de error de PHPMailer si está disponible
-        if (function_exists('error_get_last')) {
-            $last_error = error_get_last();
-            if ($last_error) {
-                echo '<pre>' . print_r($last_error, true) . '</pre>';
+        if (file_exists(__DIR__ . '/includes/mailer.php')) {
+            // Intentar leer el último error del log de PHP
+            $log = @file_get_contents(ini_get('error_log'));
+            if ($log) {
+                $lines = explode("\n", $log);
+                $lastLines = array_slice($lines, -10);
+                echo '<pre>Últimas líneas del error_log:\n' . htmlspecialchars(implode("\n", $lastLines)) . '</pre>';
             }
         }
         $fallidos++;
