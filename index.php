@@ -706,6 +706,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--
                         <div class="tab-pane fade" id="v-pills-health" role="tabpanel" aria-labelledby="v-pills-health-tab">
                             <div class="td-schedule-3-wrap mb-30">
                                 <div class="row align-items-center">
@@ -806,6 +808,8 @@
                                 </div>
                             </div>
                         </div>
+                         -->
+                        <!-- 
                         <div class="tab-pane fade" id="v-pills-life" role="tabpanel" aria-labelledby="v-pills-life-tab">
                             <div class="td-schedule-3-wrap mb-30">
                                 <div class="row align-items-center">
@@ -906,6 +910,7 @@
                                 </div>
                             </div>
                         </div>
+    -->
                     </div>
                 </div>
             </div>
