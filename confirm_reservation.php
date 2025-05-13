@@ -133,8 +133,14 @@ $conn->close();
         }
         .final {
               text-align: left;
-        }    
-        </style>
+        } 
+        li {
+            list-style: square;
+            margin-left: 20px;
+            padding-left: 10px;
+            line-height: 1.6;
+        }
+</style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-96MVM31JD0"></script>
 <script>
