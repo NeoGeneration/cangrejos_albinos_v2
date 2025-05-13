@@ -196,7 +196,7 @@ $conn->close();
                 <i class="fas fa-times-circle"></i>
             </div>
             <h1>Error de Confirmación</h1>
-            <div class="confirmation-message">s
+            <div class="confirmation-message">
                 <p><?php echo $error; ?></p>
             </div>
             <p>Si tienes problemas para confirmar tu reserva, por favor contáctanos:</p>
