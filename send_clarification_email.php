@@ -25,7 +25,7 @@ $body_template = '<p>Hola {NOMBRE},</p>
 <p>Equipo Cangrejos Albinos</p>';
 
 // --- MODO PRUEBA: solo enviar a galeus@gmail.com ---
-$modo_prueba = false; // Cambia a false para enviar a todos los confirmados
+$modo_prueba = true; // Cambia a false para enviar a todos los confirmados
 
 if ($modo_prueba) {
     // Solo un destinatario de prueba
