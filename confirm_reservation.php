@@ -160,8 +160,8 @@ $conn->close();
                 <p><strong>Nombre:</strong> <?php echo htmlspecialchars($reservation['name'] . ' ' . $reservation['last_name']); ?></p>
                 <p><strong>Email:</strong> <?php echo htmlspecialchars($reservation['email']); ?></p>
                 <p><strong>Número de entradas:</strong> <?php echo $reservation['num_tickets']; ?></p>
-                <p><strong>Fecha del evento:</strong> 15 de mayo de 2025</p>
-                <p><strong>Hora:</strong> 20:00</p>
+                <p><strong>Fecha del evento:</strong> 17 de mayo de 2025</p>
+                <p><strong>Hora:</strong> 20:30</p>
                 <p><strong>Lugar:</strong> Jameos del Agua, Lanzarote</p>
             </div>
             <?php endif; ?>

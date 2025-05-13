@@ -131,8 +131,8 @@ function generate_email($email_type, $data, $baseURL = '') {
                     <ul style=\"padding-left: 20px;\">
                         <<li><strong>Número de confirmación:</strong> {$data['confirmation_code']}</li>
                         <li><strong>Número de entradas:</strong> {$data['num_tickets']}</li>
-                        <li><strong>Fecha del evento:</strong> 15 de mayo de 2025</li>
-                        <li><strong>Hora:</strong> 20:00</li>
+                        <li><strong>Fecha del evento:</strong> 17 de mayo de 2025</li>
+                        <li><strong>Hora:</strong> 20:30</li>
                         <li><strong>Lugar:</strong> Jameos del Agua, Lanzarote</li>
                     </ul>
                 ";
@@ -162,8 +162,8 @@ function generate_email($email_type, $data, $baseURL = '') {
                 <ul style=\"padding-left: 20px;\">
                     <li><strong>Número de confirmación:</strong> {$data['confirmation_code']}</li>
                     <li><strong>Número de entradas:</strong> {$data['num_tickets']}</li>
-                    <li><strong>Fecha del evento:</strong> 15 de mayo de 2025</li>
-                    <li><strong>Hora:</strong> 20:00</li>
+                    <li><strong>Fecha del evento:</strong> 17 de mayo de 2025</li>
+                    <li><strong>Hora:</strong> 20:30</li>
                     <li><strong>Lugar:</strong> Jameos del Agua, Lanzarote</li>
                 </ul>
             ";
@@ -205,7 +205,7 @@ function generate_email($email_type, $data, $baseURL = '') {
                 <ul style=\"padding-left: 20px;\">
                     <li><strong>Número de confirmación:</strong> {$data['confirmation_code']}</li>
                     <li><strong>Número de entradas:</strong> {$data['num_tickets']}</li>
-                    <li><strong>Fecha del evento:</strong> 15 de mayo de 2025</li>
+                    <li><strong>Fecha del evento:</strong> 17 de mayo de 2025</li>
                 </ul>
             ";
             
