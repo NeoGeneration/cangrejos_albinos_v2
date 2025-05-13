@@ -59,21 +59,17 @@ foreach ($usuarios as $row) {
     $mensaje_html = str_replace('{NOMBRE}', htmlspecialchars($nombre), $body_template);
     $body = build_clarification_email($nombre, $mensaje_html);
 
-    $ok = send_email_phpmailer($to, $subject, $body);
-    if ($ok) {
+    // Forzar el remitente correcto (solo nombre personalizable)
+    $from_name = 'Cangrejos Albinos';
+    $from_email = 'no-reply@cangrejosalbinos.com';
+    $ok = send_email_phpmailer($to, $subject, $body, $from_name, $from_email);
+    if ($ok === true) {
         echo "Enviado a: $to<br>\n";
         $enviados++;
     } else {
         echo "<span style='color:red'>Fallo al enviar a: $to</span><br>\n";
-        // Mostrar información de error de PHPMailer si está disponible
-        if (file_exists(__DIR__ . '/includes/mailer.php')) {
-            // Intentar leer el último error del log de PHP
-            $log = @file_get_contents(ini_get('error_log'));
-            if ($log) {
-                $lines = explode("\n", $log);
-                $lastLines = array_slice($lines, -10);
-                echo '<pre>Últimas líneas del error_log:\n' . htmlspecialchars(implode("\n", $lastLines)) . '</pre>';
-            }
+        if (is_string($ok)) {
+            echo '<pre>' . htmlspecialchars($ok) . '</pre>';
         }
         $fallidos++;
     }
