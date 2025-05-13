@@ -141,8 +141,8 @@ if ($num_tickets > $tickets_left) {
 }
 
 // Check if email already exists (limit one reservation per person)
-$stmt = $conn->prepare("SELECT * FROM reservations WHERE email = ?);
-$stmt->bind_param("ss", $email);
+$stmt = $conn->prepare("SELECT * FROM reservations WHERE email = ?");
+$stmt->bind_param("s", $email);
 $stmt->execute();
 $result = $stmt->get_result();
 
@@ -166,7 +166,7 @@ $confirmation_code = md5(uniqid(rand(), true));
 $confirmation_token = md5(uniqid(rand(), true)) . bin2hex(random_bytes(16)); // Token para confirmación por email
 
 // Insert reservation into database
-$stmt = $conn->prepare("INSERT INTO reservations (name, last_name, email, phone, num_tickets, comments, privacy_accepted, ip_address, confirmation_code, confirmation_token, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'email_pending')");
+$stmt = $conn->prepare("INSERT INTO reservations (name, last_name, email, phone, num_tickets, comments, privacy_accepted, ip_address, confirmation_code, confirmation_token, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'email_pending')");
 $stmt->bind_param("sssssisisss", $name, $last_name, $email, $phone, $num_tickets, $comments, $privacy_policy, $ip_address, $confirmation_code, $confirmation_token);
 
 if ($stmt->execute()) {
