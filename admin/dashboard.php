@@ -49,8 +49,8 @@ if (!empty($status_filter)) {
 }
 
 if (!empty($search_term)) {
-    $sql .= " AND (name LIKE ? OR last_name LIKE ? OR email LIKE ? OR dni LIKE ? OR confirmation_code LIKE ?)";
-    $count_sql .= " AND (name LIKE ? OR last_name LIKE ? OR email LIKE ? OR dni LIKE ? OR confirmation_code LIKE ?)";
+    $sql .= " AND (name LIKE ? OR last_name LIKE ? OR email LIKE ? LIKE ? OR confirmation_code LIKE ?)";
+    $count_sql .= " AND (name LIKE ? OR last_name LIKE ? OR email LIKE ? LIKE ? OR confirmation_code LIKE ?)";
     $search_pattern = "%$search_term%";
     $params[] = $search_pattern;
     $params[] = $search_pattern;
@@ -154,7 +154,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_status']) && i
                             'last_name' => $reservation['last_name'],
                             'email' => $reservation['email'],
                             'phone' => $reservation['phone'],
-                            'dni' => $reservation['dni'],
                             'confirmation_code' => $reservation['confirmation_code'],
                             'num_tickets' => $reservation['num_tickets'],
                             'reservation_date' => $reservation['reservation_date']
@@ -176,7 +175,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_status']) && i
                             <body>
                                 <div style='max-width: 600px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif;'>
                                     <div style='text-align: center; margin-bottom: 20px;'>
-                                        <img src='https://cactlanzarote.com/wp-content/uploads/2023/03/logo-CACT-Lanzarote.png' alt='CACT Lanzarote' style='max-width: 200px;'>
+                                        <img src='https://cangrejosalbinos.com/assets/img/email/CACT_logotipo.png' alt='CACT Lanzarote' style='max-width: 200px;'>
                                     </div>
                                     
                                     <h2 style='color: #dc3545; text-align: center;'>Reserva Cancelada</h2>
@@ -190,7 +189,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_status']) && i
                                         <ul style='padding-left: 20px;'>
                                             <li><strong>Número de confirmación:</strong> {$reservation['confirmation_code']}</li>
                                             <li><strong>Número de entradas:</strong> {$reservation['num_tickets']}</li>
-                                            <li><strong>Fecha del evento:</strong> 15 de mayo de 2025</li>
+                                            <li><strong>Fecha del evento:</strong> 17 de mayo de 2025</li>
                                         </ul>
                                     </div>
                                     
@@ -385,7 +384,7 @@ $count_stmt->close();
                     <div class="col-md-5">
                         <div class="form-group">
                             <label for="search">Buscar</label>
-                            <input type="text" class="form-control" id="search" name="search" placeholder="Nombre, email, DNI o código" value="<?php echo htmlspecialchars($search_term); ?>">
+                            <input type="text" class="form-control" id="search" name="search" placeholder="Nombre, email o código" value="<?php echo htmlspecialchars($search_term); ?>">
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -419,7 +418,6 @@ $count_stmt->close();
                                 <th>Nombre</th>
                                 <th>Email</th>
                                 <th>Teléfono</th>
-                                <th>DNI</th>
                                 <th>Entradas</th>
                                 <th>Fecha</th>
                                 <th>Estado</th>
@@ -438,7 +436,6 @@ $count_stmt->close();
                                         <td><?php echo htmlspecialchars($reservation['name'] . ' ' . $reservation['last_name']); ?></td>
                                         <td><?php echo htmlspecialchars($reservation['email']); ?></td>
                                         <td><?php echo htmlspecialchars($reservation['phone']); ?></td>
-                                        <td><?php echo htmlspecialchars($reservation['dni']); ?></td>
                                         <td><?php echo $reservation['num_tickets']; ?></td>
                                         <td><?php echo date('d/m/Y H:i', strtotime($reservation['reservation_date'])); ?></td>
                                         <td>
@@ -503,9 +500,6 @@ $count_stmt->close();
                                                         
                                                         <dt class="col-sm-4">Teléfono:</dt>
                                                         <dd class="col-sm-8"><?php echo htmlspecialchars($reservation['phone']); ?></dd>
-                                                        
-                                                        <dt class="col-sm-4">DNI/NIE:</dt>
-                                                        <dd class="col-sm-8"><?php echo htmlspecialchars($reservation['dni']); ?></dd>
                                                         
                                                         <dt class="col-sm-4">Num. Entradas:</dt>
                                                         <dd class="col-sm-8"><?php echo $reservation['num_tickets']; ?></dd>

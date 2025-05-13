@@ -61,7 +61,7 @@
               break;
 
           case 'duplicate':
-              $error_message = isset($_GET['msg']) ? urldecode($_GET['msg']) : "Ya existe una reserva con este email o DNI.";
+              $error_message = isset($_GET['msg']) ? urldecode($_GET['msg']) : "Ya existe una reserva con este email.";
               break;
 
           case 'db':
@@ -589,7 +589,7 @@
                                   </div>
                               </div>
                               <div class="row">
-                                  <!-- Fila 2: Email, Teléfono y DNI -->
+                                  <!-- Fila 2: Email, Teléfono -->
                                   <div class="col-lg-4 col-md-4 mb-20">
                                       <input class="td-input" name="email" type="email" placeholder="Email" required value="<?php echo isset($form_data['email']) ? htmlspecialchars($form_data['email']) : '';
   ?>">
@@ -608,14 +608,7 @@
                                           <?php endif; ?>
                                       </div>
                                   </div>
-                                  <div class="col-lg-4 col-md-4 mb-20">
-                                      <input class="td-input" name="dni" type="text" placeholder="DNI/NIF" required value="<?php echo isset($form_data['dni']) ? htmlspecialchars($form_data['dni']) : ''; ?>">
-                                      <div class="error-message" id="dni-error">
-                                          <?php if (isset($form_errors['dni'])): ?>
-                                              <?php echo $form_errors['dni']; ?>
-                                          <?php endif; ?>
-                                      </div>
-                                  </div>
+                                 
                               </div>
                               <div class="row">
                                   <!-- Selector de número de entradas -->
@@ -1238,17 +1231,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
               isValid = false;
           }
 
-          // Validate DNI/NIF
-          const dni = $('input[name="dni"]').val().trim();
-          const dniRegex = /^[0-9]{8}[A-Z]$/;
-          const nieRegex = /^[XYZ][0-9]{7}[A-Z]$/;
-          if (dni === '') {
-              $('#dni-error').text('Por favor, introduce tu DNI/NIF');
-              isValid = false;
-          } else if (!dniRegex.test(dni) && !nieRegex.test(dni)) {
-              $('#dni-error').text('Por favor, introduce un DNI/NIE válido');
-              isValid = false;
-          }
+        
 
           // Validate privacy policy
           if (!$('#privacy_policy').is(':checked')) {

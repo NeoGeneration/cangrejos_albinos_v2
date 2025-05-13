@@ -50,7 +50,6 @@ if (isset($_GET['token']) && !empty($_GET['token'])) {
                         'last_name' => $reservation['last_name'],
                         'email' => $reservation['email'],
                         'phone' => $reservation['phone'],
-                        'dni' => $reservation['dni'],
                         'confirmation_code' => $reservation['confirmation_code'],
                         'num_tickets' => $reservation['num_tickets'],
                         'reservation_date' => $reservation['reservation_date']

@@ -253,7 +253,6 @@ function generate_email($email_type, $data, $baseURL = '') {
                     <li><strong>Nombre:</strong> {$full_name}</li>
                     <li><strong>Email:</strong> {$data['email']}</li>
                     <li><strong>Teléfono:</strong> {$data['phone']}</li>
-                    <li><strong>DNI/NIF:</strong> {$data['dni']}</li>
                     <li><strong>Número de entradas:</strong> {$data['num_tickets']}" . 
                     ($action_type == 'cancellation' ? " (liberadas)" : "") . "</li>
                     <li><strong>Fecha de reserva:</strong> " . (isset($data['reservation_date']) ? date('d/m/Y H:i', strtotime($data['reservation_date'])) : date('d/m/Y H:i')) . "</li>
