@@ -16,6 +16,5 @@ if (!$conn) {
 
 // Set charset to ensure proper encoding
 mysqli_set_charset($conn, "utf8mb4");
-// Establecer zona horaria de MySQL para la sesión
-$conn->query("SET time_zone = 'Europe/Madrid'");
+
 ?>
