@@ -43,7 +43,7 @@ $name = isset($_POST['name']) ? validate_input($_POST['name']) : '';
 $last_name = isset($_POST['last_name']) ? validate_input($_POST['last_name']) : '';
 $email = isset($_POST['email']) ? validate_input($_POST['email']) : '';
 $phone = isset($_POST['phone']) ? validate_input($_POST['phone']) : '';
-$dni = isset($_POST['dni']) ? validate_input($_POST['dni']) : '';
+
 $num_tickets = isset($_POST['num_tickets']) ? intval($_POST['num_tickets']) : 1;
 $comments = isset($_POST['comments']) ? validate_input($_POST['comments']) : '';
 $privacy_policy = isset($_POST['privacy_policy']) ? 1 : 0;
@@ -87,12 +87,7 @@ if (empty($phone)) {
     $errors[] = 'Por favor, proporciona un teléfono válido (mínimo 9 dígitos).';
 }
 
-// Validate DNI/NIE
-if (empty($dni)) {
-    $errors[] = 'El DNI/NIE es obligatorio.';
-} elseif (!preg_match('/^[0-9]{8}[A-Z]$/', $dni) && !preg_match('/^[XYZ][0-9]{7}[A-Z]$/', $dni)) {
-    $errors[] = 'Por favor, proporciona un DNI/NIE válido.';
-}
+
 
 // Validate num_tickets
 if ($num_tickets < 1 || $num_tickets > MAX_TICKETS_PER_PERSON) {
@@ -145,9 +140,9 @@ if ($num_tickets > $tickets_left) {
     exit;
 }
 
-// Check if email or DNI already exists (limit one reservation per person)
-$stmt = $conn->prepare("SELECT * FROM reservations WHERE email = ? OR dni = ?");
-$stmt->bind_param("ss", $email, $dni);
+// Check if email already exists (limit one reservation per person)
+$stmt = $conn->prepare("SELECT * FROM reservations WHERE email = ?);
+$stmt->bind_param("ss", $email);
 $stmt->execute();
 $result = $stmt->get_result();
 
@@ -157,11 +152,11 @@ if ($result->num_rows > 0) {
         http_response_code(400);
         echo json_encode([
             'success' => false, 
-            'message' => 'Ya existe una reserva con este email o DNI. Por favor, contacta con nosotros si necesitas modificar tu reserva.'
+            'message' => 'Ya existe una reserva con este email. Por favor, contacta con nosotros si necesitas modificar tu reserva.'
         ]);
     } else {
         // Regular form submission - redirect with error
-        header('Location: index.php?error=duplicate&msg=' . urlencode('Ya existe una reserva con este email o DNI. Por favor, contacta con nosotros si necesitas modificar tu reserva.') . '#entradas');
+        header('Location: index.php?error=duplicate&msg=' . urlencode('Ya existe una reserva con este email. Por favor, contacta con nosotros si necesitas modificar tu reserva.') . '#entradas');
     }
     exit;
 }
@@ -171,8 +166,8 @@ $confirmation_code = md5(uniqid(rand(), true));
 $confirmation_token = md5(uniqid(rand(), true)) . bin2hex(random_bytes(16)); // Token para confirmación por email
 
 // Insert reservation into database
-$stmt = $conn->prepare("INSERT INTO reservations (name, last_name, email, phone, dni, num_tickets, comments, privacy_accepted, ip_address, confirmation_code, confirmation_token, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'email_pending')");
-$stmt->bind_param("sssssisisss", $name, $last_name, $email, $phone, $dni, $num_tickets, $comments, $privacy_policy, $ip_address, $confirmation_code, $confirmation_token);
+$stmt = $conn->prepare("INSERT INTO reservations (name, last_name, email, phone, num_tickets, comments, privacy_accepted, ip_address, confirmation_code, confirmation_token, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'email_pending')");
+$stmt->bind_param("sssssisisss", $name, $last_name, $email, $phone, $num_tickets, $comments, $privacy_policy, $ip_address, $confirmation_code, $confirmation_token);
 
 if ($stmt->execute()) {
     // Get the base URL for the confirmation link
