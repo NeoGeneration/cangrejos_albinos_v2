@@ -65,6 +65,13 @@ foreach ($usuarios as $row) {
         $enviados++;
     } else {
         echo "<span style='color:red'>Fallo al enviar a: $to</span><br>\n";
+        // Mostrar información de error de PHPMailer si está disponible
+        if (function_exists('error_get_last')) {
+            $last_error = error_get_last();
+            if ($last_error) {
+                echo '<pre>' . print_r($last_error, true) . '</pre>';
+            }
+        }
         $fallidos++;
     }
     // Opcional: sleep(1); // para evitar bloqueos por spam
