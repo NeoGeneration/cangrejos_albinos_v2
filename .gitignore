@@ -19,8 +19,6 @@ yarn.lock
 .env.development.local
 .env.test.local
 .env.production.local
-# ⚠️ EXCEPCIÓN: NO ignoramos .env.production porque lo necesitas en producción
-# .env.production — ¡NO LO AÑADAS AQUÍ!
 
 # VS Code
 .vscode/
@@ -66,6 +64,3 @@ setup_newsletter.php
 
 # Ignorar todos los archivos .sql en la raíz
 /*.sql
-
-# ⚠️ NO ignores vendor/ porque lo necesitas en el repo
-# vendor/ — ¡NO LO AÑADAS AL .gitignore EN TU CASO ACTUAL!
