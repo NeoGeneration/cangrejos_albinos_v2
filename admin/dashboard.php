@@ -352,8 +352,8 @@ $count_stmt->close();
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Total de Reservas</h5>
-                        <h2 class="text-primary"><?php echo $reservas_confirmadas; ?></h2>
+                        <h5 class="card-title">Total de Reservas (Confirmadas)</h5>
+                        <h2 class="text-primary"><?php echo $total_records; ?> (<?php echo $reservas_confirmadas; ?>)</h2>
                     </div>
                 </div>
             </div>
