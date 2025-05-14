@@ -41,7 +41,6 @@ $name = isset($_POST['name']) ? validate_input($_POST['name']) : '';
 $last_name = isset($_POST['last_name']) ? validate_input($_POST['last_name']) : '';
 $email = isset($_POST['email']) ? validate_input($_POST['email']) : '';
 $phone = isset($_POST['phone']) ? validate_input($_POST['phone']) : '';
-
 $num_tickets = isset($_POST['num_tickets']) ? intval($_POST['num_tickets']) : 1;
 $comments = isset($_POST['comments']) ? validate_input($_POST['comments']) : '';
 $privacy_policy = isset($_POST['privacy_policy']) ? 1 : 0;
@@ -164,7 +163,7 @@ $confirmation_token = md5(uniqid(rand(), true)) . bin2hex(random_bytes(16)); // 
 // Insert reservation into database
 
 $stmt = $conn->prepare("INSERT INTO reservations (name, last_name, email, phone, num_tickets, comments, privacy_accepted, ip_address, confirmation_code, confirmation_token, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'email_pending')");
-$stmt->bind_param("sssisissss", $name, $last_name, $email, $phone, $num_tickets, $comments, $privacy_policy, $ip_address, $confirmation_code, $confirmation_token);
+$stmt->bind_param("ssssisisss", $name, $last_name, $email, $phone, $num_tickets, $comments, $privacy_policy, $ip_address, $confirmation_code, $confirmation_token);
 
 if ($stmt->execute()) {
     // Get the base URL for the confirmation link
