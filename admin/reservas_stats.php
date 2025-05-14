@@ -258,7 +258,7 @@ $conn->close();
                                 <th>Email</th>
                                 <th>Entradas</th>
                                 <th>Estado</th>
-                                <th>Fecha de Reserva</th>
+                                <th>Fecha de Reserva (UTC)</th>
                             </tr>
                         </thead>
                         <tbody>

@@ -427,7 +427,7 @@ $count_stmt->close();
                                 <th>Email</th>
                                 <th>Teléfono</th>
                                 <th>Entradas</th>
-                                <th>Fecha</th>
+                                <th>Fecha (UTC)</th>
                                 <th>Estado</th>
                                 <th>Acciones</th>
                             </tr>
@@ -512,7 +512,7 @@ $count_stmt->close();
                                                         <dt class="col-sm-4">Num. Entradas:</dt>
                                                         <dd class="col-sm-8"><?php echo $reservation['num_tickets']; ?></dd>
                                                         
-                                                        <dt class="col-sm-4">Fecha de Reserva:</dt>
+                                                        <dt class="col-sm-4">Fecha de Reserva (UTC):</dt>
                                                         <dd class="col-sm-8"><?php echo date('d/m/Y H:i', strtotime($reservation['reservation_date'])); ?></dd>
                                                         
                                                         <dt class="col-sm-4">Estado:</dt>
