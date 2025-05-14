@@ -139,7 +139,7 @@ function generate_email($email_type, $data, $baseURL = '') {
                 
                 $footer_content = "
                     <p><strong>Importante:</strong> Tu reserva no estará completa hasta que confirmes tu dirección de correo electrónico.</p>
-                    <p>Si tienes alguna pregunta o necesitas ayuda, por favor contáctanos respondiendo a este correo o llamando al +34 928 849 444.</p>
+                    <p>Si tiene alguna duda, póngase en contacto con nosotros a través de <a href=\"mailto:info@centrosturisticos.com\">info@centrosturisticos.com</a></p>
                     <p>¡Gracias por tu interés en Cangrejos Albinos!</p>
                 ";
             }

@@ -193,7 +193,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_status']) && i
                                         </ul>
                                     </div>
                                     
-                                    <p>Si crees que se trata de un error o necesitas más información, por favor contáctanos respondiendo a este correo electrónico o llamando al +34 928 849 444.</p>
+                                    <p>Si tiene alguna duda, póngase en contacto con nosotros a través de <a href=\"mailto:info@centrosturisticos.com\">info@centrosturisticos.com</a></p>
                                     
                                     <p>Sentimos las molestias que esto pueda ocasionarte.</p>
                                     
