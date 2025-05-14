@@ -24,18 +24,17 @@ if ($conn->connect_error) {
     die("Error de conexión a MySQL: " . $conn->connect_error);
 }
 
-// Establecer zona horaria en MySQL (solo para esta conexión)
-if (!$conn->query("SET time_zone = 'Europe/Madrid'")) {
-    die("Error al establecer el timezone en MySQL: " . $conn->error);
+// Obtener zona horaria y hora actual de MySQL sin cambiar nada
+$res = $conn->query("SELECT @@global.time_zone AS global_tz, @@session.time_zone AS session_tz, NOW() AS current_time");
+if ($res) {
+    $row = $res->fetch_assoc();
+    echo "<h2>MySQL</h2>";
+    echo "Zona horaria GLOBAL (MySQL): " . $row['global_tz'] . "<br>";
+    echo "Zona horaria de SESIÓN (MySQL): " . $row['session_tz'] . "<br>";
+    echo "Fecha/Hora actual (MySQL): " . $row['current_time'] . "<br>";
+} else {
+    echo "Error al consultar el timezone de MySQL: " . $conn->error;
 }
-
-// Obtener zona horaria de sesión MySQL
-$res = $conn->query("SELECT @@session.time_zone AS timezone, NOW() AS now");
-$row = $res->fetch_assoc();
-
-echo "<h2>MySQL</h2>";
-echo "Zona horaria de sesión (MySQL): " . $row['timezone'] . "<br>";
-echo "Fecha/Hora actual (MySQL): " . $row['now'] . "<br>";
 
 $conn->close();
 ?>
