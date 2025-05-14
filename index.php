@@ -137,7 +137,7 @@
 
 <!-- Klaro Cookie Consent Manager Script -->
 <script defer src="assets/js/klaro-config.js"></script>
-<script defer src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no.css.js"></script>
+<script defer src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
 
 <!-- NO ELIMINAR: Google Analytics se cargará a través de Klaro cuando se dé el consentimiento -->
 
