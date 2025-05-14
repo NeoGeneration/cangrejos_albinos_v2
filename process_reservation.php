@@ -121,7 +121,7 @@ $result = $stmt->get_result();
 $row = $result->fetch_assoc();
 $total_reserved = $row['total_reserved'] ?: 0;
 
-$total_tickets = 100; // You should define this value based on your event's capacity
+$total_tickets = 450; // You should define this value based on your event's capacity
 $tickets_left = $total_tickets - $total_reserved;
 
 if ($num_tickets > $tickets_left) {

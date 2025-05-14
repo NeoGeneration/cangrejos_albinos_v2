@@ -25,7 +25,7 @@ window.klaroConfig = {
             },
             decline: "Rechazar",
             ok: "Aceptar",
-            //poweredBy: "Realizado con Klaro!",
+            poweredBy: " ",
             privacyPolicy: {
                 name: "política de privacidad",
                 text: "Para saber más, por favor lee nuestra {privacyPolicy}."
