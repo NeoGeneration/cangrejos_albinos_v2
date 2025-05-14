@@ -106,7 +106,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/newsletter.css">
     <!-- CSS para Klaro Cookie Consent Manager -->
-    <link rel="stylesheet" href="assets/css/klaro.css">
+    <link rel="stylesheet" href="assets/css/klaro.css?v2">
 <!-- estilos para el formulario reserva -->
     <style>
       .error-message {
