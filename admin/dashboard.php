@@ -103,6 +103,13 @@ $tickets_result = $conn->query($tickets_sql);
 $tickets_row = $tickets_result->fetch_assoc();
 $total_tickets = isset($tickets_row['total_tickets']) ? $tickets_row['total_tickets'] : 0;
 
+
+//calcula reservas confirmadas
+$sql_confirmadas = "SELECT COUNT(*) as total FROM reservations WHERE status != 'cancelled'";
+$result_confirmadas = $conn->query($sql_confirmadas);
+$row_confirmadas = $result_confirmadas->fetch_assoc();
+$reservas_confirmadas = isset($row_confirmadas['total']) ? $row_confirmadas['total'] : 0;
+
 // Define total capacity
 $total_capacity = EVENTO_CAPACIDAD_MAXIMA;
 $tickets_available = $total_capacity - $total_tickets;
@@ -346,7 +353,7 @@ $count_stmt->close();
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Total de Reservas</h5>
-                        <h2 class="text-primary"><?php echo $total_records; ?></h2>
+                        <h2 class="text-primary"><?php echo $reservas_confirmadas; ?></h2>
                     </div>
                 </div>
             </div>
