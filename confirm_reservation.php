@@ -95,6 +95,8 @@ $conn->close();
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <!-- CSS para Klaro Cookie Consent Manager -->
+    <link rel="stylesheet" href="assets/css/klaro.css">
     <style>
         .confirmation-container {
             max-width: 600px;
@@ -141,14 +143,12 @@ $conn->close();
             line-height: 1.6;
         }
 </style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-96MVM31JD0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-96MVM31JD0');
-</script>
+
+<!-- Klaro Cookie Consent Manager Script -->
+<script defer src="assets/js/klaro-config.js"></script>
+<script defer src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
+
+<!-- NO ELIMINAR: Google Analytics se cargará a través de Klaro cuando se dé el consentimiento -->
 </head>
 <body>
     <div class="confirmation-container">
