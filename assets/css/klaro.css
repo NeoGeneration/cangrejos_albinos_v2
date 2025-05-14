@@ -87,14 +87,14 @@ to create a white background.
 .klaro .cookie-modal .cm-list-input:checked + .cm-list-label .slider,
 .klaro .context-notice .cm-list-input:checked + .cm-list-label .slider,
 .klaro .cookie-notice .cm-list-input:checked + .cm-list-label .slider {
-  background-color: #1a936f;
-  background-color: var(--green1, #1a936f);
+  background-color: #8A5994;
+  background-color: var(--green1, #8A5994);
 }
 .klaro .cookie-modal .cm-list-input.half-checked:checked + .cm-list-label .slider,
 .klaro .context-notice .cm-list-input.half-checked:checked + .cm-list-label .slider,
 .klaro .cookie-notice .cm-list-input.half-checked:checked + .cm-list-label .slider {
-  background-color: #1a936f;
-  background-color: var(--green1, #1a936f);
+  background-color: #8A5994;
+  background-color: var(--green1, #8A5994);
   opacity: 0.6;
 }
 .klaro .cookie-modal .cm-list-input.half-checked:checked + .cm-list-label .slider::before,
@@ -235,8 +235,8 @@ to create a white background.
 .klaro .cookie-modal a,
 .klaro .context-notice a,
 .klaro .cookie-notice a {
-  color: #1a936f;
-  color: var(--green1, #1a936f);
+  color: #8A5994;
+  color: var(--green1, #8A5994);
   text-decoration: none;
 }
 .klaro .cookie-modal p,
@@ -338,8 +338,8 @@ to create a white background.
 .klaro .cookie-modal .cm-btn.cm-btn-success,
 .klaro .context-notice .cm-btn.cm-btn-success,
 .klaro .cookie-notice .cm-btn.cm-btn-success {
-  background-color: #1a936f;
-  background-color: var(--green1, #1a936f);
+  background-color: #8A5994;
+  background-color: var(--green1, #8A5994);
 }
 .klaro .cookie-modal .cm-btn.cm-btn-success-var,
 .klaro .context-notice .cm-btn.cm-btn-success-var,
