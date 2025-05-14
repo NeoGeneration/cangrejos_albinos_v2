@@ -42,6 +42,7 @@ to create a white background.
 .klaro .cookie-modal,
 .klaro .context-notice,
 .klaro .cookie-notice {
+  font-size: 14px;
   /* The switch - the box around the slider */
 }
 .klaro .cookie-modal .cm-switch-container,
@@ -58,7 +59,6 @@ to create a white background.
   padding: 10px;
   padding-left: 66px;
   line-height: 20px;
-  vertical-align: middle;
   min-height: 40px;
 }
 .klaro .cookie-modal .cm-switch-container:last-child,
@@ -156,6 +156,7 @@ to create a white background.
 .klaro .cookie-modal .cm-list-label,
 .klaro .context-notice .cm-list-label,
 .klaro .cookie-notice .cm-list-label {
+    font-size: 14px;
   /* The slider */
   /* Rounded sliders */
 }
@@ -206,9 +207,9 @@ to create a white background.
 .klaro .cookie-modal .cm-list-label input:focus + .slider,
 .klaro .context-notice .cm-list-label input:focus + .slider,
 .klaro .cookie-notice .cm-list-label input:focus + .slider {
-  box-shadow-color: #8A5994;
-  box-shadow-color: var(--green3, #8A5994);
-  box-shadow: 0 0 1px var(--box-shadow-color, green3);
+  --box-shadow-color: #8A5994;
+  --box-shadow-color: var(--green3, #8A5994);
+  box-shadow: 0 0 1px var(--box-shadow-color, #8A5994);
 }
 .klaro .cookie-modal .cm-list-label input:checked + .slider::before,
 .klaro .context-notice .cm-list-label input:checked + .slider::before,
