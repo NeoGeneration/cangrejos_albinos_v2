@@ -518,9 +518,6 @@ $count_stmt->close();
                                                         <dt class="col-sm-4">Estado:</dt>
                                                         <dd class="col-sm-8"><span class="badge status-badge <?php echo $status_class; ?>"><?php echo $status_text; ?></span></dd>
                                                         
-                                                        <dt class="col-sm-4">IP:</dt>
-                                                        <dd class="col-sm-8"><?php echo htmlspecialchars($reservation['ip_address']); ?></dd>
-                                                        
                                                         <dt class="col-sm-4">Comentarios:</dt>
                                                         <dd class="col-sm-8">
                                                             <?php echo !empty($reservation['comments']) ? htmlspecialchars($reservation['comments']) : 'No hay comentarios'; ?>
