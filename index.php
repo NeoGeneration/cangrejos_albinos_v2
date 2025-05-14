@@ -6,9 +6,12 @@
       $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
   }
 
+  // Centralizar configuración de entradas
+  require_once __DIR__ . '/includes/event_config.php';
+
   // Set maximum tickets available and per person
-  $max_tickets_per_person = 4;
-  $total_tickets_available = 450; // Change this to your actual capacity
+  $max_tickets_per_person = EVENTO_MAXIMO_POR_PERSONA;
+  $total_tickets_available = EVENTO_CAPACIDAD_MAXIMA;
 
   // Check if form was submitted
   $form_submitted = false;
@@ -618,7 +621,7 @@
                                           <select class="form-select" id="num_tickets" name="num_tickets">
                                               <?php
                                               $selected_tickets = isset($form_data['num_tickets']) ? intval($form_data['num_tickets']) : 1;
-                                              for ($i = 1; $i <= 4; $i++):
+                                              for ($i = 1; $i <= $max_tickets_per_person; $i++):
                                               ?>
                                               <option value="<?php echo $i; ?>" <?php echo ($selected_tickets == $i) ? 'selected' : ''; ?>><?php echo $i; ?></option>
                                               <?php endfor; ?>
@@ -656,7 +659,7 @@
                               <div class="row">
                                   <div class="col-12">
                                       <button type="submit" class="td-btn">Asegura tu plaza</button>
-                                      <small class="d-block text-muted mt-1 fst-italic small">Máximo 4 entradas por persona</small>
+                                      <small class="d-block text-muted mt-1 fst-italic small">Máximo <?php echo $max_tickets_per_person; ?> entradas por persona</small>
                                       <small class="d-block text-muted mt-1 fst-italic small">Nota legal: Los datos recogidos se utilizarán exclusivamente para la gestión de accesos al evento. No se realizará ningún uso comercial posterior.</small>
                                   </div>
                               </div>

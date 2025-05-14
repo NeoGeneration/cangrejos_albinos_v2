@@ -23,6 +23,7 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
 
 // Include database configuration
 require_once '../includes/db_config.php';
+require_once __DIR__ . '/../includes/event_config.php';
 
 // Set default pagination variables
 $current_page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
@@ -103,7 +104,7 @@ $tickets_row = $tickets_result->fetch_assoc();
 $total_tickets = isset($tickets_row['total_tickets']) ? $tickets_row['total_tickets'] : 0;
 
 // Define total capacity
-$total_capacity = 450; // Mismo valor que en process_reservation.php
+$total_capacity = EVENTO_CAPACIDAD_MAXIMA;
 $tickets_available = $total_capacity - $total_tickets;
 
 // Handle reservation status update

@@ -5,6 +5,7 @@ session_start();
 // Include database configuration and email template system
 require_once 'includes/db_config.php';
 require_once 'includes/email/email_template.php';
+require_once __DIR__ . '/includes/event_config.php';
 
 // Set content type to JSON for AJAX requests
 if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest') {
@@ -26,9 +27,6 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo json_encode(['success' => false, 'message' => 'Método no permitido.']);
     exit;
 }
-
-// Define constants
-define('MAX_TICKETS_PER_PERSON', 4);
 
 // Function to validate and sanitize input
 function validate_input($data) {
@@ -87,11 +85,9 @@ if (empty($phone)) {
     $errors[] = 'Por favor, proporciona un teléfono válido (mínimo 9 dígitos).';
 }
 
-
-
 // Validate num_tickets
-if ($num_tickets < 1 || $num_tickets > MAX_TICKETS_PER_PERSON) {
-    $errors[] = 'El número de entradas debe estar entre 1 y ' . MAX_TICKETS_PER_PERSON . '.';
+if ($num_tickets < 1 || $num_tickets > EVENTO_MAXIMO_POR_PERSONA) {
+    $errors[] = 'El número de entradas debe estar entre 1 y ' . EVENTO_MAXIMO_POR_PERSONA . '.';
 }
 
 // Validate privacy policy
@@ -121,7 +117,7 @@ $result = $stmt->get_result();
 $row = $result->fetch_assoc();
 $total_reserved = $row['total_reserved'] ?: 0;
 
-$total_tickets = 450; // You should define this value based on your event's capacity
+$total_tickets = EVENTO_CAPACIDAD_MAXIMA;
 $tickets_left = $total_tickets - $total_reserved;
 
 if ($num_tickets > $tickets_left) {

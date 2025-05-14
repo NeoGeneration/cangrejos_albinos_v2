@@ -10,16 +10,13 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
 
 // Incluir configuración de base de datos
 require_once '../includes/db_config.php';
+require_once __DIR__ . '/../includes/event_config.php';
 
 // Obtener las estadísticas de reservas
 $stats = [];
 
-// Leer el total de entradas disponibles desde index.php
-$total_tickets = 100; // Valor por defecto
-$index_file = file_get_contents('../index.php');
-if (preg_match('/\$total_tickets_available\s*=\s*(\d+)/', $index_file, $matches)) {
-    $total_tickets = (int)$matches[1];
-}
+// Leer el total de entradas disponibles desde la configuración centralizada
+$total_tickets = EVENTO_CAPACIDAD_MAXIMA;
 
 // Contar reservas por estado
 $status_query = "SELECT status, COUNT(*) as count, SUM(num_tickets) as tickets FROM reservations GROUP BY status";

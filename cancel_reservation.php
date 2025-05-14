@@ -5,6 +5,7 @@ session_start();
 // Include database configuration and email template system
 require_once 'includes/db_config.php';
 require_once 'includes/email/email_template.php';
+require_once __DIR__ . '/includes/event_config.php';
 
 // Define variables
 $code = '';

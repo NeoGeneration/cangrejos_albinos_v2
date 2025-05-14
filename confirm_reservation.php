@@ -5,6 +5,7 @@ session_start();
 // Include database configuration and email template system
 require_once 'includes/db_config.php';
 require_once 'includes/email/email_template.php';
+require_once __DIR__ . '/includes/event_config.php';
 
 // Define variables
 $token = '';
@@ -146,7 +147,7 @@ $conn->close();
 
 <!-- Klaro Cookie Consent Manager Script -->
 <script defer src="assets/js/klaro-config.js"></script>
-<script defer src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
+<script defer src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
 
 <!-- NO ELIMINAR: Google Analytics se cargará a través de Klaro cuando se dé el consentimiento -->
 </head>
