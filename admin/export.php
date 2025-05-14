@@ -30,7 +30,7 @@ if (!empty($status_filter)) {
 }
 
 if (!empty($search_term)) {
-    $sql .= " AND (name LIKE ? OR last_name LIKE ? OR email LIKE ? OR dni LIKE ? OR confirmation_code LIKE ?)";
+    $sql .= " AND (name LIKE ? OR last_name LIKE ? OR email LIKE ? OR confirmation_code LIKE ?)";
     $search_pattern = "%$search_term%";
     $params[] = $search_pattern;
     $params[] = $search_pattern;
@@ -75,14 +75,12 @@ fputcsv($output, [
     'Apellidos',
     'Email',
     'Teléfono',
-    'DNI/NIE',
     'Número de Entradas',
     'Comentarios',
     'Fecha de Reserva',
     'Estado',
-    'IP',
     'Privacidad Aceptada'
-]);
+], ',', '"', '\\');
 
 // Add data rows
 foreach ($reservations as $reservation) {
@@ -108,21 +106,19 @@ foreach ($reservations as $reservation) {
     // Format date
     $date = date('d/m/Y H:i', strtotime($reservation['reservation_date']));
     
-    fputcsv($output, [
-        $reservation['id'],
-        $reservation['confirmation_code'],
-        $reservation['name'],
-        $reservation['last_name'],
-        $reservation['email'],
-        $reservation['phone'],
-        $reservation['dni'],
-        $reservation['num_tickets'],
-        $reservation['comments'],
-        $date,
-        $status,
-        $reservation['ip_address'],
-        $privacy
-    ]);
+fputcsv($output, [
+    $reservation['id'],
+    $reservation['confirmation_code'],
+    $reservation['name'],
+    $reservation['last_name'],
+    $reservation['email'],
+    $reservation['phone'],
+    $reservation['num_tickets'],
+    $reservation['comments'],
+    $date,
+    $status,
+    $privacy
+], ',', '"', '\\');
 }
 
 // Close statement and connection
