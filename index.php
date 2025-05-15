@@ -698,16 +698,20 @@
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Ángel León</a></h2>
+                                            <h2 class="td-schedule-3-title"><a href="#avisame">Ángel León</a></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
                                                     Sábado, 28 de Junio, 20:30h
                                                 </span>
+                                                <span class="mr-25">
+                                                    <i class="flaticon-gps"></i>
+                                                    Auditorio Jameos del Agua, Lanzarote
+                                                </span>
                                             </div>
                                             <p class="mb-25 para">Cocinero visionario, investigador del mar y chef con tres estrellas Michelin. Hablaremos de gastronomía, sostenibilidad marina y creatividad sin límites.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="#avisame">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -731,16 +735,20 @@
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Iñaki Gabilondo</a></h2>
+                                            <h2 class="td-schedule-3-title"><a href="#avisame">Iñaki Gabilondo</a></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span>
                                                     <i class="flaticon-time"></i>
                                                     Sábado, 6 de Septiembre, 20:30h
                                                 </span>
+                                                <span class="mr-25">
+                                                    <i class="flaticon-gps"></i>
+                                                    Auditorio Jameos del Agua, Lanzarote
+                                                </span>
                                             </div>
                                             <p class="mb-25 para">Periodista. Locutor de radio en Cadena Ser y director de Noticias Cuatro (2005-2010).</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="#avisame">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -764,16 +772,20 @@
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="contact.html">Elsa Punset</a></h2>
+                                            <h2 class="td-schedule-3-title"><a href="#avisame">Elsa Punset</a></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span>
                                                     <i class="flaticon-time"></i>
                                                     Sábado, 25 de Octubre, 20:30h
                                                 </span>
+                                                <span class="mr-25">
+                                                    <i class="flaticon-gps"></i>
+                                                    Auditorio Jameos del Agua, Lanzarote
+                                                </span>
                                             </div>
                                             <p class="mb-25 para">Escritora, divulgadora y filósofa. Experta en educación e inteligencia emocional.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="contact.html">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="#avisame">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -797,7 +809,7 @@
     <?php endif; ?>
 
         <!-- td-cta-area-start -->
-        <div class="td-cta-area" style="padding-top: 85px;">
+        <div class="td-cta-area" style="padding-top: 85px;" id="avisame">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
