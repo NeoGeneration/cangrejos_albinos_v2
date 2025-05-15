@@ -704,7 +704,7 @@
                                                     <i class="flaticon-time"></i>
                                                     Sábado, 28 de Junio, 20:30h
                                                 </span>
-                                                <span class="mr-25">
+                                                <span>
                                                     <i class="flaticon-gps"></i>
                                                     Auditorio Jameos del Agua, Lanzarote
                                                 </span>
@@ -737,11 +737,11 @@
                                         <div class="td-schedule-3-content">
                                             <h2 class="td-schedule-3-title"><a href="#avisame">Iñaki Gabilondo</a></h2>
                                             <div class="td-schedule-3-destination mb-10">
-                                                <span>
+                                                <span class="mr-25">
                                                     <i class="flaticon-time"></i>
                                                     Sábado, 6 de Septiembre, 20:30h
                                                 </span>
-                                                <span class="mr-25">
+                                                <span>
                                                     <i class="flaticon-gps"></i>
                                                     Auditorio Jameos del Agua, Lanzarote
                                                 </span>
@@ -774,11 +774,11 @@
                                         <div class="td-schedule-3-content">
                                             <h2 class="td-schedule-3-title"><a href="#avisame">Elsa Punset</a></h2>
                                             <div class="td-schedule-3-destination mb-10">
-                                                <span>
+                                                <span class="mr-25">
                                                     <i class="flaticon-time"></i>
                                                     Sábado, 25 de Octubre, 20:30h
                                                 </span>
-                                                <span class="mr-25">
+                                                <span>
                                                     <i class="flaticon-gps"></i>
                                                     Auditorio Jameos del Agua, Lanzarote
                                                 </span>
