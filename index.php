@@ -698,7 +698,7 @@
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="#avisame">Ángel León</a></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="#avisame">Ángel León</a><em>Cocinar el mar</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -735,7 +735,7 @@
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="#avisame">Iñaki Gabilondo</a></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="#avisame">Iñaki Gabilondo</a><em>La palabra que queda</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -772,7 +772,7 @@
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title"><a href="#avisame">Elsa Punset</a></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="#avisame">Elsa Punset</a><em>Educar las emociones</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -874,11 +874,11 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0">Angel León</h3>
+                                <h3 class="td-team-member-name mb-0">Ángel León</h3>
                                 <span class="td-team-member-position">Cocinero</span>
                             </div>
                             <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/angel_leon.png" alt="Angel León">
+                                <img src="assets/img/team/angel_leon.png" alt="Ángel León">
                             </div>
                         </div>
                     </div>
