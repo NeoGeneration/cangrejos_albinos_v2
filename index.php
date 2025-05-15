@@ -726,7 +726,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-xl-4 col-lg-5">
                                         <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-2.jpg" alt="Iñaki Gabilondo">
+                                            <img class="w-100" src="assets/img/schedule/inaki_gabilondo.png" alt="Iñaki Gabilondo">
                                         </div>
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
@@ -759,7 +759,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-xl-4 col-lg-5">
                                         <div class="td-schedule-3-thumb p-relative">
-                                            <img class="w-100" src="assets/img/schedule/schedule-3/schedule-2.jpg" alt="Elsa Punset">
+                                            <img class="w-100" src="assets/img/schedule/elsa_punset.png" alt="Elsa Punset">
                                         </div>
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
