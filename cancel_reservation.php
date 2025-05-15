@@ -198,7 +198,7 @@ $conn->close();
                 <p><?php echo $error; ?></p>
             </div>
             <p>Si tienes problemas para cancelar tu reserva, por favor contáctanos:</p>
-            <p><strong>Email:</strong> info@cactlanzarote.com</p>
+            <p><strong>Email:</strong> info@centrosturisticos.com</p>
             
             <a href="index.php#entradas" class="td-btn mt-3">Volver a la página principal</a>
         <?php else: ?>
