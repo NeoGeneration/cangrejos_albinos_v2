@@ -866,7 +866,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                                 <span class="td-team-member-position">Cocinero</span>
                             </div>
                             <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/gemma_mengual.png" alt="Gemma Mengual">
+                                <img src="assets/img/team/angel_leon.png" alt="Angel León">
                             </div>
                         </div>
                     </div>
@@ -877,7 +877,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                                 <span class="td-team-member-position">Periodista</span>
                             </div>
                             <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/gemma_mengual.png" alt="Gemma Mengual">
+                                <img src="assets/img/team/inaki_gabilondo.png" alt="Iñaki Gabilondo">
                             </div>
                         </div>
                     </div>
@@ -888,7 +888,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                                 <span class="td-team-member-position">Escritora</span>
                             </div>
                             <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/gemma_mengual.png" alt="Gemma Mengual">
+                                <img src="assets/img/team/elsa_punset.png" alt="Elsa Punset">
                             </div>
                         </div>
                     </div>              
