@@ -545,6 +545,132 @@
             </div>
         </div>
         <!-- td-venue-area-end -->
+<!-- td-contact-form-area-start -->
+ <div id="entradas" class="td-contact-form-area pb-60">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <div class="td-contact-form-wrap">
+                      <?php if ($form_submitted && !empty($success_message)): ?>
+                      <div class="success-message">
+                          <?php echo $success_message; ?>
+                      </div>
+                      <?php endif; ?>
+
+                      <?php if (!empty($error_message)): ?>
+                      <div class="alert alert-danger">
+                          <?php echo $error_message; ?>
+                      </div>
+                      <?php endif; ?>
+
+                      <form id="reservation-form" action="process_reservation.php" method="POST" novalidate>
+                          <div class="td-contact-form-box">
+                              <h3 class="td-postbox-form-title mb-15">Reserva tu sitio en esta noche inspiradora</h3>
+
+                              <!-- Hidden CSRF token for security -->
+                              <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+
+                              <div class="row">
+                                  <!-- Fila 1: Nombre y Apellidos -->
+                                  <div class="col-lg-6 col-md-6 mb-20">
+                                      <input class="td-input" name="name" type="text" placeholder="Nombre" required value="<?php echo isset($form_data['name']) ? htmlspecialchars($form_data['name']) : ''; ?>">
+                                      <div class="error-message" id="name-error">
+                                          <?php if (isset($form_errors['name'])): ?>
+                                              <?php echo $form_errors['name']; ?>
+                                          <?php endif; ?>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-6 col-md-6 mb-20">
+                                      <input class="td-input" name="last_name" type="text" placeholder="Apellidos" required value="<?php echo isset($form_data['last_name']) ?
+  htmlspecialchars($form_data['last_name']) : ''; ?>">
+                                      <div class="error-message" id="last-name-error">
+                                          <?php if (isset($form_errors['last_name'])): ?>
+                                              <?php echo $form_errors['last_name']; ?>
+                                          <?php endif; ?>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <!-- Fila 2: Email, Teléfono -->
+                                  <div class="col-lg-4 col-md-4 mb-20">
+                                      <input class="td-input" name="email" type="email" placeholder="Email" required value="<?php echo isset($form_data['email']) ? htmlspecialchars($form_data['email']) : '';
+  ?>">
+                                      <div class="error-message" id="email-error">
+                                          <?php if (isset($form_errors['email'])): ?>
+                                              <?php echo $form_errors['email']; ?>
+                                          <?php endif; ?>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 mb-20">
+                                      <input class="td-input" name="phone" type="tel" placeholder="Teléfono" required value="<?php echo isset($form_data['phone']) ? htmlspecialchars($form_data['phone']) : '';
+  ?>">
+                                      <div class="error-message" id="phone-error">
+                                          <?php if (isset($form_errors['phone'])): ?>
+                                              <?php echo $form_errors['phone']; ?>
+                                          <?php endif; ?>
+                                      </div>
+                                  </div>
+                                 
+                              </div>
+                              <div class="row">
+                                  <!-- Selector de número de entradas -->
+                                  <div class="col-lg-6 col-md-6 mb-20">
+                                      <div class="ticket-selector">
+                                          <label for="num_tickets">Número de entradas:</label>
+                                          <select class="form-select" id="num_tickets" name="num_tickets">
+                                              <?php
+                                              $selected_tickets = isset($form_data['num_tickets']) ? intval($form_data['num_tickets']) : 1;
+                                              for ($i = 1; $i <= $max_tickets_per_person; $i++):
+                                              ?>
+                                              <option value="<?php echo $i; ?>" <?php echo ($selected_tickets == $i) ? 'selected' : ''; ?>><?php echo $i; ?></option>
+                                              <?php endfor; ?>
+                                          </select>
+                                          <div class="error-message" id="tickets-error"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <!-- Fila 3: Comentarios -->
+                                  <div class="col-12 mb-15">
+                                      <p><strong>¿Qué te gustaría preguntarle a Gemma Mengual?</strong> (opcional)</p>
+                                      <p>(Seleccionaremos algunas preguntas del público para plantearlas durante el evento)</p>
+                                      <textarea class="td-input message" name="comments" cols="30" rows="5" placeholder="Comentarios"><?php echo isset($form_data['comments']) ?
+  htmlspecialchars($form_data['comments']) : ''; ?></textarea>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-12 mb-15">
+                                      <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="privacy_policy" name="privacy_policy" required <?php echo isset($form_data['privacy_policy']) ? 'checked' : ''; ?>>
+                                          <label class="form-check-label" for="privacy_policy">
+                                              He leído y acepto la <a href="https://cactlanzarote.com/politica-de-privacidad/" target="_blank" class="text-decoration-underline">política de privacidad</a> y el
+  tratamiento de mis datos personales.
+                                          </label>
+                                          <div class="error-message" id="privacy-error">
+                                              <?php if (isset($form_errors['privacy_policy'])): ?>
+                                                  <?php echo $form_errors['privacy_policy']; ?>
+                                              <?php endif; ?>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class="row">
+                                  <div class="col-12">
+                                      <button type="submit" class="td-btn">Asegura tu plaza</button>
+                                      <small class="d-block text-muted mt-1 fst-italic small">Máximo <?php echo $max_tickets_per_person; ?> entradas por persona</small>
+                                      <small class="d-block text-muted mt-1 fst-italic small">Nota legal: Los datos recogidos se utilizarán exclusivamente para la gestión de accesos al evento. No se realizará ningún uso comercial posterior.</small>
+                                  </div>
+                              </div>
+                              <div id="form-response" class="pt-20"></div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- td-contact-form-area-end -->
 
 
     <?php if ($showAgenda): ?>
