@@ -546,22 +546,6 @@
         </div>
         <!-- td-venue-area-end -->
 
- <!-- td-contact-form-area-start -->
- <div id="entradas" class="td-contact-form-area pb-60">
-      <div class="container">
-          <div class="row">
-<!--Widget Ángel León-->
-<div class="load-turitop" data-service="P288" data-lang="es" data-numbered-seats="yes" data-embed="box"></div>
-<!--Widget Iñaki Gabilondo-->
-<div class="load-turitop" data-service="P290" data-lang="es" data-numbered-seats="yes" data-embed="box"></div>
-<!--Widget Elsa Punset:-->
-<div class="load-turitop" data-service="P291" data-lang="es" data-numbered-seats="yes" data-embed="box"></div> 
-
-
-          </div>
-      </div>
-  </div>
-  <!-- td-contact-form-area-end -->
 
     <?php if ($showAgenda): ?>
         <!-- td-schedule-area-start -->
@@ -588,7 +572,7 @@
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="#avisame">Ángel León</a><em>Cocinar el mar</em></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="entradas-angel-leon.html">Ángel León</a><em>Cocinar el mar</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -601,7 +585,7 @@
                                             </div>
                                             <p class="mb-25 para">Cocinero visionario, investigador del mar y chef con tres estrellas Michelin. Hablaremos de gastronomía, sostenibilidad marina y creatividad sin límites.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="#avisame">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="entradas-angel-leon.html">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -625,7 +609,7 @@
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="#avisame">Iñaki Gabilondo</a><em>La palabra que queda</em></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="entradas-inaki-gabilondo.html">Iñaki Gabilondo</a><em>La palabra que queda</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -638,7 +622,7 @@
                                             </div>
                                             <p class="mb-25 para">Periodista. Locutor de radio en Cadena Ser y director de Noticias Cuatro (2005-2010).</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="#avisame">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="entradas-inaki-gabilondo.html">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -662,7 +646,7 @@
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="#avisame">Elsa Punset</a><em>Educar las emociones</em></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="entradas-elsa-punset.html">Elsa Punset</a><em>Educar las emociones</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -675,7 +659,7 @@
                                             </div>
                                             <p class="mb-25 para">Escritora, divulgadora y filósofa. Experta en educación e inteligencia emocional.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="#avisame">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="entradas-elsa-punset.html">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
