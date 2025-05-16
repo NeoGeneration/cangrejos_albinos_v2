@@ -4551,7 +4551,7 @@ textarea {
 }
 .td-schedule-3-destination span {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--td-grey-1);
   display: inline-block;
 }
@@ -4559,7 +4559,7 @@ textarea {
   .td-schedule-3-destination span {
     display: flex;
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 }
 .td-schedule-3-destination i {
