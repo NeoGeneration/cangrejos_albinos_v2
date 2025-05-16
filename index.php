@@ -683,6 +683,7 @@
     <?php endif; ?>
 
         <!-- td-cta-area-start -->
+         <!--
         <div class="td-cta-area" style="padding-top: 85px;" id="avisame">
             <div class="container">
                 <div class="row">
@@ -711,6 +712,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                 </div>
             </div>
         </div>
+    -->
         <!-- td-cta-area-end -->
 
         <!-- td-team-area-start -->
