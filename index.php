@@ -91,7 +91,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Cangrejos Albinos | CACT Lanzarote</title>
-    <meta name="description" content="Evente - Conference and Event HTML Template">
+    <meta name="description" content="Un ciclo de charlas y conferencias, a celebrar de mayo a noviembre de 2025 en los Jameos del Agua, con ponentes de primer nivel y la conducción de Ángeles Blanco">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
@@ -218,7 +218,7 @@
                                         <li class="active"><a href="#inicio">Inicio</a></li>
                                         <li class=""><a href="#experiencia">Experiencia</a></li>
                                         <li class=""><a href="#evento">Evento</a></li>
-                                        <li class=""><a href="#entradas">Entradas</a></li>
+                                        <li class=""><a href="#agenda">Entradas</a></li>
                                         <?php 
                                         // Comprobar si estamos en o después del 16 de mayo de 2025
                                         $showAgenda = false;
@@ -398,10 +398,10 @@
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-8">
                         <div class="td-hero-content p-relative mb-30 pl-165">
-                            <span class="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Sábado, 17 de mayo de 2025 – 20:30h</span>
-                            <h2 class="td-hero-title wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.3s">Respirar bajo el agua</h2>
-                            <p class="td-hero-location wow mb-10 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">con Ángeles Blanco y Gemma Mengual</p>
-                            <p class="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">Primer encuentro del ciclo cultural "Cangrejos Albinos"</p>
+                            <span class="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Sábado, 28 de junio de 2025 – 20:30h</span>
+                            <h2 class="td-hero-title wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.3s">Cocinar el mar</h2>
+                            <p class="td-hero-location wow mb-10 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">con Ángeles Blanco y Ángel León</p>
+                            <p class="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">Segundo encuentro del ciclo cultural "Cangrejos Albinos"</p>
                             <div class="td-hero-countdown mb-40 wow td-animetion-right" data-wow-duration="1.5s" data-wow-delay="0.7s">
                                 <ul class="deal-counter ml0-md" id="timer">
                                     <li class="list-inline-item days mb-20"></li>
@@ -410,7 +410,7 @@
                                     <li class="list-inline-item seconds  mb-20"></li>
                                 </ul>
                             </div>
-                            <a class="td-btn-white td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="#entradas">
+                            <a class="td-btn-white td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="entradas-angel-leon.html">
                                 <span class="mr10 td-text d-inline-block mr-5">Reserva tu plaza</span>
                                 <span class="td-arrow-angle">
                                     <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -455,8 +455,15 @@
                         <div class="td-about-title-wrap text-center mb-30  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
                             <!--<span class="td-section-subtitle mb-30">Sobre este evento</span>-->
                             <h2 class="td-section-title">Una experiencia inspiradora, en un lugar único.</h2>
-                            <p>El Auditorio de Jameos del Agua acoge el primer episodio de Cangrejos Albinos, un ciclo de charlas con voces únicas que inspiran, conmueven y nos conectan con lo más profundo de la cultura, el pensamiento y la sostenibilidad.</p>
-                            <p>En este primer encuentro, nos sumergimos en el universo de Gemma Mengual, referente del deporte español y símbolo de belleza, fuerza y disciplina. Una conversación íntima con la periodista Ángeles Blanco, rodeados por la cueva, la roca y el eco de las ideas.</p>
+                            <p>El Auditorio de Jameos del Agua acoge el segundo episodio de Cangrejos Albinos, un ciclo de charlas con voces únicas que inspiran, conmueven y nos conectan con lo más profundo de la cultura, el pensamiento y la sostenibilidad.</p>
+                            <p>En este segundo encuentro, nos sumergiremos en las cocinas de Ángel León, Cocinero español, propietario y
+jefe de cocina del restaurante
+Aponiente, premiado con tres
+estrellas Michelin y tres soles
+Repsol. Investigador
+gastronómico, ha descubierto
+nuevos métodos para aprovechar
+productos marinos.. Una conversación íntima con la periodista Ángeles Blanco, rodeados por la cueva, la roca y el eco de las ideas.</p>
                             <p>Si las especies únicas merecen ser protegidas, las historias irrepetibles merecen ser contadas.</p>
                         </div>
                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
@@ -499,7 +506,7 @@
                                     </span>
                                     <div>
                                         <span class="subtitle">Fecha</span>
-                                        <p>Sábado, 17 de mayo de 2025</p>
+                                        <p>Sábado, 28 de junio de 2025</p>
                                     </div>
                                 </div>
                                 <div class="td-venue-info mb-25">
@@ -545,132 +552,8 @@
             </div>
         </div>
         <!-- td-venue-area-end -->
-<!-- td-contact-form-area-start -->
- <div id="entradas" class="td-contact-form-area pb-60">
-      <div class="container">
-          <div class="row">
-              <div class="col-12">
-                  <div class="td-contact-form-wrap">
-                      <?php if ($form_submitted && !empty($success_message)): ?>
-                      <div class="success-message">
-                          <?php echo $success_message; ?>
-                      </div>
-                      <?php endif; ?>
 
-                      <?php if (!empty($error_message)): ?>
-                      <div class="alert alert-danger">
-                          <?php echo $error_message; ?>
-                      </div>
-                      <?php endif; ?>
 
-                      <form id="reservation-form" action="process_reservation.php" method="POST" novalidate>
-                          <div class="td-contact-form-box">
-                              <h3 class="td-postbox-form-title mb-15">Reserva tu sitio en esta noche inspiradora</h3>
-
-                              <!-- Hidden CSRF token for security -->
-                              <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
-
-                              <div class="row">
-                                  <!-- Fila 1: Nombre y Apellidos -->
-                                  <div class="col-lg-6 col-md-6 mb-20">
-                                      <input class="td-input" name="name" type="text" placeholder="Nombre" required value="<?php echo isset($form_data['name']) ? htmlspecialchars($form_data['name']) : ''; ?>">
-                                      <div class="error-message" id="name-error">
-                                          <?php if (isset($form_errors['name'])): ?>
-                                              <?php echo $form_errors['name']; ?>
-                                          <?php endif; ?>
-                                      </div>
-                                  </div>
-                                  <div class="col-lg-6 col-md-6 mb-20">
-                                      <input class="td-input" name="last_name" type="text" placeholder="Apellidos" required value="<?php echo isset($form_data['last_name']) ?
-  htmlspecialchars($form_data['last_name']) : ''; ?>">
-                                      <div class="error-message" id="last-name-error">
-                                          <?php if (isset($form_errors['last_name'])): ?>
-                                              <?php echo $form_errors['last_name']; ?>
-                                          <?php endif; ?>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="row">
-                                  <!-- Fila 2: Email, Teléfono -->
-                                  <div class="col-lg-4 col-md-4 mb-20">
-                                      <input class="td-input" name="email" type="email" placeholder="Email" required value="<?php echo isset($form_data['email']) ? htmlspecialchars($form_data['email']) : '';
-  ?>">
-                                      <div class="error-message" id="email-error">
-                                          <?php if (isset($form_errors['email'])): ?>
-                                              <?php echo $form_errors['email']; ?>
-                                          <?php endif; ?>
-                                      </div>
-                                  </div>
-                                  <div class="col-lg-4 col-md-4 mb-20">
-                                      <input class="td-input" name="phone" type="tel" placeholder="Teléfono" required value="<?php echo isset($form_data['phone']) ? htmlspecialchars($form_data['phone']) : '';
-  ?>">
-                                      <div class="error-message" id="phone-error">
-                                          <?php if (isset($form_errors['phone'])): ?>
-                                              <?php echo $form_errors['phone']; ?>
-                                          <?php endif; ?>
-                                      </div>
-                                  </div>
-                                 
-                              </div>
-                              <div class="row">
-                                  <!-- Selector de número de entradas -->
-                                  <div class="col-lg-6 col-md-6 mb-20">
-                                      <div class="ticket-selector">
-                                          <label for="num_tickets">Número de entradas:</label>
-                                          <select class="form-select" id="num_tickets" name="num_tickets">
-                                              <?php
-                                              $selected_tickets = isset($form_data['num_tickets']) ? intval($form_data['num_tickets']) : 1;
-                                              for ($i = 1; $i <= $max_tickets_per_person; $i++):
-                                              ?>
-                                              <option value="<?php echo $i; ?>" <?php echo ($selected_tickets == $i) ? 'selected' : ''; ?>><?php echo $i; ?></option>
-                                              <?php endfor; ?>
-                                          </select>
-                                          <div class="error-message" id="tickets-error"></div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="row">
-                                  <!-- Fila 3: Comentarios -->
-                                  <div class="col-12 mb-15">
-                                      <p><strong>¿Qué te gustaría preguntarle a Gemma Mengual?</strong> (opcional)</p>
-                                      <p>(Seleccionaremos algunas preguntas del público para plantearlas durante el evento)</p>
-                                      <textarea class="td-input message" name="comments" cols="30" rows="5" placeholder="Comentarios"><?php echo isset($form_data['comments']) ?
-  htmlspecialchars($form_data['comments']) : ''; ?></textarea>
-                                  </div>
-                              </div>
-                              <div class="row">
-                                  <div class="col-12 mb-15">
-                                      <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" id="privacy_policy" name="privacy_policy" required <?php echo isset($form_data['privacy_policy']) ? 'checked' : ''; ?>>
-                                          <label class="form-check-label" for="privacy_policy">
-                                              He leído y acepto la <a href="https://cactlanzarote.com/politica-de-privacidad/" target="_blank" class="text-decoration-underline">política de privacidad</a> y el
-  tratamiento de mis datos personales.
-                                          </label>
-                                          <div class="error-message" id="privacy-error">
-                                              <?php if (isset($form_errors['privacy_policy'])): ?>
-                                                  <?php echo $form_errors['privacy_policy']; ?>
-                                              <?php endif; ?>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-
-                              <div class="row">
-                                  <div class="col-12">
-                                      <button type="submit" class="td-btn">Asegura tu plaza</button>
-                                      <small class="d-block text-muted mt-1 fst-italic small">Máximo <?php echo $max_tickets_per_person; ?> entradas por persona</small>
-                                      <small class="d-block text-muted mt-1 fst-italic small">Nota legal: Los datos recogidos se utilizarán exclusivamente para la gestión de accesos al evento. No se realizará ningún uso comercial posterior.</small>
-                                  </div>
-                              </div>
-                              <div id="form-response" class="pt-20"></div>
-                          </div>
-                      </form>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- td-contact-form-area-end -->
 
 
     <?php if ($showAgenda): ?>
