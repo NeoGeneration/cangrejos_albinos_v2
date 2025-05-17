@@ -282,7 +282,7 @@
 		=        countdown	   =
 	=============================================*/
     function makeTimer() { 
-		var endTime = new Date("17 may 2025 20:30:00 GMT+01:00");      
+		var endTime = new Date("28 june 2025 20:30:00 GMT+01:00");      
 		endTime = (Date.parse(endTime) / 1000);
 		var now = new Date();
 		now = (Date.parse(now) / 1000);
