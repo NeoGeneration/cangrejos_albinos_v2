@@ -466,6 +466,7 @@ nuevos métodos para aprovechar
 productos marinos.. Una conversación íntima con la periodista Ángeles Blanco, rodeados por la cueva, la roca y el eco de las ideas.</p>
                             <p>Si las especies únicas merecen ser protegidas, las historias irrepetibles merecen ser contadas.</p>
                         </div>
+                        <!-- Video de promoción
                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
                             <div class="td-about-thumb">
                                 <img src="assets/img/about/video.png" alt="Cangrejos Albinos - Vídeo de promoción">
@@ -480,6 +481,7 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                  </a>
                             </div>
                         </div>
+                        -->
                     </div>
                 </div>
             </div>
