@@ -439,7 +439,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="td-hero-thumb mb-30 p-relative">
-                            <img class="w-100" src="assets/img/hero/thumb.png" alt="">
+                            <img class="w-100" src="assets/img/hero/thumb-angel.png" alt="Ángel León">
                         </div>
                     </div>
                 </div>
