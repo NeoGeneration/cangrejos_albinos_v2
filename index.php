@@ -219,18 +219,18 @@
                                         <li class=""><a href="#experiencia">Experiencia</a></li>
                                         <li class=""><a href="#evento">Evento</a></li>
                                         <li class=""><a href="#agenda">Entradas</a></li>
-                                        <?php 
+                                        <?php
                                         // Comprobar si estamos en o después del 16 de mayo de 2025
                                         $showAgenda = false;
                                         $currentDate = new DateTime();
                                         $targetDate = new DateTime('2025-05-14');
-                                        
+
                                         if ($currentDate >= $targetDate) {
                                             $showAgenda = true;
                                         }
-                                        
+
                                         // Mostrar el enlace de la agenda solo si estamos en o después de la fecha objetivo
-                                        if ($showAgenda): 
+                                        if ($showAgenda):
                                         ?>
                                         <li class=""><a href="#agenda">Agenda</a></li>
                                         <?php endif; ?>
@@ -274,7 +274,7 @@
                                             <path d="M16.3783 0.111328H19.3942L12.8054 7.64181L20.5565 17.8891H14.4875L9.73399 11.6742L4.2949 17.8891H1.27723L8.32453 9.83441L0.888855 0.111328H7.11199L11.4087 5.79201L16.3783 0.111328ZM15.3199 16.084H16.991L6.20396 1.82164H4.41068L15.3199 16.084Z" fill="currentColor" />
                                         </svg>
                                     </a>
-                        </li>                        
+                        </li>
                         <li><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w"><i class="fab fa-youtube"></i></a></li>
                     </ul>
@@ -416,7 +416,7 @@
                                     <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="#000e2b" />
                                         <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="#000e2b" />
-                                    </svg> 
+                                    </svg>
                                 </span>
                             </a>
                             <div class="td-hero-social d-flex align-items-center">
@@ -431,7 +431,7 @@
                                             <path d="M16.3783 0.111328H19.3942L12.8054 7.64181L20.5565 17.8891H14.4875L9.73399 11.6742L4.2949 17.8891H1.27723L8.32453 9.83441L0.888855 0.111328H7.11199L11.4087 5.79201L16.3783 0.111328ZM15.3199 16.084H16.991L6.20396 1.82164H4.41068L15.3199 16.084Z" fill="currentColor" />
                                         </svg>
                                     </a>
-                                </span>                                  
+                                </span>
                                 <span><a href="https://instagram.com/cact_lanzarote" target="_blank" ><i class="fa-brands fa-instagram"></i></a></span>
                                 <span class="hero-border"></span>
                             </div>
@@ -439,7 +439,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="td-hero-thumb mb-30 p-relative">
-                            <img class="w-100" src="assets/img/hero/thumb-angel.png" alt="Ángel León">
+                            <img class="w-100" src="assets/img/hero/thumb-angel2.png" alt="Ángel León">
                         </div>
                     </div>
                 </div>
@@ -466,7 +466,7 @@ nuevos métodos para aprovechar
 productos marinos.. Una conversación íntima con la periodista Ángeles Blanco, rodeados por la cueva, la roca y el eco de las ideas.</p>
                             <p>Si las especies únicas merecen ser protegidas, las historias irrepetibles merecen ser contadas.</p>
                         </div>
-                        <div class="td-about-thumb-wrap bg-position p-relative text-center">   
+                        <div class="td-about-thumb-wrap bg-position p-relative text-center">
                             <a href="https://www.mitele.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-1-40_015546928/player/" target="_blank">
                                 <img class="" src="assets/img/banner/banner-gemma-mengual.gif" alt="Conoce la histora de Gemma Mengual">
                             </a>
@@ -534,7 +534,7 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                         <span class="subtitle">Dirección</span>
                                         <p>LZ 204, Parcela 109, Carretera Arrieta - Órzola S/N Lanzarote, LZ-204, 109, 35542 Punta Mujeres, Las Palmas</p>
                                     </div>
-                                </div>                                
+                                </div>
                                 <div class="td-venue-info mb-25">
                                     <span class="td-venue-info-icon">
                                         <i class="fa-regular fa-ticket"></i>
@@ -542,7 +542,7 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                     <div>
                                         <span class="subtitle">Entrada</span>
                                         <p>Gratuita (con reserva)</p>
-                                    </div>                                 
+                                    </div>
                                 </div>
                                 <div class="td-venue-info">
                                     <span class="td-venue-info-icon">
@@ -551,8 +551,8 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                     <div>
                                         <span class="subtitle">Presenta</span>
                                         <p>Ángeles Blanco</p>
-                                    </div>                                 
-                                </div>                               
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -608,7 +608,7 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
+                                                        </svg>
                                                     </span>
                                                 </a>
                                             </div>
@@ -645,7 +645,7 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
+                                                        </svg>
                                                     </span>
                                                 </a>
                                             </div>
@@ -682,7 +682,7 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
+                                                        </svg>
                                                     </span>
                                                 </a>
                                             </div>
@@ -730,8 +730,8 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                                 </a>
                                             </div>
                                             </div>
-          
-                                    
+
+
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
@@ -754,7 +754,7 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
-                                                        </svg> 
+                                                        </svg>
                                                     </span>
                                                 </a>
                                             </div>
@@ -825,7 +825,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                                 <img src="assets/img/team/angeles_blanco.png" alt="Ángeles Blanco">
                             </div>
                         </div>
-                    </div>                    
+                    </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
@@ -869,7 +869,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                                 <img src="assets/img/team/elsa_punset.png" alt="Elsa Punset">
                             </div>
                         </div>
-                    </div>              
+                    </div>
                 </div>
             </div>
         </div>
@@ -1042,7 +1042,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                                                     <path d="M16.3783 0.111328H19.3942L12.8054 7.64181L20.5565 17.8891H14.4875L9.73399 11.6742L4.2949 17.8891H1.27723L8.32453 9.83441L0.888855 0.111328H7.11199L11.4087 5.79201L16.3783 0.111328ZM15.3199 16.084H16.991L6.20396 1.82164H4.41068L15.3199 16.084Z" fill="currentColor" />
                                                 </svg>
                                             </a>
-                                        </span>                                  
+                                        </span>
                                         <span><a href="http://pinterest.com/cactlanzarote" target="_blank" ><i class="fa-brands fa-pinterest"></i></a></span>
                                     </div>
                                 </div>
@@ -1125,7 +1125,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
               isValid = false;
           }
 
-        
+
 
           // Validate privacy policy
           if (!$('#privacy_policy').is(':checked')) {
