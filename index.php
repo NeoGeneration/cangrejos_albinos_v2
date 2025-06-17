@@ -602,6 +602,7 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                             </div>
                                             <p class="mb-25 para">Cocinero visionario, investigador del mar y chef con tres estrellas Michelin. Hablaremos de gastronomía, sostenibilidad marina y creatividad sin límites.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
+                                                <!--
                                                 <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="entradas-angel-leon.html">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
                                                     <span class="td-arrow-angle">
@@ -611,6 +612,10 @@ productos marinos.. Una conversación íntima con la periodista Ángeles Blanco,
                                                         </svg>
                                                     </span>
                                                 </a>
+                                                -->
+                                                <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #F1AB41; cursor: not-allowed;">
+                                                    <span class="mr10 td-text d-inline-block mr-5">Aforo completo</span>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
