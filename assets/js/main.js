@@ -25,8 +25,8 @@
 	});
 
 	if ($('.td-header-height').length > 0) {
-		var headerHeight = document.querySelector(".td-header-height");      
-		var setHeaderHeight = headerHeight.offsetHeight;	
+		var headerHeight = document.querySelector(".td-header-height");
+		var setHeaderHeight = headerHeight.offsetHeight;
 		$(".td-header-height").each(function () {
 			$(this).css({
 				'height' : $(this).height()
@@ -72,8 +72,8 @@
 	});
 
 	if ($('.td-header-height').length > 0) {
-		var headerHeight = document.querySelector(".td-header-height");      
-		var setHeaderHeight = headerHeight.offsetHeight;	
+		var headerHeight = document.querySelector(".td-header-height");
+		var setHeaderHeight = headerHeight.offsetHeight;
 		$(".td-header-height").each(function () {
 			$(this).css({
 				'height' : $(this).height()
@@ -281,17 +281,17 @@
 	/*=============================================
 		=        countdown	   =
 	=============================================*/
-    function makeTimer() { 
+    function makeTimer() {
 		//var endTime = new Date("28 june 2025 20:30:00 GMT+01:00");
-		var endTime = new Date("2025-06-28T20:30:00+01:00");
+		var endTime = new Date("2025-09-06T20:30:00+01:00");
 		endTime = (Date.parse(endTime) / 1000);
 		var now = new Date();
 		now = (Date.parse(now) / 1000);
 		var timeLeft = endTime - now;
-		var days = Math.floor(timeLeft / 86400); 
+		var days = Math.floor(timeLeft / 86400);
 		var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
 		var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
-		var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));  
+		var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
 		if (hours < "10") { hours = "0" + hours; }
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
@@ -319,7 +319,7 @@
 		  disableOnInteraction: true,
 		},
 	});
-	
+
 	/*=============================================
 		=     td-hero-3-zoom	   =
 	=============================================*/
@@ -397,7 +397,7 @@
 
 		var gridViewBtn = $(".grid-view");
 		var	listViewBTn = $(".list-view");
-		
+
 		$(gridViewBtn).on("click", function () {
 			$(this)
 			.addClass("active")
@@ -407,7 +407,7 @@
 			.removeClass("active");
 			$(".list-card").removeClass("list-card-open");
 		});
-	
+
 		$(listViewBTn).on("click", function () {
 			$(this)
 			.addClass("active")
@@ -420,7 +420,7 @@
 
 
 
-		
+
 	/*=============================================
 		=        productTabMarker	      =
 	=============================================*/
@@ -435,27 +435,27 @@
 			marker.style.left = e.offsetLeft+"px";
 			marker.style.width = e.offsetWidth+"px";
 		}
-			
-		
+
+
 		item.forEach(link => {
 			link.addEventListener('click', (e)=>{
 			indicator(e.target);
 			});
 		});
-		
+
 		var activeNav = $('.nav-link.active');
 		var activewidth = $(activeNav).width();
 		var activePadLeft = parseFloat($(activeNav).css('padding-left'));
 		var activePadRight = parseFloat($(activeNav).css('padding-right'));
 		var totalWidth = activewidth + activePadLeft + activePadRight;
-		
+
 		var precedingAnchorWidth = anchorWidthCounter();
-		
-		
+
+
 		$(marker).css('display','block');
-		
+
 		$(marker).css('width', totalWidth);
-		
+
 		function anchorWidthCounter() {
 			var anchorWidths = 0;
 			var a;
@@ -470,17 +470,17 @@
 			// Break out of the each function.
 			return false;
 			}
-		
+
 			a = $(elem).find('button');
 			aWidth = a.width();
 			aPadLeft = parseFloat(a.css('padding-left'));
 			aPadRight = parseFloat(a.css('padding-right'));
 			aTotalWidth = aWidth + aPadLeft + aPadRight;
-		
+
 			anchorWidths = anchorWidths + aTotalWidth;
 
 			});
-		
+
 			return anchorWidths;
 		}
 		}
@@ -491,33 +491,33 @@
 	document.addEventListener('DOMContentLoaded', function() {
 		// Selecciona todos los enlaces que comienzan con #
 		const menuLinks = document.querySelectorAll('a[href^="#"]');
-		
+
 		menuLinks.forEach(link => {
 			link.addEventListener('click', function(e) {
 				// Previene el comportamiento predeterminado del enlace
 				e.preventDefault();
-				
+
 				// Obtiene el destino del enlace
 				const targetId = this.getAttribute('href');
 				const targetSection = document.querySelector(targetId);
-				
+
 				// Si existe el elemento de destino, hace el scroll suave
 				if (targetSection) {
 					// Calcula la posición del elemento
 					const offsetTop = targetSection.offsetTop - 100; // 100px de offset para el menú fijo
-					
+
 					// Realiza el scroll suave
 					window.scrollTo({
 						top: offsetTop,
 						behavior: 'smooth'
 					});
-					
+
 					// Actualiza la URL pero sin saltar a la sección (opcional)
 					history.pushState(null, null, targetId);
-					
+
 						// Actualiza los elementos activos en ambos menús (desktop y móvil)
 					updateActiveMenuItems(targetId);
-					
+
 					// Cierra el menú móvil si está abierto
 					if ($('body').hasClass('mobile-menu-visible')) {
 						$('body').removeClass('mobile-menu-visible');
@@ -525,55 +525,55 @@
 				}
 			});
 		});
-		
+
 		// También para los enlaces en el menú móvil
 		$('.tdmobile__menu .navigation a').on('click', function() {
 			$('body').removeClass('mobile-menu-visible');
 		});
-		
+
 		// Función para actualizar los elementos activos en ambos menús
 		function updateActiveMenuItems(activeId) {
 			// Quita la clase active de todos los items en el menú desktop
 			document.querySelectorAll('.tdmenu__navbar-wrap li').forEach(item => {
 				item.classList.remove('active');
 			});
-			
+
 			// Quita la clase active de todos los items en el menú móvil
 			document.querySelectorAll('.tdmobile__menu-outer li').forEach(item => {
 				item.classList.remove('active');
 			});
-			
+
 			// Añade la clase active al link correspondiente en el menú desktop
 			const activeDesktopLink = document.querySelector(`.tdmenu__navbar-wrap li a[href="${activeId}"]`);
 			if (activeDesktopLink) {
 				activeDesktopLink.parentElement.classList.add('active');
 			}
-			
+
 			// Añade la clase active al link correspondiente en el menú móvil
 			const activeMobileLink = document.querySelector(`.tdmobile__menu-outer li a[href="${activeId}"]`);
 			if (activeMobileLink) {
 				activeMobileLink.parentElement.classList.add('active');
 			}
 		}
-		
+
 		// Añade la clase activa al link del menú según la sección visible
 		function highlightActiveMenuItem() {
 			const scrollPosition = window.scrollY;
-			
+
 			// Recorre todas las secciones con ID
 			const sections = document.querySelectorAll('div[id]');
 			sections.forEach(section => {
 				const sectionTop = section.offsetTop - 150;
 				const sectionHeight = section.offsetHeight;
 				const sectionId = '#' + section.getAttribute('id');
-				
+
 				if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
 					// Actualiza los elementos activos en ambos menús
 					updateActiveMenuItems(sectionId);
 				}
 			});
 		}
-		
+
 		// Ejecuta la función al cargar y al hacer scroll
 		window.addEventListener('scroll', highlightActiveMenuItem);
 		window.addEventListener('load', highlightActiveMenuItem);
