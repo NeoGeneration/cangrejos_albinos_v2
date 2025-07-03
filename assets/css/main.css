@@ -877,7 +877,7 @@ textarea {
 .td-breadcrumb-title {
   font-weight: 700;
   font-size: 40px;
-  
+
   color: var(--td-common-white);
 }
 @media (max-width: 575px) {
@@ -1019,7 +1019,7 @@ textarea {
   font-weight: 600;
   font-size: 36px;
   line-height: 125%;
-  
+
   color: #141418;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -1061,7 +1061,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 400;
   font-size: 16px;
-  
+
   padding-right: 50px;
   color: var(--td-grey-1);
 }
@@ -1072,7 +1072,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 400;
   font-size: 16px;
-  
+
   color: var(--td-grey-1);
 }
 .tdmobile__search button {
@@ -1259,7 +1259,7 @@ textarea {
 .tdmobile__menu .navigation ul li ul li > a {
   font-size: 16px;
   margin-left: 20px;
-  
+
 }
 .tdmobile__menu .navigation:last-child {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -1896,7 +1896,7 @@ textarea {
 }
 .cartmini__top-title h4 {
   font-size: 16px;
-  
+
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -2047,7 +2047,7 @@ textarea {
   text-align: center;
   padding: 10px 30px;
   position: relative;
-  
+
   z-index: 1;
   overflow: hidden;
   letter-spacing: -0.02em;
@@ -2067,7 +2067,7 @@ textarea {
   text-align: center;
   padding: 10px 30px;
   font-size: 15px;
-  
+
   border-radius: 12px;
 }
 .cartmini-btn-border:hover {
@@ -2559,7 +2559,7 @@ textarea {
   font-weight: 600;
   font-size: 20px;
   line-height: 150%;
-  
+
 }
 .td-about-item:hover .td-about-icon {
   color: var(--td-theme-primary);
@@ -3358,6 +3358,30 @@ textarea {
   .td-hero-content {
     padding-left: 0;
     padding-top: 0;
+  }
+}
+@media (max-width: 575px) {
+  .td-hero-text-shape {
+    width: 100%;
+    height:300px; /* Ajusta este valor según lo que quieras mostrar */
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .td-hero-content {
+    padding-bottom: 0 !important;
+  }
+  .td-hero-text-shape svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* Sube el SVG para mostrar solo la banda amarilla */
+    margin-top: 80px; /* Ajusta este valor hasta que la banda quede bien */
+  }
+  .td-hero-spacing {
+    padding-bottom: 0 !important;
   }
 }
 .td-hero-subtitle {
@@ -4226,7 +4250,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-size: 18px;
   line-height: 28px;
-  
+
   color: var(--td-common-white);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -4586,7 +4610,7 @@ textarea {
 .td-schedule-3-user-wrap .position {
   font-weight: 400;
   font-size: 12px;
-  
+
   color: var(--td-grey-1);
 }
 .td-schedule-3-content {
@@ -4607,7 +4631,7 @@ textarea {
 .td-schedule-3-content .para {
   font-family: var(--td-ff-poppins);
   line-height: 28px;
-  
+
   color: var(--td-grey-1);
 }
 .td-schedule-3-btn .dvdr {
@@ -4753,7 +4777,7 @@ textarea {
   font-weight: 400;
   font-size: 14px;
   color: var(--td-grey-1);
-  
+
 }
 .td-schedule-details-form-quantity .price {
   font-weight: 700;
@@ -4882,7 +4906,7 @@ textarea {
 .td-schedule-team-name .td-title {
   font-weight: 600;
   font-size: 18px;
-  
+
   color: var(--td-common-black);
   margin-bottom: 0;
 }
@@ -4893,7 +4917,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 400;
   font-size: 15px;
-  
+
   color: var(--td-grey-1);
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -4988,7 +5012,7 @@ textarea {
 .td-tickets-details span {
   font-weight: 600;
   font-size: 22px;
-  
+
   color: var(--td-common-black);
   display: inline-block;
   margin-bottom: 15px;
@@ -5038,7 +5062,7 @@ textarea {
   display: block;
   font-weight: 700;
   font-size: 24px;
-  
+
   color: var(--td-common-black);
 }
 
@@ -5063,7 +5087,7 @@ textarea {
   font-weight: 500;
   font-size: 22px;
   line-height: 127%;
-  
+
   color: var(--td-common-black-2);
 }
 .td-blog-title-sm {
@@ -5080,7 +5104,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 16px;
-  
+
   color: var(--td-grey-1);
 }
 .td-blog-date span.date svg {
@@ -5180,7 +5204,7 @@ textarea {
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-  
+
 }
 .td-blog-post-title a:hover {
   color: var(--td-theme-secondary);
@@ -5189,7 +5213,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 15px;
-  
+
   color: var(--td-grey-1);
 }
 .td-blog-post-date i {
@@ -5206,7 +5230,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 14px;
-  
+
   background: #ffe9f7;
   color: var(--td-theme-secondary);
   border-radius: 4px;
@@ -5567,7 +5591,7 @@ textarea {
 .td-countdown-3-location {
   font-size: 18px;
   line-height: 24px;
-  
+
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--td-common-white);
@@ -5621,7 +5645,7 @@ textarea {
 .td-counter-2-subtitle {
   font-weight: 500;
   font-size: 16px;
-  
+
   color: var(--td-grey-1);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -5651,7 +5675,7 @@ textarea {
 .td-pricing-2-price .subtitle {
   font-weight: 500;
   font-size: 16px;
-  
+
   color: var(--td-common-white);
   display: block;
 }
@@ -5935,7 +5959,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   line-height: 26px;
-  
+
   color: var(--td-common-white);
 }
 .td-testimonial-3-qoute {
@@ -5960,7 +5984,7 @@ textarea {
 .td-testimonial-3-avatar .td-position {
   font-family: var(--td-ff-poppins);
   font-size: 14px;
-  
+
   color: var(--td-common-white);
   line-height: 1;
 }
@@ -6083,19 +6107,19 @@ textarea {
 }
 .td-venue-subtitle {
   font-weight: 500;
-  
+
   color: var(--td-theme-primary);
 }
 .td-venue-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 150%;
-  
+
 }
 .td-venue-text {
   font-family: var(--td-ff-poppins);
   line-height: 30px;
-  
+
   color: var(--td-grey-1);
 }
 .td-venue-info {
@@ -6111,7 +6135,7 @@ textarea {
 .td-venue-info .subtitle {
   font-weight: 500;
   font-size: 14px;
-  
+
   color: var(--td-common-black);
   display: block;
   line-height: 1.3;
@@ -6147,7 +6171,7 @@ textarea {
 .td-product-left-title {
   font-weight: 600;
   font-size: 20px;
-  
+
   margin-bottom: 0;
 }
 .td-product-left-border {
@@ -6171,7 +6195,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 17px;
-  
+
   color: var(--td-grey-1);
   display: flex;
   align-items: center;
@@ -6301,7 +6325,7 @@ textarea {
 .td-product-widget-title {
   font-weight: 500;
   font-size: 14px;
-  
+
   color: var(--td-common-black);
 }
 .td-product-widget-rating {
@@ -6311,7 +6335,7 @@ textarea {
 .td-product-widget-price {
   font-weight: 600;
   font-size: 12px;
-  
+
   color: var(--td-common-black);
 }
 @media (max-width: 575px) {
@@ -6344,7 +6368,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 15px;
-  
+
   color: var(--td-common-black);
   border: none;
   padding: 0;
@@ -6363,7 +6387,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 15px;
-  
+
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -6371,7 +6395,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 16px;
-  
+
   color: var(--td-common-black);
 }
 .td-product-thumb {
@@ -6389,11 +6413,11 @@ textarea {
 .td-product-price {
   font-weight: 600;
   font-size: 15px;
-  
+
   color: var(--td-common-black);
 }
 .td-product-title {
-  
+
   color: var(--td-grey-1);
   font-size: 16px;
   font-weight: 400;
@@ -6450,7 +6474,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 24px;
-  
+
   color: var(--td-common-black);
   border-radius: 100px;
   width: 50px;
@@ -6530,7 +6554,7 @@ textarea {
   font-weight: 600;
   font-size: 22px;
   line-height: 155%;
-  
+
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .td-product-details-title br {
@@ -6583,13 +6607,13 @@ textarea {
 .td-product-details-price-wrapper span {
   font-weight: 700;
   font-size: 24px;
-  
+
   margin-right: 14px;
 }
 .td-product-details-price-wrapper span.old-price {
   font-weight: 500;
   font-size: 14px;
-  
+
   text-decoration: line-through;
   color: var(--td-grey-1);
 }
@@ -6787,7 +6811,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 15px;
-  
+
   color: var(--td-grey-1);
   margin-bottom: 10px;
 }
@@ -6870,7 +6894,7 @@ textarea {
 .td-product-details-tab-nav .nav-tabs .nav-link {
   font-weight: 500;
   font-size: 18px;
-  
+
   color: #9d9fa8;
   position: relative;
   padding: 0;
@@ -6906,7 +6930,7 @@ textarea {
 .td-product-details-desc-wrapper > p {
   font-family: var(--td-ff-poppins);
   line-height: 28px;
-  
+
   color: var(--td-grey-1);
 }
 .td-product-details-additional-info-title {
@@ -7029,7 +7053,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 400;
   font-size: 16px;
-  
+
   color: var(--td-grey-1);
 }
 .td-contact-form-box .td-input:focus {
@@ -7039,7 +7063,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 400;
   font-size: 16px;
-  
+
   color: var(--td-grey-1);
 }
 .td-contact-form-box .td-input.message {
@@ -7103,12 +7127,12 @@ textarea {
   font-weight: 500;
   font-size: 20px;
   line-height: 180%;
-  
+
 }
 .td-contact-info > p {
   font-family: var(--td-ff-poppins);
   line-height: 30px;
-  
+
   color: var(--td-grey-1);
 }
 .td-contact-info-list ul li {
@@ -7124,7 +7148,7 @@ textarea {
 .td-contact-info-list ul li .address span {
   font-weight: 500;
   font-size: 14px;
-  
+
   color: var(--td-common-black);
   display: block;
   line-height: 1.2;
@@ -7191,7 +7215,7 @@ textarea {
 }
 .td-postbox-content p {
   font-family: var(--td-ff-poppins);
-  
+
   color: var(--td-grey-1);
   line-height: 28px;
 }
@@ -7240,7 +7264,7 @@ textarea {
 .td-postbox-navigation .navigation-btn {
   font-weight: 600;
   font-size: 18px;
-  
+
   color: var(--td-common-black);
 }
 .td-postbox-navigation .navigation-btn a:hover {
@@ -7253,7 +7277,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   font-size: 15px;
-  
+
   color: var(--td-grey-1);
 }
 .td-postbox-navigation .td-date i {
@@ -7266,7 +7290,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 500;
   line-height: 26px;
-  
+
   color: var(--td-grey-1);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -7288,7 +7312,7 @@ textarea {
 }
 .td-postbox-form p {
   font-family: var(--td-ff-poppins);
-  
+
   color: var(--td-grey-1);
   margin-bottom: 22px;
 }
@@ -7296,7 +7320,7 @@ textarea {
   font-family: var(--td-ff-poppins);
   font-weight: 700;
   font-size: 24px;
-  
+
 }
 .td-postbox-form .td-contact-form-box {
   padding: 0;
@@ -7343,12 +7367,12 @@ textarea {
   font-weight: 600;
   font-size: 30px;
   line-height: 133%;
-  
+
 }
 .td-faq-para {
   font-family: var(--td-ff-poppins);
   line-height: 28px;
-  
+
   color: var(--td-grey-1);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -7375,7 +7399,7 @@ textarea {
   font-family: var(--td-ff-body);
   font-weight: 500;
   font-size: 20px;
-  
+
   color: var(--td-common-black);
   padding: 29px 0;
   background: none;
