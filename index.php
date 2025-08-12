@@ -412,7 +412,7 @@
                                 </ul>
                             </div>
 
-
+                            <!-- Reservar Entradas
                             <a class="td-btn-white td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="entradas-inaki-gabilondo.html">
                                 <span class="mr10 td-text d-inline-block mr-5">Reservar Entradas</span>
                                 <span class="td-arrow-angle">
@@ -423,11 +423,14 @@
                                 </span>
                             </a>
 
-                            <!-- Aforo Completo
+                            -->
+
+
+                            <!-- Aforo Completo -->
                             <a class="td-btn-white td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="#" style="cursor: not-allowed;">
-                                <span class="mr10 td-text d-inline-block mr-5">Finalizado</span>
+                                <span class="mr10 td-text d-inline-block mr-5">Aforo completo</span>
                             </a>
--->
+                            <!-- Aforo Completo  -->
 
                             <div class="td-hero-social d-flex align-items-center">
                                 <span>Síguenos en:</span>
@@ -445,6 +448,7 @@
                                 <span><a href="https://instagram.com/cact_lanzarote" target="_blank" ><i class="fa-brands fa-instagram"></i></a></span>
                                 <span class="hero-border"></span>
                             </div>
+
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-12">
@@ -653,6 +657,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             </div>
                                             <p class="mb-25 para">Periodista. Locutor de radio en Cadena Ser y director de Noticias Cuatro (2005-2010).</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
+                                                <!--
                                                 <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="entradas-inaki-gabilondo.html">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
                                                     <span class="td-arrow-angle">
@@ -662,6 +667,10 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                                         </svg>
                                                     </span>
                                                 </a>
+                                                -->
+                                                <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #F1AB41; cursor: not-allowed;">
+                                                    <span class="mr10 td-text d-inline-block mr-5">Aforo completo</span>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
