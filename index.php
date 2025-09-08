@@ -398,10 +398,10 @@
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-8">
                         <div class="td-hero-content p-relative mb-30 pl-165">
-                            <span class="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Sábado, 6 de septiembre de 2025 – 20:30h</span>
-                            <h2 class="td-hero-title wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.3s">La palabra que queda</h2>
-                            <p class="td-hero-location wow mb-10 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">con Ángeles Blanco e Iñaki Gabilondo</p>
-                            <p class="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">Tercer encuentro del ciclo cultural "Cangrejos Albinos"</p>
+                            <span class="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Sábado, 25 de octubre de 2025 – 20:30h</span>
+                            <h2 class="td-hero-title wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.3s">Educar las emociones</h2>
+                            <p class="td-hero-location wow mb-10 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">con Ángeles Blanco y Elsa Punset</p>
+                            <p class="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">Cuarto encuentro del ciclo cultural "Cangrejos Albinos"</p>
 
                             <div class="td-hero-countdown mb-40 wow td-animetion-right" data-wow-duration="1.5s" data-wow-delay="0.7s">
                                 <ul class="deal-counter ml0-md" id="timer">
@@ -453,7 +453,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="td-hero-thumb mb-30 p-relative">
-                            <img class="w-100" src="assets/img/hero/thumb-inaki.png" alt="Iñaki Gabilondo">
+                            <img class="w-100" src="assets/img/hero/thumb-elsa.png" alt="Elsa Punset">
                         </div>
                     </div>
                 </div>
@@ -469,12 +469,14 @@
                         <div class="td-about-title-wrap text-center mb-30  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
                             <!--<span class="td-section-subtitle mb-30">Sobre este evento</span>-->
                             <h2 class="td-section-title">Una experiencia inspiradora, en un lugar único.</h2>
-                            <p>El Auditorio de Jameos del Agua acoge el segundo episodio de Cangrejos Albinos, un ciclo de charlas con voces únicas que inspiran, conmueven y nos conectan con lo más profundo de la cultura, el pensamiento y la sostenibilidad.</p>
-                            <p>En este nuevo encuentro, la palabra toma el centro de la escena.
+                            <p>El Auditorio de Jameos del Agua acoge el cuarto episodio de Cangrejos Albinos, un ciclo de charlas con voces únicas que inspiran, conmueven y nos conectan con lo más profundo de la cultura, el pensamiento y la sostenibilidad.</p>
+                            <!--
+                            p>En este nuevo encuentro, la palabra toma el centro de la escena.
 Nos adentramos en la mirada lúcida y reflexiva de Iñaki Gabilondo, referente indiscutible del periodismo español, maestro de la crónica sosegada y la inteligencia crítica.
 
 Una conversación íntima conducida por Ángeles Blanco, en la que exploraremos el poder de la información, el oficio de contar lo que importa y la necesidad —más viva que nunca— de pensar en voz alta.
 Rodeados por la cueva, la roca y el eco de las ideas.</p>
+                -->
                             <p>Si las especies únicas merecen ser protegidas, las historias irrepetibles merecen ser contadas.</p>
                         </div>
                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
@@ -525,7 +527,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </span>
                                     <div>
                                         <span class="subtitle">Fecha</span>
-                                        <p>Sábado, 6 de septiembre de 2025</p>
+                                        <p>Sábado, 25 de octubre de 2025</p>
                                     </div>
                                 </div>
                                 <div class="td-venue-info mb-25">
@@ -635,6 +637,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                             </div>
     -->
                             <!-- Iñaki Gabilondo -->
+                             <!--
                             <div class="td-schedule-3-wrap mb-30">
                                 <div class="row align-items-center">
                                     <div class="col-xl-4 col-lg-5">
@@ -657,7 +660,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             </div>
                                             <p class="mb-25 para">Periodista. Locutor de radio en Cadena Ser y director de Noticias Cuatro (2005-2010).</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <!--
+
                                                 <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="entradas-inaki-gabilondo.html">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
                                                     <span class="td-arrow-angle">
@@ -667,7 +670,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                                         </svg>
                                                     </span>
                                                 </a>
-                                                -->
+
                                                 <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #F1AB41; cursor: not-allowed;">
                                                     <span class="mr10 td-text d-inline-block mr-5">Aforo completo</span>
                                                 </span>
@@ -676,6 +679,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </div>
                                 </div>
                             </div>
+    -->
                             <!-- Elsa Punset -->
                             <div class="td-schedule-3-wrap mb-30">
                                 <div class="row align-items-center">
@@ -790,8 +794,8 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </div>
                                 </div>
                             </div>
- <!-- Angel-->
- <div class="td-schedule-3-wrap mb-30">
+                            <!-- Angel-->
+                            <div class="td-schedule-3-wrap mb-30">
                                 <div class="row align-items-center">
                                     <div class="col-xl-4 col-lg-5">
                                     <div class="td-about-thumb-wrap bg-position p-relative text-center">
@@ -840,8 +844,62 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <!-- Iñaki-->
+                            <div class="td-schedule-3-wrap mb-30">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-4 col-lg-5">
+                                    <div class="td-about-thumb-wrap bg-position p-relative text-center">
+                                        <div class="td-schedule-3-thumb p-relative d-about-thumb">
+                                            <img class="w-100" src="assets/img/schedule/inaki_gabilondo.png" alt="Iñaki Gabilondo">
+                                        </div>
 
+                                        <div class="td-about-video-inner text-center">
+                                            <!--
+                                                <a class="td-video-play td-pulse-border" href="#">
+                                                    <span class="p-relative z-index-11">
+                                                        <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M19.8571 12L0.571429 23.1346L0.57143 0.865352L19.8571 12Z" fill="currentColor" />
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            -->
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-8 col-lg-7">
+                                        <div class="td-schedule-3-content">
+                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="#">Iñaki Gabilondo</a><em>La palabra que queda</em></h2>
+                                            <div class="td-schedule-3-destination mb-10">
+                                                <span class="mr-25">
+                                                    <i class="flaticon-time"></i>
+                                                    Sábado, 6 de septiembre, 20:30h
+                                                </span>
+                                                <span>
+                                                    <i class="flaticon-gps"></i>
+                                                    Auditorio Jameos del Agua, Lanzarote
+                                                </span>
+                                            </div>
+                                            <p class="mb-25 para">Periodista. Locutor de radio en Cadena Ser y director de Noticias Cuatro (2005-2010).</p>
+                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
+                                                <!--
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="#">
+                                                    <span class="mr10 td-text d-inline-block mr-5">Ver el evento completo</span>
+                                                    <span class="td-arrow-angle">
+                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
+                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                                -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Elsa-->
                     </div>
                 </div>
             </div>
