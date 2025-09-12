@@ -453,7 +453,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="td-hero-thumb mb-30 p-relative">
-                            <img class="w-100" src="assets/img/hero/thumb-elsa.png" alt="Elsa Punset">
+                            <img class="w-100" src="assets/img/hero/thumb-elsa2.png" alt="Elsa Punset">
                         </div>
                     </div>
                 </div>
@@ -480,8 +480,8 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                             <p>Si las especies únicas merecen ser protegidas, las historias irrepetibles merecen ser contadas.</p>
                         </div>
                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
-                            <a href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-2-40_016000992/player/" target="_blank">
-                                <img class="" src="assets/img/banner/banner-angel-leon.gif" alt="Conoce la histora de Ángel León">
+                            <a href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-3-40_016534259/player/" target="_blank">
+                                <img class="" src="assets/img/banner/banner-inaki.gif" alt="Conoce la historia de Iñaki Gabilondo">
                             </a>
                         </div>
 
@@ -850,19 +850,19 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     <div class="col-xl-4 col-lg-5">
                                     <div class="td-about-thumb-wrap bg-position p-relative text-center">
                                         <div class="td-schedule-3-thumb p-relative d-about-thumb">
-                                            <img class="w-100" src="assets/img/schedule/inaki_gabilondo.png" alt="Iñaki Gabilondo">
+                                            <img class="w-100" src="assets/img/schedule/inaki_gabilondo2.png" alt="Iñaki Gabilondo">
                                         </div>
 
                                         <div class="td-about-video-inner text-center">
-                                            <!--
-                                                <a class="td-video-play td-pulse-border" href="#">
+
+                                                <a class="td-video-play td-pulse-border" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-3-40_016534259/player/">
                                                     <span class="p-relative z-index-11">
                                                         <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M19.8571 12L0.571429 23.1346L0.57143 0.865352L19.8571 12Z" fill="currentColor" />
                                                         </svg>
                                                     </span>
                                                 </a>
-                                            -->
+
                                             </div>
 
                                         </div>
@@ -882,8 +882,8 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             </div>
                                             <p class="mb-25 para">Periodista. Locutor de radio en Cadena Ser y director de Noticias Cuatro (2005-2010).</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <!--
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="#">
+
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-3-40_016534259/player/">
                                                     <span class="mr10 td-text d-inline-block mr-5">Ver el evento completo</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -892,7 +892,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                                         </svg>
                                                     </span>
                                                 </a>
-                                                -->
+
                                             </div>
                                         </div>
                                     </div>
