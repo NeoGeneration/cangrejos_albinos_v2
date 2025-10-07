@@ -507,6 +507,49 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
         </div>
         <!-- td-about-area-end -->
 
+        <!-- premios-ivoox-section-start -->
+        <div class="premios-ivoox-section py-50">
+            <div class="container">
+                <div class="premios-ivoox-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="premios-ivoox-wrapper">
+                        <div class="row align-items-center gx-2">
+                            <!-- Columna 1: Logo Premios iVoox -->
+                            <div class="col-lg-3 col-md-3 col-6 mb-3 mb-lg-0">
+                                <div class="premios-logo-column">
+                                    <img src="assets/img/cropped-logo_premiosiVoox.png" alt="Premios iVoox 2025" class="premios-logo-img">
+                                </div>
+                            </div>
+
+                            <!-- Columna 2: Logo Cangrejos -->
+                            <div class="col-lg-2 col-md-2 col-6 mb-3 mb-lg-0">
+                                <div class="premios-badge-column">
+                                    <img src="assets/img/cangrejos-albinos-voox.png" alt="Cangrejos Albinos Logo" class="premios-badge-square">
+                                </div>
+                            </div>
+
+                            <!-- Columna 3: Contenido (Título + Categoría + Hashtag + URL + Botón) -->
+                            <div class="col-lg-7 col-md-7 col-12 mb-3 mb-lg-0">
+                                <div class="premios-content-right">
+                                    <h2 class="premios-title mb-3">Cangrejos Albinos <span class="premios-subtitle">(Ciclo de encuentros)</span></h2>
+                                    <p class="premios-category mb-8">Actualidad y sociedad</p>
+                                    <div class="premios-hashtag-inline mb-8">
+                                        <span class="premios-tag">#PremiosiVoox2025</span>
+                                        <span class="premios-separator">·</span>
+                                        <span class="premios-url">premios.ivoox.com</span>
+                                    </div>
+                                    <p class="premios-deadline mb-8">Votación hasta el 3 de noviembre de 2025</p>
+                                    <a href="https://go.ivoox.com/wv/premios25" target="_blank" rel="noopener noreferrer" class="premios-btn">
+                                        VOTA <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- premios-ivoox-section-end -->
+
         <!-- td-venue-area-start -->
         <div id="evento" class="td-venue-area pt-80 pb-60">
             <div class="container">
