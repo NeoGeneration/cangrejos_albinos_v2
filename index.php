@@ -403,7 +403,9 @@
                             <p class="td-hero-location wow mb-10 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">con Ángeles Blanco y Elsa Punset</p>
                             <p class="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">Cuarto encuentro del ciclo cultural "Cangrejos Albinos"</p>
 
-                            <div class="td-hero-countdown mb-40 wow td-animetion-right" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                           <!-- TIMER
+
+                           <div class="td-hero-countdown mb-40 wow td-animetion-right" data-wow-duration="1.5s" data-wow-delay="0.7s">
                                 <ul class="deal-counter ml0-md" id="timer">
                                     <li class="list-inline-item days mb-20"></li>
                                     <li class="list-inline-item hours  mb-20"></li>
@@ -411,7 +413,7 @@
                                     <li class="list-inline-item seconds  mb-20"></li>
                                 </ul>
                             </div>
-
+                -->
                             <!-- Reservar Entradas
                             <a class="td-btn-white td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="entradas-inaki-gabilondo.html">
                                 <span class="mr10 td-text d-inline-block mr-5">Reservar Entradas</span>
