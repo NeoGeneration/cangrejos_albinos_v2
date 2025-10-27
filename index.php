@@ -555,6 +555,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
         <!-- premios-ivoox-section-end -->
 
         <!-- td-venue-area-start -->
+         <!--
         <div id="evento" class="td-venue-area pt-80 pb-60">
             <div class="container">
                 <div class="row">
@@ -619,6 +620,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                 </div>
             </div>
         </div>
+                -->
         <!-- td-venue-area-end -->
 
 
