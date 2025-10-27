@@ -429,9 +429,11 @@
 
 
                             <!-- Aforo Completo -->
+                             <!--
                             <a class="td-btn-white td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="#" style="cursor: not-allowed;">
                                 <span class="mr10 td-text d-inline-block mr-5">Aforo completo</span>
                             </a>
+                            -->
                             <!-- Aforo Completo  -->
 
                             <div class="td-hero-social d-flex align-items-center">
