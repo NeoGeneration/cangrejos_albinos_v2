@@ -626,6 +626,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
 
     <?php if ($showAgenda): ?>
         <!-- td-schedule-area-start -->
+         <!--
         <div id="agenda" class="td-schedule-area  pt-50 pb-40 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
@@ -639,6 +640,9 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                     <div class="tp-contact-form-wrapper tp-black-bg9  tab-content" id="v-pills-tabContent">
 
                         <div class="tab-pane fade active show" id="v-pills-home1" role="tabpanel" aria-labelledby="v-pills-home1-tab">
+
+    -->
+
                             <!-- Angel Leon
                             <div class="td-schedule-3-wrap mb-30">
                                 <div class="row align-items-center">
@@ -728,6 +732,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                             </div>
     -->
                             <!-- Elsa Punset -->
+                             <!--
                             <div class="td-schedule-3-wrap mb-30">
                                 <div class="row align-items-center">
                                     <div class="col-xl-4 col-lg-5">
@@ -750,6 +755,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             </div>
                                             <p class="mb-25 para">Escritora, divulgadora y filósofa. Experta en educación e inteligencia emocional.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
+    -->
                                                 <!--
                                                 <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="entradas-elsa-punset.html">
                                                     <span class="mr10 td-text d-inline-block mr-5">Reservar Entrada</span>
@@ -761,6 +767,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                                     </span>
                                                 </a>
                                                 -->
+                                                <!--
                                                 <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #F1AB41; cursor: not-allowed;">
                                                     <span class="mr10 td-text d-inline-block mr-5">Aforo completo</span>
                                                 </span>
@@ -769,12 +776,14 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
+    -->
         <!-- td-schedule-area-end -->
 
         <!-- td-schedule-area-start -->
@@ -945,8 +954,65 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Elsa-->
+                            <div class="td-schedule-3-wrap mb-30">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-4 col-lg-5">
+                                    <div class="td-about-thumb-wrap bg-position p-relative text-center">
+                                        <div class="td-schedule-3-thumb p-relative d-about-thumb">
+                                            <img class="w-100" src="assets/img/schedule/elsa_punset2.png" alt="Elsa Punset">
+                                        </div>
+
+                                        <div class="td-about-video-inner text-center">
+
+                                                <a class="td-video-play td-pulse-border" href="#">
+                                                    <span class="p-relative z-index-11">
+                                                        <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M19.8571 12L0.571429 23.1346L0.57143 0.865352L19.8571 12Z" fill="currentColor" />
+                                                        </svg>
+                                                    </span>
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-8 col-lg-7">
+                                        <div class="td-schedule-3-content">
+                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="#">Elsa Punset</a><em>Educar las emociones</em></h2>
+                                            <div class="td-schedule-3-destination mb-10">
+                                                <span class="mr-25">
+                                                    <i class="flaticon-time"></i>
+                                                    Sábado, 25 de octubre, 20:30h
+                                                </span>
+                                                <span>
+                                                    <i class="flaticon-gps"></i>
+                                                    Auditorio Jameos del Agua, Lanzarote
+                                                </span>
+                                            </div>
+                                            <p class="mb-25 para">Escritora, divulgadora y filósofa. Experta en educación e inteligencia emocional.</p>
+                                            <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
+
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="#">
+                                                    <span class="mr10 td-text d-inline-block mr-5">Próximamente - Ver el evento completo</span>
+                                                    <span class="td-arrow-angle">
+                                                        <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
+                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
+                                                        </svg>
+                                                    </span>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Elsa-->
+
                         </div>
-                        <!-- Elsa-->
+
                     </div>
                 </div>
             </div>
