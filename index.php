@@ -484,8 +484,8 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                             <p>Si las especies únicas merecen ser protegidas, las historias irrepetibles merecen ser contadas.</p>
                         </div>
                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
-                            <a href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-3-40_016534259/player/" target="_blank">
-                                <img class="" src="assets/img/banner/banner-inaki.gif" alt="Conoce la historia de Iñaki Gabilondo">
+                            <a href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-4-40_016919236/player/" target="_blank">
+                                <img class="" src="assets/img/banner/banner-elsa.gif" alt="Conoce la historia de Elsa Punset">
                             </a>
                         </div>
 
