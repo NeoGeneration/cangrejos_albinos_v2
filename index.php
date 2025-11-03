@@ -398,10 +398,10 @@
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-8">
                         <div class="td-hero-content p-relative mb-30 pl-165">
-                            <span class="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Sábado, 25 de octubre de 2025 – 20:30h</span>
-                            <h2 class="td-hero-title wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.3s">Educar las emociones</h2>
-                            <p class="td-hero-location wow mb-10 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">con Ángeles Blanco y Elsa Punset</p>
-                            <p class="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">Cuarto encuentro del ciclo cultural "Cangrejos Albinos"</p>
+                            <span class="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Disfruta de las charlas <br>de Cangrejos Albinos</span>
+                            <h2 class="td-hero-title wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.3s">con voces<br>únicas<br>que inspiran</h2>
+                            <p class="td-hero-location wow mb-10 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">&nbsp;</p>
+                            <p class="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">&nbsp;</p>
 
                            <!-- TIMER
 
@@ -457,7 +457,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="td-hero-thumb mb-30 p-relative">
-                            <img class="w-100" src="assets/img/hero/thumb-elsa2.png" alt="Elsa Punset">
+                            <img class="w-100" src="assets/img/hero/thumb-final2.png" alt="Cangrejos Albinos">
                         </div>
                     </div>
                 </div>
