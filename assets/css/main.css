@@ -7765,4 +7765,365 @@ textarea {
   }
 }
 
+/* ==========================================================================
+   EDICIÓN 2026 — Sección de eventos y componentes
+   ========================================================================== */
+
+/* --- Section title treatment --- */
+.edicion-2026-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.edicion-2026-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #F1AB41 0%, #4CAF50 33%, #2196F3 66%, #8A5994 100%);
+}
+
+.edicion-2026-title {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  position: relative;
+  display: inline-block;
+}
+
+.edicion-2026-title::after {
+  content: '2026';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  font-weight: 900;
+  opacity: 0.04;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.edicion-2026-subtitle {
+  font-family: var(--td-ff-poppins);
+  color: var(--td-grey-1);
+  font-size: 17px;
+  font-weight: 400;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Category badges --- */
+.evento-categoria-badge {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 5;
+  padding: 5px 16px;
+  border-radius: 50px;
+  font-family: var(--td-ff-poppins);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #fff;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.td-schedule-3-wrap:hover .evento-categoria-badge {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.evento-cat-cultura {
+  background: rgba(241, 171, 65, 0.9);
+}
+
+.evento-cat-gastronomia {
+  background: rgba(76, 175, 80, 0.9);
+}
+
+.evento-cat-deportes {
+  background: rgba(33, 150, 243, 0.9);
+}
+
+.evento-cat-perfil {
+  background: rgba(138, 89, 148, 0.9);
+}
+
+/* --- Placeholder image overlay for 2026 cards --- */
+.evento-2026-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.evento-2026-thumb::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 14, 43, 0.35) 0%, rgba(0, 14, 43, 0.15) 100%);
+  border-radius: 10px;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+.td-schedule-3-wrap:hover .evento-2026-thumb::after {
+  opacity: 0.6;
+}
+
+.evento-2026-thumb img {
+  object-fit: cover;
+  min-height: 220px;
+}
+
+/* --- Placeholder "?" icon overlay on 2026 images --- */
+.evento-2026-placeholder-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* --- Dynamic button states --- */
+
+/* Próximamente — disabled gray */
+.td-btn-proximamente {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-family: var(--td-ff-poppins);
+  font-weight: 600;
+  font-size: 14px;
+  color: #8a8f98;
+  background: #e8eaed;
+  border: 1px solid #d5d8dc;
+  cursor: not-allowed;
+  pointer-events: none;
+  transition: none;
+  letter-spacing: 0.2px;
+}
+
+.td-btn-proximamente i {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+/* Reservar — vibrant action */
+.td-btn-reservar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-family: var(--td-ff-poppins);
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(135deg, #00b894 0%, #00a381 100%);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 184, 148, 0.3);
+  letter-spacing: 0.2px;
+}
+
+.td-btn-reservar:hover {
+  background: linear-gradient(135deg, #00a381 0%, #009270 100%);
+  box-shadow: 0 4px 16px rgba(0, 184, 148, 0.4);
+  transform: translateY(-1px);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Agotado — amber disabled */
+.td-btn-agotado {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-family: var(--td-ff-poppins);
+  font-weight: 600;
+  font-size: 14px;
+  color: #7a5d00;
+  background: #F1AB41;
+  border: none;
+  cursor: not-allowed;
+  pointer-events: none;
+  letter-spacing: 0.2px;
+}
+
+/* Ver evento — purple action */
+.td-btn-ver-evento {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-family: var(--td-ff-poppins);
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(135deg, #8A5994 0%, #6f4578 100%);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(138, 89, 148, 0.3);
+  letter-spacing: 0.2px;
+}
+
+.td-btn-ver-evento:hover {
+  background: linear-gradient(135deg, #6f4578 0%, #5a3862 100%);
+  box-shadow: 0 4px 16px rgba(138, 89, 148, 0.4);
+  transform: translateY(-1px);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* --- Ponentes: 5 columnas en escritorio --- */
+@media (min-width: 1200px) {
+  .ponentes-row .col-ponente {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+/* --- Edición 2025 historical treatment --- */
+.edicion-2025-section .td-section-title {
+  opacity: 0.85;
+}
+
+/* Mediaset CTA badge */
+.mediaset-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px 10px 18px;
+  border-radius: 50px;
+  background: var(--td-common-black);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: rgba(255, 255, 255, 0.88);
+  font-family: var(--td-ff-poppins);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 14px;
+}
+
+.mediaset-cta:hover {
+  background: #1a1a2e;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+}
+
+.mediaset-cta-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 10px;
+  color: #fff;
+  flex-shrink: 0;
+  transition: background 0.35s ease;
+}
+
+.mediaset-cta:hover .mediaset-cta-play {
+  background: var(--td-theme-secondary);
+}
+
+.mediaset-cta-arrow {
+  font-size: 11px;
+  opacity: 0.45;
+  transition: all 0.35s ease;
+  margin-left: 2px;
+}
+
+.mediaset-cta:hover .mediaset-cta-arrow {
+  opacity: 0.9;
+  transform: translate(2px, -2px);
+}
+
+@media only screen and (max-width: 575px) {
+  .mediaset-cta {
+    font-size: 12px;
+    padding: 8px 18px 8px 14px;
+    gap: 8px;
+  }
+
+  .mediaset-cta-play {
+    width: 22px;
+    height: 22px;
+    font-size: 9px;
+  }
+}
+
+/* --- Responsive --- */
+@media only screen and (max-width: 575px) {
+  .evento-categoria-badge {
+    top: 12px;
+    left: 12px;
+    padding: 4px 12px;
+    font-size: 10px;
+  }
+
+  .evento-2026-placeholder-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 22px;
+  }
+
+  .edicion-2026-title::after {
+    font-size: 3em;
+  }
+
+  .edicion-2026-subtitle {
+    font-size: 15px;
+    padding: 0 15px;
+  }
+
+  .td-btn-proximamente,
+  .td-btn-reservar,
+  .td-btn-agotado,
+  .td-btn-ver-evento {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .edicion-2026-subtitle {
+    font-size: 16px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

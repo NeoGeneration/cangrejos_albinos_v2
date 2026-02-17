@@ -558,20 +558,31 @@
 
 		// Añade la clase activa al link del menú según la sección visible
 		function highlightActiveMenuItem() {
-			const scrollPosition = window.scrollY;
+			const scrollPosition = window.scrollY + 150;
 
-			// Recorre todas las secciones con ID
-			const sections = document.querySelectorAll('div[id]');
-			sections.forEach(section => {
-				const sectionTop = section.offsetTop - 150;
-				const sectionHeight = section.offsetHeight;
-				const sectionId = '#' + section.getAttribute('id');
-
-				if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-					// Actualiza los elementos activos en ambos menús
-					updateActiveMenuItems(sectionId);
-				}
+			// Recoger los IDs del menú y buscar sus secciones en el DOM
+			const menuLinks = document.querySelectorAll('.tdmenu__navbar-wrap li a[href^="#"]');
+			const sectionEntries = [];
+			menuLinks.forEach(link => {
+				const id = link.getAttribute('href').substring(1);
+				if (!id) return;
+				// Usar querySelector para obtener solo la PRIMERA coincidencia de cada ID
+				const el = document.querySelector('#' + CSS.escape(id));
+				if (el) sectionEntries.push({ id: id, top: el.offsetTop });
 			});
+
+			// Ordenar por posición en la página
+			sectionEntries.sort((a, b) => a.top - b.top);
+
+			// Activar la última sección cuyo tope hayamos rebasado
+			let activeId = '#inicio';
+			for (let i = 0; i < sectionEntries.length; i++) {
+				if (scrollPosition >= sectionEntries[i].top) {
+					activeId = '#' + sectionEntries[i].id;
+				}
+			}
+
+			updateActiveMenuItems(activeId);
 		}
 
 		// Ejecuta la función al cargar y al hacer scroll

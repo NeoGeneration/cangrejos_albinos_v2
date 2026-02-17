@@ -217,8 +217,7 @@
                                     <ul class="navigation flex-nowrap">
                                         <li class="active"><a href="#inicio">Inicio</a></li>
                                         <li class=""><a href="#experiencia">Experiencia</a></li>
-                                        <li class=""><a href="#evento">Evento</a></li>
-                                        <li class=""><a href="#agenda">Entradas</a></li>
+                                        <li class=""><a href="#edicion2026">Edición 2026</a></li>
                                         <?php
                                         // Comprobar si estamos en o después del 16 de mayo de 2025
                                         $showAgenda = false;
@@ -232,7 +231,7 @@
                                         // Mostrar el enlace de la agenda solo si estamos en o después de la fecha objetivo
                                         if ($showAgenda):
                                         ?>
-                                        <li class=""><a href="#agenda">Agenda</a></li>
+                                        <li class=""><a href="#agenda">Edición 2025</a></li>
                                         <?php endif; ?>
                                         <li><a href="#ponentes">Ponentes</a></li>
                                     </ul>
@@ -626,6 +625,97 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
 
 
 
+        <!-- edicion-2026-start -->
+        <div id="edicion2026" class="td-schedule-area edicion-2026-section pt-80 pb-40">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xxl-8 col-xl-9 col-lg-10">
+                        <div class="text-center mb-40 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                            <h2 class="td-section-title edicion-2026-title">Edición 2026</h2>
+                            <p class="edicion-2026-subtitle mt-15">Nuevos encuentros, nuevas voces. Cuatro veladas únicas en Jameos del Agua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <?php foreach ($eventos_2026 as $evento):
+                            // Clase CSS de la categoría
+                            $catClasses = [
+                                'Cultura'          => 'evento-cat-cultura',
+                                'Gastronomía'      => 'evento-cat-gastronomia',
+                                'Deportes'          => 'evento-cat-deportes',
+                                'Perfil con tirón' => 'evento-cat-perfil',
+                            ];
+                            $catClass = isset($catClasses[$evento['categoria']]) ? $catClasses[$evento['categoria']] : 'evento-cat-cultura';
+                        ?>
+                        <div class="td-schedule-3-wrap mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                            <div class="row align-items-center">
+                                <div class="col-xl-4 col-lg-5">
+                                    <div class="td-schedule-3-thumb p-relative evento-2026-thumb">
+                                        <span class="evento-categoria-badge <?php echo $catClass; ?>"><?php echo htmlspecialchars($evento['categoria']); ?></span>
+                                        <img class="w-100" src="<?php echo htmlspecialchars($evento['imagen']); ?>" alt="<?php echo htmlspecialchars($evento['nombre']); ?>">
+                                        <span class="evento-2026-placeholder-icon">?</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8 col-lg-7">
+                                    <div class="td-schedule-3-content">
+                                        <h2 class="td-schedule-3-title" style="display: grid;">
+                                            <span><?php echo htmlspecialchars($evento['nombre']); ?></span>
+                                            <em><?php echo htmlspecialchars($evento['titulo_charla']); ?></em>
+                                        </h2>
+                                        <div class="td-schedule-3-destination mb-10">
+                                            <span class="mr-25">
+                                                <i class="flaticon-time"></i>
+                                                <?php echo htmlspecialchars($evento['fecha']); ?>
+                                            </span>
+                                            <span>
+                                                <i class="flaticon-gps"></i>
+                                                Auditorio Jameos del Agua, Lanzarote
+                                            </span>
+                                        </div>
+                                        <p class="mb-25 para"><?php echo htmlspecialchars($evento['descripcion']); ?></p>
+                                        <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
+                                            <?php switch ($evento['estado']):
+                                                case 'proximamente': ?>
+                                                    <span class="td-btn-proximamente">
+                                                        <i class="fa-regular fa-clock"></i>
+                                                        Próximamente
+                                                    </span>
+                                                <?php break;
+                                                case 'reservar': ?>
+                                                    <a class="td-btn-reservar" href="<?php echo htmlspecialchars($evento['link']); ?>">
+                                                        Reservar entrada
+                                                        <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white"/>
+                                                        </svg>
+                                                    </a>
+                                                <?php break;
+                                                case 'agotado': ?>
+                                                    <span class="td-btn-agotado">
+                                                        Aforo completo
+                                                    </span>
+                                                <?php break;
+                                                case 'ver_evento': ?>
+                                                    <a class="td-btn-ver-evento" href="<?php echo htmlspecialchars($evento['link']); ?>">
+                                                        Ver el evento completo
+                                                        <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white"/>
+                                                        </svg>
+                                                    </a>
+                                                <?php break;
+                                            endswitch; ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- edicion-2026-end -->
+
     <?php if ($showAgenda): ?>
         <!-- td-schedule-area-start -->
          <!--
@@ -789,12 +879,17 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
         <!-- td-schedule-area-end -->
 
         <!-- td-schedule-area-start -->
-        <div id="agenda" class="td-schedule-area  pt-50 pb-40 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
+        <div id="agenda" class="td-schedule-area edicion-2025-section pt-50 pb-40 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
                         <div class="td-schedule-2-title-wrap text-center mb-40 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                            <h2 class="td-section-title">Eventos anteriores</h2>
+                            <h2 class="td-section-title">Edición 2025</h2>
+                            <a class="mediaset-cta" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/" target="_blank" rel="noopener noreferrer">
+                                <span class="mediaset-cta-play"><i class="fa-solid fa-play"></i></span>
+                                Ver episodios en Mediaset Infinity
+                                <i class="fa-solid fa-arrow-up-right-from-square mediaset-cta-arrow"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -829,7 +924,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
-                                                    Sábado, 17 de Mayo, 20:30h
+                                                    17 de Mayo de 2025
                                                 </span>
                                                 <span>
                                                     <i class="flaticon-gps"></i>
@@ -879,7 +974,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
-                                                    Sábado, 28 de Junio, 20:30h
+                                                    28 de Junio de 2025
                                                 </span>
                                                 <span>
                                                     <i class="flaticon-gps"></i>
@@ -931,7 +1026,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
-                                                    Sábado, 6 de septiembre, 20:30h
+                                                    6 de Septiembre de 2025
                                                 </span>
                                                 <span>
                                                     <i class="flaticon-gps"></i>
@@ -986,7 +1081,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
-                                                    Sábado, 25 de octubre, 20:30h
+                                                    25 de Octubre de 2025
                                                 </span>
                                                 <span>
                                                     <i class="flaticon-gps"></i>
@@ -1065,7 +1160,9 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                             <h2 class="td-section-title">Nuestros ponentes</h2>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
+                </div>
+                <div class="row justify-content-center ponentes-row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Ángeles Blanco</h3>
@@ -1076,7 +1173,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Gemma Mengual</h3>
@@ -1087,7 +1184,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Ángel León</h3>
@@ -1098,7 +1195,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Iñaki Gabilondo</h3>
@@ -1109,7 +1206,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Elsa Punset</h3>
