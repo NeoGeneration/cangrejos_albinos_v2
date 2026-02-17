@@ -17,7 +17,7 @@
 	=============================================*/
 	windowOn.on('scroll', function () {
 		var scroll = windowOn.scrollTop();
-		if (scroll < 200) {
+		if (scroll < 10) {
 			$("#header-sticky").removeClass("header-sticky");
 		} else {
 			$("#header-sticky").addClass("header-sticky");
@@ -64,7 +64,7 @@
 	// header-sticky
 	windowOn.on('scroll', function () {
 		var scroll = windowOn.scrollTop();
-		if (scroll < 200) {
+		if (scroll < 10) {
 			$("#header-sticky").removeClass("header-sticky");
 		} else {
 			$("#header-sticky").addClass("header-sticky");
@@ -109,7 +109,7 @@
 	=============================================*/
 	$(window).on('scroll', function () {
 		var scroll = $(window).scrollTop();
-		if (scroll < 245) {
+		if (scroll < 10) {
 			$("#sticky-header").removeClass("sticky-menu");
 			$('.scroll-to-target').removeClass('open');
 			$("#header-fixed-height").removeClass("active-height");

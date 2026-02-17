@@ -206,13 +206,13 @@
         <div id="header-sticky" class="td-header__area z-index-999 td-transparent  header-mobile-spacing">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-xxl-9 col-xl-10 col-lg-10 col-6">
-                        <div class="tdmenu__wrap d-flex align-items-center justify-content-between">
+                    <div class="col-12">
+                        <div class="tdmenu__wrap d-flex align-items-center">
                             <div class="logo">
                                 <a class="logo-1 logo-sticky-none" href="/"><img class="logo-fixed" data-width="220" src="assets/img/logo/logo-white.png" alt="Cangrejos Albinos"></a>
                                 <a class="logo-2 d-none" href="/"><img class="logo-fixed" data-width="220" src="assets/img/logo/logo-black.png" alt="Cangrejos Albinos"></a>
                             </div>
-                            <nav class="tdmenu__nav ml-50 mr-50 d-none d-xl-flex">
+                            <nav class="tdmenu__nav ml-auto d-none d-xl-flex">
                                 <div class="tdmenu__navbar-wrap tdmenu__main-menu">
                                     <ul class="navigation flex-nowrap">
                                         <li class="active"><a href="#inicio">Inicio</a></li>
@@ -237,12 +237,8 @@
                                     </ul>
                                 </div>
                             </nav>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-2 col-lg-2 col-6">
-                        <div class="td-menu-right-action d-flex align-items-center justify-content-end">
-                            <div class="td-header-menu-bar lh-1 p-relative ml-15">
-                                <button class="tdmenu-offcanvas-open-btn mobile-nav-toggler d-block d-xl-none">
+                            <div class="td-header-menu-bar lh-1 p-relative ml-auto d-block d-xl-none">
+                                <button class="tdmenu-offcanvas-open-btn mobile-nav-toggler">
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -291,7 +287,8 @@
 
         <!-- td-hero-area-start -->
         <div id="inicio" class="td-hero-area td-hero-spacing bg-position p-relative fix" data-background="assets/img/hero/bg.png">
-            <div class="td-hero-text-shape">
+            <!-- SVG curva eliminado, reemplazado por franja inferior -->
+            <div style="display:none;">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1170 409">
                 <defs>
                     <style>
@@ -303,7 +300,7 @@
 
                     .cls-2 {
                         fill: none;
-                        stroke: #ffbf00;
+                        stroke: #8A5994;
                         stroke-width: 60px;
                     }
                     </style>
@@ -464,6 +461,41 @@
         </div>
         <!-- td-hero-area-end -->
 
+        <!-- hero-stripe -->
+        <div class="hero-stripe">
+            <div class="hero-stripe-track">
+                <span>Inteligencia Artificial</span>
+                <span>Energías Limpias</span>
+                <span>Desarrollo Personal</span>
+                <span>Jameos del Agua</span>
+                <span>CACT Lanzarote</span>
+                <span>Cultura</span>
+                <span>Gastronomía</span>
+                <span>Sostenibilidad</span>
+                <span>Innovación</span>
+                <span>Lanzarote</span>
+                <span>Bienestar</span>
+                <span>Ciencia</span>
+                <span>Deporte</span>
+                <span>Creatividad</span>
+                <span>Inteligencia Artificial</span>
+                <span>Energías Limpias</span>
+                <span>Desarrollo Personal</span>
+                <span>Jameos del Agua</span>
+                <span>CACT Lanzarote</span>
+                <span>Cultura</span>
+                <span>Gastronomía</span>
+                <span>Sostenibilidad</span>
+                <span>Innovación</span>
+                <span>Lanzarote</span>
+                <span>Bienestar</span>
+                <span>Ciencia</span>
+                <span>Deporte</span>
+                <span>Creatividad</span>
+            </div>
+        </div>
+        <!-- /hero-stripe -->
+
         <!-- td-about-area-start -->
         <div id="experiencia" class="td-about-area pt-80 bg-position pb-10" data-background="assets/img/about/bg.jpg">
             <div class="container">
@@ -484,7 +516,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                         </div>
                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
                             <a href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-4-40_016919236/player/" target="_blank">
-                                <img class="" src="assets/img/banner/banner-elsa.gif" alt="Conoce la historia de Elsa Punset">
+                                <img class="banner-elsa-gif" src="assets/img/banner/banner-elsa.gif" alt="Conoce la historia de Elsa Punset">
                             </a>
                         </div>
 
@@ -758,7 +790,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             </div>
                                             <p class="mb-25 para">Cocinero visionario, investigador del mar y chef con tres estrellas Michelin. Hablaremos de gastronomía, sostenibilidad marina y creatividad sin límites.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                            <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #F1AB41; cursor: not-allowed;">
+                                            <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #8A5994; color: #fff; cursor: not-allowed;">
                                                     <span class="mr10 td-text d-inline-block mr-5">Aforo completo</span>
                                                 </span>
 
@@ -814,7 +846,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                                     </span>
                                                 </a>
 
-                                                <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #F1AB41; cursor: not-allowed;">
+                                                <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #8A5994; color: #fff; cursor: not-allowed;">
                                                     <span class="mr10 td-text d-inline-block mr-5">Aforo completo</span>
                                                 </span>
                                             </div>
@@ -860,7 +892,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                                 </a>
                                                 -->
                                                 <!--
-                                                <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #F1AB41; cursor: not-allowed;">
+                                                <span class="td-btn td-btn-3-squre td-left-right text3 mr-25" style="background-color: #8A5994; color: #fff; cursor: not-allowed;">
                                                     <span class="mr10 td-text d-inline-block mr-5">Aforo completo</span>
                                                 </span>
                                             </div>
@@ -879,12 +911,13 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
         <!-- td-schedule-area-end -->
 
         <!-- td-schedule-area-start -->
-        <div id="agenda" class="td-schedule-area edicion-2025-section pt-50 pb-40 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
+        <div id="agenda" class="td-schedule-area edicion-2025-section pt-80 pb-40 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
                         <div class="td-schedule-2-title-wrap text-center mb-40 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                            <h2 class="td-section-title">Edición 2025</h2>
+                            <h2 class="td-section-title edicion-2025-title">Edición 2025</h2>
+                            <p class="edicion-2025-subtitle mt-15">Cuatro veladas que hicieron historia en Jameos del Agua.</p>
                             <a class="mediaset-cta" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/" target="_blank" rel="noopener noreferrer">
                                 <span class="mediaset-cta-play"><i class="fa-solid fa-play"></i></span>
                                 Ver episodios en Mediaset Infinity
@@ -906,7 +939,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             <img class="w-100" src="assets/img/schedule/gemma_mengual2.png" alt="Gemma Mengual">
                                         </div>
                                         <div class="td-about-video-inner text-center">
-                                                <a class="td-video-play popup-video td-pulse-border" href="https://player.vimeo.com/video/1087064496?badge=0&amp;autopause=0&amp;autoplay=1&amp;player_id=0&amp;app_id=58479">
+                                                <a class="td-video-play td-pulse-border" href="https://www.mitele.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-1-40_015546928/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="p-relative z-index-11">
                                                         <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M19.8571 12L0.571429 23.1346L0.57143 0.865352L19.8571 12Z" fill="currentColor" />
@@ -920,7 +953,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="https://www.mitele.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-1-40_015546928/player/">Gemma Mengual</a><em>Respirar bajo el agua</em></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;">Gemma Mengual<em>Respirar bajo el agua</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -933,7 +966,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             </div>
                                             <p class="mb-25 para">Nadadora olímpica, campeona mundial y medallista olímpico. Hablaremos de su trayectoria, de su vida en el agua y de su pasión por la vida.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mitele.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-1-40_015546928/player/">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mitele.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-1-40_015546928/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="mr10 td-text d-inline-block mr-5">Ver el evento completo</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -957,7 +990,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                         </div>
 
                                         <div class="td-about-video-inner text-center">
-                                                <a class="td-video-play td-pulse-border" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-2-40_016000992/player/">
+                                                <a class="td-video-play td-pulse-border" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-2-40_016000992/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="p-relative z-index-11">
                                                         <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M19.8571 12L0.571429 23.1346L0.57143 0.865352L19.8571 12Z" fill="currentColor" />
@@ -970,7 +1003,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-2-40_016000992/player/">Ángel León</a><em>Cocinar el mar</em></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;">Ángel León<em>Cocinar el mar</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -983,7 +1016,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             </div>
                                             <p class="mb-25 para">Cocinero visionario, investigador del mar y chef con tres estrellas Michelin. Hablaremos de gastronomía, sostenibilidad marina y creatividad sin límites.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-2-40_016000992/player/">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-2-40_016000992/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="mr10 td-text d-inline-block mr-5">Ver el evento completo</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1008,7 +1041,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
 
                                         <div class="td-about-video-inner text-center">
 
-                                                <a class="td-video-play td-pulse-border" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-3-40_016534259/player/">
+                                                <a class="td-video-play td-pulse-border" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-3-40_016534259/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="p-relative z-index-11">
                                                         <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M19.8571 12L0.571429 23.1346L0.57143 0.865352L19.8571 12Z" fill="currentColor" />
@@ -1022,7 +1055,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="#">Iñaki Gabilondo</a><em>La palabra que queda</em></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;">Iñaki Gabilondo<em>La palabra que queda</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -1036,7 +1069,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             <p class="mb-25 para">Periodista. Locutor de radio en Cadena Ser y director de Noticias Cuatro (2005-2010).</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
 
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-3-40_016534259/player/">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-3-40_016534259/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="mr10 td-text d-inline-block mr-5">Ver el evento completo</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1063,7 +1096,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
 
                                         <div class="td-about-video-inner text-center">
 
-                                                <a class="td-video-play td-pulse-border" href="#">
+                                                <a class="td-video-play td-pulse-border" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-4-40_016919236/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="p-relative z-index-11">
                                                         <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M19.8571 12L0.571429 23.1346L0.57143 0.865352L19.8571 12Z" fill="currentColor" />
@@ -1077,7 +1110,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                     </div>
                                     <div class="col-xl-8 col-lg-7">
                                         <div class="td-schedule-3-content">
-                                            <h2 class="td-schedule-3-title" style="display: grid;"><a href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-4-40_016919236/player/">Elsa Punset</a><em>Educar las emociones</em></h2>
+                                            <h2 class="td-schedule-3-title" style="display: grid;">Elsa Punset<em>Educar las emociones</em></h2>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
@@ -1091,7 +1124,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                             <p class="mb-25 para">Escritora, divulgadora y filósofa. Experta en educación e inteligencia emocional.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
 
-                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-4-40_016919236/player/">
+                                                <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-4-40_016919236/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="mr10 td-text d-inline-block mr-5">Ver el evento completo</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1151,66 +1184,72 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         <!-- td-cta-area-end -->
 
         <!-- td-team-area-start -->
-        <div id="ponentes" class="td-team-area pt-80 pb-60 p-relative fix">
+        <div id="ponentes" class="td-team-area ponentes-section pt-80 pb-60 p-relative fix">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div class="td-team-title-wrap text-center mb-50  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
+                        <div class="td-team-title-wrap ponentes-title-wrap text-center mb-50 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
                             <!--<span class="td-section-subtitle mb-25">Learn From Speakers</span>-->
                             <h2 class="td-section-title">Nuestros ponentes</h2>
+                            <p class="ponentes-subtitle mb-0">Cinco voces extraordinarias que dejaron una huella imborrable en Cangrejos Albinos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center ponentes-row">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
+                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Ángeles Blanco</h3>
                                 <span class="td-team-member-position">Presentadora</span>
+                                <span class="ponente-card-number">01</span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/angeles_blanco.png" alt="Ángeles Blanco">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Gemma Mengual</h3>
                                 <span class="td-team-member-position">Nadadora</span>
+                                <span class="ponente-card-number">02</span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/gemma_mengual.png" alt="Gemma Mengual">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
+                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Ángel León</h3>
                                 <span class="td-team-member-position">Cocinero</span>
+                                <span class="ponente-card-number">03</span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/angel_leon.png" alt="Ángel León">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Iñaki Gabilondo</h3>
                                 <span class="td-team-member-position">Periodista</span>
+                                <span class="ponente-card-number">04</span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/inaki_gabilondo.png" alt="Iñaki Gabilondo">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
-                        <div class="td-team-item mb-25 bg-position p-relative" data-background="assets/img/team/bg.png">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".6s">
+                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
                             <div class="td-team-content">
                                 <h3 class="td-team-member-name mb-0">Elsa Punset</h3>
                                 <span class="td-team-member-position">Escritora</span>
+                                <span class="ponente-card-number">05</span>
                             </div>
                             <div class="td-team-thumb text-center">
                                 <img src="assets/img/team/elsa_punset.png" alt="Elsa Punset">
@@ -1238,69 +1277,53 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         </div>
         <!-- td-banner-area-end -->
 
-        <!-- td-text-slider-area-start -->
-        <div class="td-text-slider-area td-text-slider-spacing">
-            <div class="container-fluid">
-                <div class="row">
-                   <div class="swiper-container td-text-slider-active">
-                      <div class="swiper-wrapper slide-transtion">
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                               <h3 class="text">Jameos del Agua</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                               <h3 class="text">Reserva tu Entrada</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                               <h3 class="text">Inteligencia Artificial</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                               <h3 class="text">Energías Límpias</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                                <h3 class="text">Desarrollo Personal</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-             </div>
+        <!-- footer-stripe-top -->
+        <div class="footer-stripe">
+            <div class="footer-stripe-track">
+                <span>Inteligencia Artificial</span>
+                <span>Energías Limpias</span>
+                <span>Desarrollo Personal</span>
+                <span>Jameos del Agua</span>
+                <span>CACT Lanzarote</span>
+                <span>Cultura</span>
+                <span>Gastronomía</span>
+                <span>Sostenibilidad</span>
+                <span>Innovación</span>
+                <span>Lanzarote</span>
+                <span>Bienestar</span>
+                <span>Ciencia</span>
+                <span>Deporte</span>
+                <span>Creatividad</span>
+                <span>Inteligencia Artificial</span>
+                <span>Energías Limpias</span>
+                <span>Desarrollo Personal</span>
+                <span>Jameos del Agua</span>
+                <span>CACT Lanzarote</span>
+                <span>Cultura</span>
+                <span>Gastronomía</span>
+                <span>Sostenibilidad</span>
+                <span>Innovación</span>
+                <span>Lanzarote</span>
+                <span>Bienestar</span>
+                <span>Ciencia</span>
+                <span>Deporte</span>
+                <span>Creatividad</span>
+            </div>
         </div>
-        <!-- td-text-slider-area-end -->
+        <!-- /footer-stripe-top -->
 
         <!-- td-brands-area-start -->
-        <div id="empresas" class="td-brands-area black-bg pt-80 pb-60">
+        <div id="empresas" class="produced-by-section black-bg">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="td-brands-title-wrap mb-45 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".2s">
-                            <!--<span class="td-section-subtitle mb-20">Our Official Sponsors</span>-->
-                            <h2 class="td-section-title">CACT Lanzarote & Mediaset España</h2>
+                <div class="produced-by-inner wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <span class="produced-by-label">Una producción de</span>
+                    <div class="produced-by-logos">
+                        <div class="produced-by-logo">
+                            <a style="pointer-events: none; cursor: default;"><img src="assets/img/brands/cact2.png" alt="CACT Lanzarote"></a>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".2s">
-                        <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/cact2.png" alt="CACT Lanzarote"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-6 wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".3s">
-                        <div class="td-brands-item mb-25">
-                            <a href="#"><img src="assets/img/brands/mediaset.png" alt="Mediaset España"></a>
+                        <span class="produced-by-divider"></span>
+                        <div class="produced-by-logo">
+                            <a style="pointer-events: none; cursor: default;"><img src="assets/img/brands/mediaset.png" alt="Mediaset España"></a>
                         </div>
                     </div>
                 </div>
@@ -1308,48 +1331,40 @@ Déjanos tus datos y te avisaremos antes que a nadie.
         </div>
         <!-- td-brands-area-end -->
 
-        <!-- td-text-slider-area-start -->
-        <div class="td-text-slider-area td-text-slider-spacing">
-            <div class="container-fluid">
-                <div class="row">
-                   <div class="swiper-container td-text-slider-active">
-                      <div class="swiper-wrapper slide-transtion">
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                               <h3 class="text">Jameos del Agua</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                               <h3 class="text">Reserva tu Entrada</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                               <h3 class="text">Inteligencia Artificial</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                               <h3 class="text">Energías Límpias</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                         <div class="swiper-slide">
-                            <div class="td-text-slider-item">
-                                <h3 class="text">Desarrollo Personal</h3>
-                               <img src="assets/img/text/round.png" alt="round">
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-             </div>
+        <!-- footer-stripe -->
+        <div class="footer-stripe">
+            <div class="footer-stripe-track">
+                <span>Inteligencia Artificial</span>
+                <span>Energías Limpias</span>
+                <span>Desarrollo Personal</span>
+                <span>Jameos del Agua</span>
+                <span>CACT Lanzarote</span>
+                <span>Cultura</span>
+                <span>Gastronomía</span>
+                <span>Sostenibilidad</span>
+                <span>Innovación</span>
+                <span>Lanzarote</span>
+                <span>Bienestar</span>
+                <span>Ciencia</span>
+                <span>Deporte</span>
+                <span>Creatividad</span>
+                <span>Inteligencia Artificial</span>
+                <span>Energías Limpias</span>
+                <span>Desarrollo Personal</span>
+                <span>Jameos del Agua</span>
+                <span>CACT Lanzarote</span>
+                <span>Cultura</span>
+                <span>Gastronomía</span>
+                <span>Sostenibilidad</span>
+                <span>Innovación</span>
+                <span>Lanzarote</span>
+                <span>Bienestar</span>
+                <span>Ciencia</span>
+                <span>Deporte</span>
+                <span>Creatividad</span>
+            </div>
         </div>
-        <!-- td-text-slider-area-end -->
+        <!-- /footer-stripe -->
 
     </main>
     <!-- main-area-end -->
