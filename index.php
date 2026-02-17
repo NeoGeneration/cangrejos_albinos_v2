@@ -204,7 +204,7 @@
     <!-- header-area -->
     <header class="td-header-height">
         <div id="header-sticky" class="td-header__area z-index-999 td-transparent  header-mobile-spacing">
-            <div class="container-fluid container-1680">
+            <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xxl-9 col-xl-10 col-lg-10 col-6">
                         <div class="tdmenu__wrap d-flex align-items-center justify-content-between">
