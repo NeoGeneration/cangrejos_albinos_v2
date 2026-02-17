@@ -98,18 +98,18 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/flaticon_mycollection.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/odometer.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/newsletter.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/animate.min.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/flaticon_mycollection.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/odometer.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/default.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/main.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/newsletter.css?v=20260217-1">
     <!-- CSS para Klaro Cookie Consent Manager -->
-    <link rel="stylesheet" href="assets/css/klaro.css">
+    <link rel="stylesheet" href="assets/css/klaro.css?v=20260217-1">
 <!-- estilos para el formulario reserva -->
     <style>
       .error-message {
@@ -139,7 +139,7 @@
   </style>
 
 <!-- Klaro Cookie Consent Manager Script -->
-<script defer src="assets/js/klaro-config.js"></script>
+<script defer src="assets/js/klaro-config.js?v=20260217-1"></script>
 <script defer src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
 
 <!-- NO ELIMINAR: Google Analytics se cargará a través de Klaro cuando se dé el consentimiento -->
@@ -1419,21 +1419,21 @@ Déjanos tus datos y te avisaremos antes que a nadie.
 
 
     <!-- JS here -->
-    <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.odometer.min.js"></script>
-    <script src="assets/js/jquery-appear.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/Jarallax.js"></script>
-    <script src="assets/js/nice-select.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/newsletter.js"></script>
+    <script src="assets/js/vendor/jquery.js?v=20260217-1"></script>
+    <script src="assets/js/bootstrap.min.js?v=20260217-1"></script>
+    <script src="assets/js/isotope.pkgd.min.js?v=20260217-1"></script>
+    <script src="assets/js/ion.rangeSlider.min.js?v=20260217-1"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js?v=20260217-1"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js?v=20260217-1"></script>
+    <script src="assets/js/jquery.odometer.min.js?v=20260217-1"></script>
+    <script src="assets/js/jquery-appear.js?v=20260217-1"></script>
+    <script src="assets/js/swiper-bundle.min.js?v=20260217-1"></script>
+    <script src="assets/js/Jarallax.js?v=20260217-1"></script>
+    <script src="assets/js/nice-select.js?v=20260217-1"></script>
+    <script src="assets/js/ajax-form.js?v=20260217-1"></script>
+    <script src="assets/js/wow.min.js?v=20260217-1"></script>
+    <script src="assets/js/main.js?v=20260217-1"></script>
+    <script src="assets/js/newsletter.js?v=20260217-1"></script>
 
     <!-- script para vormulario reservas -->
     <script>
