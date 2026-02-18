@@ -216,7 +216,6 @@
                                 <div class="tdmenu__navbar-wrap tdmenu__main-menu">
                                     <ul class="navigation flex-nowrap">
                                         <li class="active"><a href="#inicio">Inicio</a></li>
-                                        <li class=""><a href="#experiencia">Experiencia</a></li>
                                         <li class=""><a href="#edicion2026">Edición 2026</a></li>
                                         <?php
                                         // Comprobar si estamos en o después del 16 de mayo de 2025
@@ -233,7 +232,6 @@
                                         ?>
                                         <li class=""><a href="#agenda">Edición 2025</a></li>
                                         <?php endif; ?>
-                                        <li><a href="#ponentes">Ponentes</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -495,95 +493,6 @@
             </div>
         </div>
         <!-- /hero-stripe -->
-
-        <!-- td-about-area-start -->
-        <div id="experiencia" class="td-about-area pt-80 bg-position pb-10" data-background="assets/img/about/bg.jpg">
-            <div class="container">
-                <div class="row justify-content-center mb-65">
-                    <div class="col-lg-11">
-                        <div class="td-about-title-wrap text-center mb-30  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
-                            <!--<span class="td-section-subtitle mb-30">Sobre este evento</span>-->
-                            <h2 class="td-section-title">Una experiencia inspiradora, en un lugar único.</h2>
-                            <p>El Auditorio de Jameos del Agua acoge el cuarto episodio de Cangrejos Albinos, un ciclo de charlas con voces únicas que inspiran, conmueven y nos conectan con lo más profundo de la cultura, el pensamiento y la sostenibilidad.</p>
-                            <!--
-                            p>En este nuevo encuentro, la palabra toma el centro de la escena.
-Nos adentramos en la mirada lúcida y reflexiva de Iñaki Gabilondo, referente indiscutible del periodismo español, maestro de la crónica sosegada y la inteligencia crítica.
-
-Una conversación íntima conducida por Ángeles Blanco, en la que exploraremos el poder de la información, el oficio de contar lo que importa y la necesidad —más viva que nunca— de pensar en voz alta.
-Rodeados por la cueva, la roca y el eco de las ideas.</p>
-                -->
-                            <p>Si las especies únicas merecen ser protegidas, las historias irrepetibles merecen ser contadas.</p>
-                        </div>
-                        <div class="td-about-thumb-wrap bg-position p-relative text-center">
-                            <a href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-4-40_016919236/player/" target="_blank">
-                                <img class="banner-elsa-gif" src="assets/img/banner/banner-elsa.gif" alt="Conoce la historia de Elsa Punset">
-                            </a>
-                        </div>
-
-                        <!-- Video de promoción
-                        <div class="td-about-thumb-wrap bg-position p-relative text-center">
-                            <div class="td-about-thumb">
-                                <img src="assets/img/about/video.png" alt="Cangrejos Albinos - Vídeo de promoción">
-                            </div>
-                            <div class="td-about-video-inner text-center">
-                                <a class="td-video-play popup-video td-pulse-border" href="https://player.vimeo.com/video/1082773473?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479">
-                                    <span class="p-relative z-index-11">
-                                        <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M19.8571 12L0.571429 23.1346L0.57143 0.865352L19.8571 12Z" fill="currentColor" />
-                                        </svg>
-                                    </span>
-                                 </a>
-                            </div>
-                        </div>
-                        -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- td-about-area-end -->
-
-        <!-- premios-ivoox-section-start -->
-        <div class="premios-ivoox-section py-50">
-            <div class="container">
-                <div class="premios-ivoox-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                    <div class="premios-ivoox-wrapper">
-                        <div class="row align-items-center gx-2">
-                            <!-- Columna 1: Logo Premios iVoox -->
-                            <div class="col-lg-3 col-md-3 col-6 mb-3 mb-lg-0">
-                                <div class="premios-logo-column">
-                                    <img src="assets/img/cropped-logo_premiosiVoox.png" alt="Premios iVoox 2025" class="premios-logo-img">
-                                </div>
-                            </div>
-
-                            <!-- Columna 2: Logo Cangrejos -->
-                            <div class="col-lg-2 col-md-2 col-6 mb-3 mb-lg-0">
-                                <div class="premios-badge-column">
-                                    <img src="assets/img/cangrejos-albinos-voox.png" alt="Cangrejos Albinos Logo" class="premios-badge-square">
-                                </div>
-                            </div>
-
-                            <!-- Columna 3: Contenido (Título + Categoría + Hashtag + URL + Botón) -->
-                            <div class="col-lg-7 col-md-7 col-12 mb-3 mb-lg-0">
-                                <div class="premios-content-right">
-                                    <h2 class="premios-title mb-3">Cangrejos Albinos <span class="premios-subtitle">(Ciclo de encuentros)</span></h2>
-                                    <p class="premios-category mb-8">Actualidad y sociedad</p>
-                                    <div class="premios-hashtag-inline mb-8">
-                                        <span class="premios-tag">#PremiosiVoox2025</span>
-                                        <span class="premios-separator">·</span>
-                                        <span class="premios-url">premios.ivoox.com</span>
-                                    </div>
-                                    <p class="premios-deadline mb-8">Votación hasta el 3 de noviembre de 2025</p>
-                                    <a href="https://go.ivoox.com/wv/premios25" target="_blank" rel="noopener noreferrer" class="premios-btn">
-                                        VOTA <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- premios-ivoox-section-end -->
 
         <!-- td-venue-area-start -->
          <!--
@@ -964,7 +873,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                                     Auditorio Jameos del Agua, Lanzarote
                                                 </span>
                                             </div>
-                                            <p class="mb-25 para">Nadadora olímpica, campeona mundial y medallista olímpico. Hablaremos de su trayectoria, de su vida en el agua y de su pasión por la vida.</p>
+                                            <p class="mb-25 para">Nadadora olímpica, campeona mundial y medallista olímpico. Hablamos de su trayectoria, de su vida en el agua y de su pasión por la vida.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                                 <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mitele.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-1-40_015546928/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="mr10 td-text d-inline-block mr-5">Ver el evento completo</span>
@@ -1014,7 +923,7 @@ Rodeados por la cueva, la roca y el eco de las ideas.</p>
                                                     Auditorio Jameos del Agua, Lanzarote
                                                 </span>
                                             </div>
-                                            <p class="mb-25 para">Cocinero visionario, investigador del mar y chef con tres estrellas Michelin. Hablaremos de gastronomía, sostenibilidad marina y creatividad sin límites.</p>
+                                            <p class="mb-25 para">Cocinero visionario, investigador del mar y chef con tres estrellas Michelin. Hablamos de gastronomía, sostenibilidad marina y creatividad sin límites.</p>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                                 <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-2-40_016000992/player/" target="_blank" rel="noopener noreferrer">
                                                     <span class="mr10 td-text d-inline-block mr-5">Ver el evento completo</span>
@@ -1183,100 +1092,6 @@ Déjanos tus datos y te avisaremos antes que a nadie.
     -->
         <!-- td-cta-area-end -->
 
-        <!-- td-team-area-start -->
-        <div id="ponentes" class="td-team-area ponentes-section pt-80 pb-60 p-relative fix">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="td-team-title-wrap ponentes-title-wrap text-center mb-50 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
-                            <!--<span class="td-section-subtitle mb-25">Learn From Speakers</span>-->
-                            <h2 class="td-section-title">Nuestros ponentes</h2>
-                            <p class="ponentes-subtitle mb-0">Cinco voces extraordinarias que dejaron una huella imborrable en Cangrejos Albinos.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center ponentes-row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
-                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0">Ángeles Blanco</h3>
-                                <span class="td-team-member-position">Presentadora</span>
-                                <span class="ponente-card-number">01</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/angeles_blanco.png" alt="Ángeles Blanco">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".3s">
-                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0">Gemma Mengual</h3>
-                                <span class="td-team-member-position">Nadadora</span>
-                                <span class="ponente-card-number">02</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/gemma_mengual.png" alt="Gemma Mengual">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
-                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0">Ángel León</h3>
-                                <span class="td-team-member-position">Cocinero</span>
-                                <span class="ponente-card-number">03</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/angel_leon.png" alt="Ángel León">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0">Iñaki Gabilondo</h3>
-                                <span class="td-team-member-position">Periodista</span>
-                                <span class="ponente-card-number">04</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/inaki_gabilondo.png" alt="Iñaki Gabilondo">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ponente wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".6s">
-                        <div class="td-team-item ponente-card mb-25 bg-position p-relative">
-                            <div class="td-team-content">
-                                <h3 class="td-team-member-name mb-0">Elsa Punset</h3>
-                                <span class="td-team-member-position">Escritora</span>
-                                <span class="ponente-card-number">05</span>
-                            </div>
-                            <div class="td-team-thumb text-center">
-                                <img src="assets/img/team/elsa_punset.png" alt="Elsa Punset">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- td-team-area-end -->
-
-        <!-- td-banner-area-start -->
-        <div class="td-banner-area td-banner-spacing bg-position jarallax" data-background="assets/img/banner/banner.png">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-9">
-                        <div class="td-banner-title-wrap  wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                            <span class="td-section-subtitle mb-20">REFLEXIÓN</span>
-                            <h2 class="td-section-title mb-15">Cada especie única cuenta una historia. Cada historia deja una huella. ¿Qué huella queremos dejar nosotros?</h2>
-                            <p class="mb-35">Síguenos en nuestras redes sociales y comparte tu experiencia con el hashtag #CangrejosAlbinos #CACT #Lanzarote</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- td-banner-area-end -->
-
         <!-- footer-stripe-top -->
         <div class="footer-stripe">
             <div class="footer-stripe-track">
@@ -1311,6 +1126,22 @@ Déjanos tus datos y te avisaremos antes que a nadie.
             </div>
         </div>
         <!-- /footer-stripe-top -->
+
+        <!-- td-banner-area-start -->
+        <div class="td-banner-area td-banner-spacing bg-position jarallax" data-background="assets/img/banner/banner.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-9">
+                        <div class="td-banner-title-wrap  wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                            <span class="td-section-subtitle mb-20">REFLEXIÓN</span>
+                            <h2 class="td-section-title mb-15 reflexion-main-title">Cada especie única cuenta una historia. Cada historia deja una huella. ¿Qué huella queremos dejar nosotros?</h2>
+                            <p class="mb-35">Síguenos en nuestras redes sociales y comparte tu experiencia con el hashtag #CangrejosAlbinos #CACT #Lanzarote</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- td-banner-area-end -->
 
         <!-- td-brands-area-start -->
         <div id="empresas" class="produced-by-section black-bg">
