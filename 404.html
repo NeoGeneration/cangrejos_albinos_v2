@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página no encontrada | Cangrejos Albinos</title>
+    <meta name="description" content="La página que buscas no existe. Vuelve al inicio de Cangrejos Albinos.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/logo/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&family=Figtree:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --purple: #8A5994;
+            --purple-light: #a873b5;
+            --purple-glow: rgba(138, 89, 148, 0.15);
+            --bg: #080810;
+            --surface: #0e0e1a;
+            --text: #e8e4ec;
+            --text-dim: #7a7588;
+        }
+
+        body {
+            font-family: 'Figtree', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Cave atmosphere — layered radial gradients */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 80% 60% at 50% 120%, rgba(138, 89, 148, 0.08) 0%, transparent 70%),
+                radial-gradient(ellipse 50% 40% at 20% 80%, rgba(138, 89, 148, 0.04) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 50% at 80% 90%, rgba(100, 60, 120, 0.05) 0%, transparent 60%),
+                radial-gradient(ellipse 120% 80% at 50% 50%, var(--surface) 0%, var(--bg) 100%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Subtle water reflection at bottom */
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 30vh;
+            background: linear-gradient(to top, rgba(138, 89, 148, 0.06) 0%, transparent 100%);
+            pointer-events: none;
+            z-index: 0;
+            animation: waterPulse 6s ease-in-out infinite;
+        }
+
+        @keyframes waterPulse {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+
+        .scene {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 2rem;
+            max-width: 560px;
+        }
+
+        .logo {
+            width: 180px;
+            margin-bottom: 3rem;
+            opacity: 0;
+            animation: fadeDown 0.8s ease-out 0.2s forwards;
+        }
+
+        /* 404 number — large editorial treatment */
+        .error-code {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 300;
+            font-size: clamp(7rem, 20vw, 12rem);
+            line-height: 0.85;
+            letter-spacing: -0.04em;
+            color: transparent;
+            background: linear-gradient(180deg, var(--purple-light) 0%, rgba(138, 89, 148, 0.2) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            position: relative;
+            opacity: 0;
+            animation: fadeUp 0.8s ease-out 0.4s forwards;
+        }
+
+        .error-code::after {
+            content: '';
+            position: absolute;
+            bottom: 0.1em;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--purple), transparent);
+        }
+
+        .message {
+            margin-top: 1.5rem;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(1.25rem, 3vw, 1.6rem);
+            font-weight: 300;
+            font-style: italic;
+            color: var(--text-dim);
+            line-height: 1.5;
+            opacity: 0;
+            animation: fadeUp 0.8s ease-out 0.6s forwards;
+        }
+
+        .message em {
+            color: var(--purple-light);
+            font-style: italic;
+        }
+
+        .submessage {
+            margin-top: 0.75rem;
+            font-size: 0.875rem;
+            font-weight: 300;
+            color: var(--text-dim);
+            opacity: 0;
+            animation: fadeUp 0.8s ease-out 0.75s forwards;
+        }
+
+        .cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-top: 2.5rem;
+            padding: 0.85rem 2rem;
+            font-family: 'Figtree', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+            color: #fff;
+            background: var(--purple);
+            border: none;
+            border-radius: 0;
+            text-decoration: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: background 0.3s ease, transform 0.2s ease;
+            opacity: 0;
+            animation: fadeUp 0.8s ease-out 0.9s forwards;
+        }
+
+        .cta:hover {
+            background: var(--purple-light);
+            transform: translateY(-1px);
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .cta:hover::before {
+            left: 100%;
+        }
+
+        .cta-arrow {
+            transition: transform 0.3s ease;
+        }
+
+        .cta:hover .cta-arrow {
+            transform: translateX(3px);
+        }
+
+        /* Floating crab — CSS-only silhouette */
+        .crab {
+            position: fixed;
+            bottom: 12%;
+            right: 10%;
+            width: 40px;
+            height: 24px;
+            opacity: 0.06;
+            animation: crabDrift 20s ease-in-out infinite, fadeIn 2s ease-out 1.5s forwards;
+            z-index: 0;
+        }
+
+        .crab-body {
+            width: 24px;
+            height: 16px;
+            background: var(--purple-light);
+            border-radius: 50% 50% 40% 40%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .crab-leg {
+            position: absolute;
+            width: 10px;
+            height: 2px;
+            background: var(--purple-light);
+            border-radius: 1px;
+            top: 50%;
+        }
+
+        .crab-leg:nth-child(2) { left: -6px; transform: rotate(-30deg); top: 35%; }
+        .crab-leg:nth-child(3) { left: -8px; transform: rotate(-10deg); top: 50%; }
+        .crab-leg:nth-child(4) { left: -6px; transform: rotate(10deg); top: 65%; }
+        .crab-leg:nth-child(5) { right: -6px; transform: rotate(30deg); top: 35%; }
+        .crab-leg:nth-child(6) { right: -8px; transform: rotate(10deg); top: 50%; }
+        .crab-leg:nth-child(7) { right: -6px; transform: rotate(-10deg); top: 65%; }
+
+        .crab-eye {
+            position: absolute;
+            width: 3px;
+            height: 5px;
+            background: var(--purple-light);
+            border-radius: 50% 50% 0 0;
+            top: -3px;
+        }
+
+        .crab-eye:nth-child(8) { left: 35%; }
+        .crab-eye:nth-child(9) { right: 35%; }
+
+        .crab-2 {
+            bottom: 18%;
+            right: auto;
+            left: 8%;
+            width: 28px;
+            height: 17px;
+            opacity: 0.04;
+            animation: crabDrift2 25s ease-in-out infinite, fadeIn 2s ease-out 2.5s forwards;
+        }
+
+        .crab-2 .crab-body {
+            width: 17px;
+            height: 11px;
+        }
+
+        .crab-2 .crab-leg { width: 7px; }
+        .crab-2 .crab-eye { width: 2px; height: 4px; }
+
+        @keyframes crabDrift {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            25% { transform: translate(-15px, -8px) rotate(-2deg); }
+            50% { transform: translate(-30px, 3px) rotate(1deg); }
+            75% { transform: translate(-10px, -5px) rotate(-1deg); }
+        }
+
+        @keyframes crabDrift2 {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            30% { transform: translate(20px, -5px) rotate(2deg); }
+            60% { transform: translate(8px, 8px) rotate(-1deg); }
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(16px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeDown {
+            from { opacity: 0; transform: translateY(-12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 0.06; }
+        }
+
+        /* Grain overlay for texture */
+        .grain {
+            position: fixed;
+            inset: 0;
+            z-index: 10;
+            pointer-events: none;
+            opacity: 0.3;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+        }
+
+        @media (max-width: 480px) {
+            .logo { width: 140px; margin-bottom: 2rem; }
+            .crab { display: none; }
+            .scene { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="grain"></div>
+
+    <!-- Cangrejos decorativos -->
+    <div class="crab">
+        <div class="crab-body"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-eye"></div>
+        <div class="crab-eye"></div>
+    </div>
+    <div class="crab crab-2">
+        <div class="crab-body"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-leg"></div>
+        <div class="crab-eye"></div>
+        <div class="crab-eye"></div>
+    </div>
+
+    <div class="scene">
+        <a href="/"><img class="logo" src="/assets/img/logo/logo-white.png" alt="Cangrejos Albinos — Inicio"></a>
+
+        <div class="error-code">404</div>
+
+        <p class="message">Te has adentrado en una cueva<br>que aún <em>no hemos explorado</em></p>
+        <p class="submessage">La página que buscas no existe o ha sido movida.</p>
+
+        <a class="cta" href="/">
+            Volver al inicio
+            <span class="cta-arrow">&#8594;</span>
+        </a>
+    </div>
+</body>
+</html>
