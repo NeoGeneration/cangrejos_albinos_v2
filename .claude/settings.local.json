@@ -3,7 +3,8 @@
     "allow": [
       "Bash(/bin/zsh:*)",
       "Bash(php -l:*)",
-      "Bash(sips -g pixelWidth -g pixelHeight:*)"
+      "Bash(sips -g pixelWidth -g pixelHeight:*)",
+      "Bash(python3:*)"
     ]
   }
 }

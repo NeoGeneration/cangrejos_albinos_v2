@@ -91,11 +91,26 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Cangrejos Albinos | CACT Lanzarote</title>
-    <meta name="description" content="Un ciclo de charlas y conferencias, a celebrar de mayo a noviembre de 2025 en los Jameos del Agua, con ponentes de primer nivel y la conducción de Ángeles Blanco">
+    <meta name="description" content="Cangrejos Albinos 2026 — Ciclo de charlas y conferencias en Jameos del Agua, Lanzarote. Ponentes de primer nivel en un entorno único. Reserva tu entrada gratuita.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cangrejosalbinos.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Cangrejos Albinos">
+    <meta property="og:title" content="Cangrejos Albinos 2026 | Charlas en Jameos del Agua, Lanzarote">
+    <meta property="og:description" content="Ciclo de charlas y conferencias en Jameos del Agua, Lanzarote. Ponentes de primer nivel en un entorno único. Reserva tu entrada gratuita.">
+    <meta property="og:url" content="https://cangrejosalbinos.com/">
+    <meta property="og:image" content="https://cangrejosalbinos.com/assets/img/hero/thumb-final2.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cangrejos Albinos 2026 | Charlas en Jameos del Agua, Lanzarote">
+    <meta name="twitter:description" content="Ciclo de charlas y conferencias en Jameos del Agua, Lanzarote. Ponentes de primer nivel en un entorno único.">
+    <meta name="twitter:image" content="https://cangrejosalbinos.com/assets/img/hero/thumb-final2.png">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
-    <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=20260217-1">
@@ -150,7 +165,14 @@
 
     <!-- Preloader Start -->
     <div class="preloader">
-        <div class="loader"></div>
+        <div class="loader" aria-label="Cargando Cangrejos Albinos">
+            <span class="loader-core">
+                <img class="loader-logo" src="assets/img/logo/isotipo.png" alt="Cangrejos Albinos">
+            </span>
+            <span class="loader-orbit"></span>
+            <span class="loader-orbit loader-orbit-delay"></span>
+            <span class="loader-text">Cangrejos Albinos</span>
+        </div>
     </div>
     <!-- Preloader End -->
 
@@ -253,7 +275,7 @@
             <nav class="tdmobile__menu-box">
                 <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
                 <div class="nav-logo">
-                    <a href="/"><img src="assets/img/logo/logo-black.png" alt="logo"></a>
+                    <a href="/"><img src="assets/img/logo/logo-black.png" alt="Cangrejos Albinos - Inicio"></a>
                 </div>
                 <div class="tdmobile__menu-outer">
                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -262,13 +284,13 @@
                     <ul class="list-wrap">
                         <li><a href="https://instagram.com/cact_lanzarote"><i class="fab fa-instagram"></i></a></li>
                         <li><a href="https://facebook.com/CACTLAnzarote"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://x.com/Cactlanzarote" target="_blank" >
+                        <li><a href="https://x.com/Cactlanzarote" target="_blank" rel="noopener noreferrer">
                                         <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M16.3783 0.111328H19.3942L12.8054 7.64181L20.5565 17.8891H14.4875L9.73399 11.6742L4.2949 17.8891H1.27723L8.32453 9.83441L0.888855 0.111328H7.11199L11.4087 5.79201L16.3783 0.111328ZM15.3199 16.084H16.991L6.20396 1.82164H4.41068L15.3199 16.084Z" fill="currentColor" />
                                         </svg>
                                     </a>
                         </li>
-                        <li><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
@@ -392,8 +414,8 @@
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-8">
                         <div class="td-hero-content p-relative mb-30 pl-165">
-                            <span class="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Disfruta de las charlas <br>de Cangrejos Albinos</span>
-                            <h2 class="td-hero-title wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.3s">con voces<br>únicas<br>que inspiran</h2>
+                            <span class="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Disfruta de las charlas <br>de Cangrejos Albinos con</span>
+                            <h1 class="td-hero-title wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.3s">voces<br>únicas<br>que inspiran</h1>
                             <p class="td-hero-location wow mb-10 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">&nbsp;</p>
                             <p class="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">&nbsp;</p>
 
@@ -432,18 +454,18 @@
 
                             <div class="td-hero-social d-flex align-items-center">
                                 <span>Síguenos en:</span>
-                                <span><a href="http://pinterest.com/cactlanzarote" target="_blank" ><i class="fa-brands fa-pinterest"></i></a></span>
-                                <span><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w" target="_blank" ><i class="fa-brands fa-youtube"></i></a></span>
-                                <span><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></span>
-                                <span><a href="https://facebook.com/CACTLAnzarote" target="_blank" ><i class="fa-brands fa-facebook"></i></a></span>
+                                <span><a href="https://pinterest.com/cactlanzarote" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"></i></a></span>
+                                <span><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></span>
+                                <span><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></span>
+                                <span><a href="https://facebook.com/CACTLAnzarote" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a></span>
                                 <span>
-                                    <a href="https://x.com/Cactlanzarote" target="_blank" >
+                                    <a href="https://x.com/Cactlanzarote" target="_blank" rel="noopener noreferrer">
                                         <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M16.3783 0.111328H19.3942L12.8054 7.64181L20.5565 17.8891H14.4875L9.73399 11.6742L4.2949 17.8891H1.27723L8.32453 9.83441L0.888855 0.111328H7.11199L11.4087 5.79201L16.3783 0.111328ZM15.3199 16.084H16.991L6.20396 1.82164H4.41068L15.3199 16.084Z" fill="currentColor" />
                                         </svg>
                                     </a>
                                 </span>
-                                <span><a href="https://instagram.com/cact_lanzarote" target="_blank" ><i class="fa-brands fa-instagram"></i></a></span>
+                                <span><a href="https://instagram.com/cact_lanzarote" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></span>
                                 <span class="hero-border"></span>
                             </div>
 
@@ -451,7 +473,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="td-hero-thumb mb-30 p-relative">
-                            <img class="w-100" src="assets/img/hero/thumb-final2.png" alt="Cangrejos Albinos">
+                            <img class="w-100" loading="lazy" src="assets/img/hero/thumb-final2.png" alt="Cangrejos Albinos — Charlas en Jameos del Agua, Lanzarote">
                         </div>
                     </div>
                 </div>
@@ -845,7 +867,7 @@
                                     <div class="col-xl-4 col-lg-5">
                                     <div class="td-about-thumb-wrap bg-position p-relative text-center">
                                         <div class="td-schedule-3-thumb p-relative d-about-thumb">
-                                            <img class="w-100" src="assets/img/schedule/gemma_mengual2.png" alt="Gemma Mengual">
+                                            <img class="w-100" loading="lazy" src="assets/img/schedule/gemma_mengual2.png" alt="Gemma Mengual — Respirar bajo el agua, charla en Cangrejos Albinos">
                                         </div>
                                         <div class="td-about-video-inner text-center">
                                                 <a class="td-video-play td-pulse-border" href="https://www.mitele.es/programas-tv/cangrejos-albinos/temporada-1/episodios/programa-1-40_015546928/player/" target="_blank" rel="noopener noreferrer">
@@ -895,7 +917,7 @@
                                     <div class="col-xl-4 col-lg-5">
                                     <div class="td-about-thumb-wrap bg-position p-relative text-center">
                                         <div class="td-schedule-3-thumb p-relative d-about-thumb">
-                                            <img class="w-100" src="assets/img/schedule/angel_leon2.jpg" alt="Ángel León">
+                                            <img class="w-100" loading="lazy" src="assets/img/schedule/angel_leon2.jpg" alt="Ángel León — Cocinar el mar, charla en Cangrejos Albinos">
                                         </div>
 
                                         <div class="td-about-video-inner text-center">
@@ -945,7 +967,7 @@
                                     <div class="col-xl-4 col-lg-5">
                                     <div class="td-about-thumb-wrap bg-position p-relative text-center">
                                         <div class="td-schedule-3-thumb p-relative d-about-thumb">
-                                            <img class="w-100" src="assets/img/schedule/inaki_gabilondo2.png" alt="Iñaki Gabilondo">
+                                            <img class="w-100" loading="lazy" src="assets/img/schedule/inaki_gabilondo2.png" alt="Iñaki Gabilondo — La palabra que queda, charla en Cangrejos Albinos">
                                         </div>
 
                                         <div class="td-about-video-inner text-center">
@@ -1000,7 +1022,7 @@
                                     <div class="col-xl-4 col-lg-5">
                                     <div class="td-about-thumb-wrap bg-position p-relative text-center">
                                         <div class="td-schedule-3-thumb p-relative d-about-thumb">
-                                            <img class="w-100" src="assets/img/schedule/elsa_punset2.png" alt="Elsa Punset">
+                                            <img class="w-100" loading="lazy" src="assets/img/schedule/elsa_punset2.png" alt="Elsa Punset — Educar las emociones, charla en Cangrejos Albinos">
                                         </div>
 
                                         <div class="td-about-video-inner text-center">
@@ -1150,11 +1172,11 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                     <span class="produced-by-label">Una producción de</span>
                     <div class="produced-by-logos">
                         <div class="produced-by-logo">
-                            <a style="pointer-events: none; cursor: default;"><img src="assets/img/brands/cact2.png" alt="CACT Lanzarote"></a>
+                            <a style="pointer-events: none; cursor: default;"><img loading="lazy" src="assets/img/brands/cact2.png" alt="CACT Lanzarote — Centros de Arte, Cultura y Turismo"></a>
                         </div>
                         <span class="produced-by-divider"></span>
                         <div class="produced-by-logo">
-                            <a style="pointer-events: none; cursor: default;"><img src="assets/img/brands/mediaset.png" alt="Mediaset España"></a>
+                            <a style="pointer-events: none; cursor: default;"><img loading="lazy" src="assets/img/brands/mediaset.png" alt="Mediaset España — Coproductora de Cangrejos Albinos"></a>
                         </div>
                     </div>
                 </div>
@@ -1208,7 +1230,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                     <div class="col-lg-3 col-md-5">
                         <div class="td-footer-widget mb-40">
                             <div class="td-footer-logo mb-20">
-                                <a href="/"><img src="assets/img/logo/logo-white.png" alt="Cangrejos Albinos"></a>
+                                <a href="/"><img src="assets/img/logo/logo-white.png" alt="Cangrejos Albinos — Inicio"></a>
                             </div>
                             <p class="text mb-10">LZ 204, Parcela 109, Carretera Arrieta - Órzola S/N Lanzarote, LZ-204, 109, 35542 Punta Mujeres, Las Palmas</p>
                         </div>
@@ -1220,23 +1242,23 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                             <div class="row align-items-center">
                                 <div class="col-md-9">
                                     <div class="td-footer-bottom-copyright mb-30">
-                                        <p>Copyright © 2025 Cangrejos Albinos. Todos los derechos reservados.</p>
+                                        <p>Copyright © <?php echo date('Y'); ?> Cangrejos Albinos. Todos los derechos reservados.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="td-footer-bottom-social text-right mb-30">
-                                        <span><a href="https://instagram.com/cact_lanzarote" target="_blank" ><i class="fa-brands fa-instagram"></i></a></span>
-                                        <span><a href="https://facebook.com/CACTLAnzarote" target="_blank" ><i class="fa-brands fa-facebook"></i></a></span>
-                                        <span><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w" target="_blank" ><i class="fa-brands fa-youtube"></i></a></span>
-                                        <span><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></span>
+                                        <span><a href="https://instagram.com/cact_lanzarote" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></span>
+                                        <span><a href="https://facebook.com/CACTLAnzarote" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a></span>
+                                        <span><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></span>
+                                        <span><a href="https://www.linkedin.com/company/5339647?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_5339647%2Cidx%3A0" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></span>
                                         <span>
-                                            <a href="https://x.com/Cactlanzarote" target="_blank" >
+                                            <a href="https://x.com/Cactlanzarote" target="_blank" rel="noopener noreferrer">
                                                 <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M16.3783 0.111328H19.3942L12.8054 7.64181L20.5565 17.8891H14.4875L9.73399 11.6742L4.2949 17.8891H1.27723L8.32453 9.83441L0.888855 0.111328H7.11199L11.4087 5.79201L16.3783 0.111328ZM15.3199 16.084H16.991L6.20396 1.82164H4.41068L15.3199 16.084Z" fill="currentColor" />
                                                 </svg>
                                             </a>
                                         </span>
-                                        <span><a href="http://pinterest.com/cactlanzarote" target="_blank" ><i class="fa-brands fa-pinterest"></i></a></span>
+                                        <span><a href="https://pinterest.com/cactlanzarote" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"></i></a></span>
                                     </div>
                                 </div>
                             </div>
