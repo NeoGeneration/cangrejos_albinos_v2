@@ -753,7 +753,7 @@ endif; ?>
         'Cultura' => 'evento-cat-cultura',
         'Gastronomía' => 'evento-cat-gastronomia',
         'Deportes' => 'evento-cat-deportes',
-        'Perfil con tirón' => 'evento-cat-perfil',
+        'Comunicación' => 'evento-cat-perfil',
     ];
     $catClass = isset($catClasses[$evento['categoria']]) ? $catClasses[$evento['categoria']] : 'evento-cat-cultura';
 ?>
@@ -772,10 +772,10 @@ endif; ?>
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="td-schedule-3-content">
                                         <?php
-                                            $partes_titulo = explode(':', $evento['titulo_charla'], 2);
-                                            $titulo_principal = trim($partes_titulo[0]);
-                                            $subtitulo = isset($partes_titulo[1]) ? trim($partes_titulo[1]) : '';
-                                        ?>
+    $partes_titulo = explode(':', $evento['titulo_charla'], 2);
+    $titulo_principal = trim($partes_titulo[0]);
+    $subtitulo = isset($partes_titulo[1]) ? trim($partes_titulo[1]) : '';
+?>
                                         <h2 class="td-schedule-3-title" style="display: grid;">
                                             <span>
                                                 <?php echo htmlspecialchars($evento['nombre']); ?>
@@ -783,7 +783,8 @@ endif; ?>
                                             <em class="charla-titulo"><?php echo htmlspecialchars($titulo_principal); ?></em>
                                             <?php if ($subtitulo): ?>
                                             <span class="charla-subtitulo"><?php echo htmlspecialchars($subtitulo); ?></span>
-                                            <?php endif; ?>
+                                            <?php
+    endif; ?>
                                         </h2>
                                         <div class="td-schedule-3-destination mb-10">
                                             <span class="mr-25">

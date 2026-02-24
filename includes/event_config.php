@@ -42,7 +42,7 @@ $eventos_2026 = [
     [
         'nombre' => 'Paco León',
         'titulo_charla' => 'La comedia como bisturí: Reírse para contar verdades, crear sin pedir permiso.',
-        'categoria' => 'Perfil con tirón',
+        'categoria' => 'Comunicación',
         'fecha' => '14 de Noviembre',
         'descripcion' => 'Actor y director con sello propio. De Aída al cine de autor y series premiadas. Humor con filo, emoción sin maquillaje y riesgo creativo.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos PACO LEON 1400x1400 copia.jpg',
