@@ -7755,6 +7755,11 @@ textarea {
 
 .edicion-2026-section .td-schedule-3-thumb img {
   border-radius: 8px;
+  transition: transform 0.4s ease;
+}
+
+.edicion-2026-section .td-schedule-3-wrap:hover .td-schedule-3-thumb img {
+  transform: scale(1.03);
 }
 
 .edicion-2026-section .td-schedule-3-title {
@@ -7762,9 +7767,31 @@ textarea {
   font-weight: 600;
 }
 
-.edicion-2026-section .td-schedule-3-title em {
+.edicion-2026-section .td-schedule-3-title em.charla-titulo {
   color: #8A5994;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+.edicion-2026-section .td-schedule-3-title .charla-subtitulo {
+  display: block;
+  font-size: 14px;
+  line-height: 1.5;
   font-weight: 400;
+  color: #777;
+  margin-top: 2px;
+  font-style: italic;
+}
+
+@media (max-width: 575px) {
+  .edicion-2026-section .td-schedule-3-title em.charla-titulo {
+    font-size: 17px;
+  }
+  .edicion-2026-section .td-schedule-3-title .charla-subtitulo {
+    font-size: 13px;
+  }
 }
 
 .edicion-2026-section .td-schedule-3-destination i {
@@ -8352,7 +8379,16 @@ textarea {
 /* Talk title */
 .edicion-2025-section .td-schedule-3-title em {
   color: #8A5994;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 575px) {
+  .edicion-2025-section .td-schedule-3-title em {
+    font-size: 17px;
+  }
 }
 
 /* Date + location */
