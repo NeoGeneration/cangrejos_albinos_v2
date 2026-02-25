@@ -167,25 +167,51 @@ if (isset($_SESSION['form_data'])) {
         .hero-image-2026 {
             margin-bottom: -90px !important;
             /* Compensa el padding-bottom de la sección */
-            width: 120%;
+            width: 140%;
             /* Hace la imagen más grande */
-            max-width: 120%;
-            margin-left: -10%;
+            max-width: 140%;
+            margin-left: -20%;
             /* Centra la imagen más grande */
             z-index: 2;
         }
 
-        @media (max-width: 1199px) {
+        @media (max-width: 1199px) and (min-width: 992px) {
             .hero-image-2026 {
-                width: 100%;
-                max-width: 100%;
-                margin-left: 0;
+                width: 120%;
+                max-width: 120%;
+                margin-left: -10%;
+            }
+        }
+
+        @media (max-width: 991px) and (min-width: 768px) {
+            .hero-image-2026 {
+                width: 130%;
+                max-width: 130%;
+                margin-left: -15%;
+                margin-bottom: -30px !important;
+            }
+        }
+
+        @media (max-width: 767px) and (min-width: 576px) {
+            .hero-image-2026 {
+                width: 140%;
+                max-width: 140%;
+                margin-left: -20%;
+                margin-bottom: -20px !important;
             }
         }
 
         @media (max-width: 575px) {
             .hero-image-2026 {
+                width: 150%;
+                max-width: 150%;
+                margin-left: -25%;
+                margin-top: -40px;
                 margin-bottom: 0 !important;
+            }
+            .td-hero-content.mb-30 {
+                margin-bottom: 0 !important;
+                padding-top: 80px;
             }
         }
     </style>
@@ -204,7 +230,10 @@ if (isset($_SESSION['form_data'])) {
     <div class="preloader">
         <div class="loader" aria-label="Cargando Cangrejos Albinos">
             <span class="loader-core">
-                <img class="loader-logo" src="assets/img/logo/isotipo.png" alt="Cangrejos Albinos">
+                <picture>
+                    <source srcset="assets/img/logo/isotipo.webp" type="image/webp">
+                    <img class="loader-logo" src="assets/img/logo/isotipo.png" alt="Cangrejos Albinos">
+                </picture>
             </span>
             <span class="loader-orbit"></span>
             <span class="loader-orbit loader-orbit-delay"></span>
@@ -219,50 +248,6 @@ if (isset($_SESSION['form_data'])) {
     </button>
     <!-- Scroll-top-end-->
 
-    <!-- header-search -->
-    <div class="search__popup">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="search__wrapper">
-                        <div class="search__close">
-                            <button type="button" class="search-close-btn">
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="search__form">
-                            <form action="#">
-                                <div class="search__input">
-                                    <input class="search-input-field" type="text" placeholder="Type keywords here">
-                                    <span class="search-focus-border"></span>
-                                    <button type="submit">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
-                                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round"></path>
-                                            <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor"
-                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                                            </path>
-                                        </svg>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="search-popup-overlay"></div>
-    <!-- header-search-end -->
 
 
     <!-- header-area -->
@@ -357,7 +342,7 @@ endif; ?>
 
         <!-- td-hero-area-start -->
         <div id="inicio" class="td-hero-area td-hero-spacing bg-position p-relative fix"
-            data-background="assets/img/hero/bg.png">
+            data-background="assets/img/hero/bg.webp">
             <!-- SVG curva eliminado, reemplazado por franja inferior -->
             <div style="display:none;">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
@@ -616,9 +601,12 @@ endif; ?>
                     </div>
                     <div class="col-xl-6 col-lg-12 align-self-end">
                         <div class="td-hero-thumb p-relative hero-image-2026">
-                            <img class="w-100" loading="lazy"
-                                src="assets/img/hero/Cangrejos albinos TODOS 2026 2400x1700 copia.png"
-                                alt="Cangrejos Albinos — Charlas en Jameos del Agua, Lanzarote">
+                            <picture>
+                                <source srcset="assets/img/hero/cangrejos_albinos_26.webp" type="image/webp">
+                                <img class="w-100" loading="lazy"
+                                    src="assets/img/hero/cangrejos_albinos_26.png"
+                                    alt="Cangrejos Albinos — Charlas en Jameos del Agua, Lanzarote">
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -668,7 +656,10 @@ endif; ?>
                 <div class="row">
                     <div class="col-lg-6 mb-30">
                         <div class="td-venue-thumb">
-                            <img class="w-100 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s" src="assets/img/angeles_blanco.png" alt="Ángeles Blanco">
+                            <picture>
+                                <source srcset="assets/img/angeles_blanco.webp" type="image/webp">
+                                <img class="w-100 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s" src="assets/img/angeles_blanco.png" alt="Ángeles Blanco">
+                            </picture>
                         </div>
                     </div>
                     <div class="col-lg-6 mb-30">
@@ -853,7 +844,7 @@ endforeach; ?>
         <?php if ($showAgenda): ?>
         <!-- td-schedule-area-start -->
         <!--
-        <div id="agenda" class="td-schedule-area  pt-50 pb-40 bg-position" data-background="assets/img/schedule/schedule-4/bg.jpg">
+        <div id="agenda" class="td-schedule-area  pt-50 pb-40 bg-position" data-background="assets/img/schedule/schedule-4/bg.webp">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
@@ -1014,7 +1005,7 @@ endforeach; ?>
 
         <!-- td-schedule-area-start -->
         <div id="agenda" class="td-schedule-area edicion-2025-section pt-80 pb-40 bg-position"
-            data-background="assets/img/schedule/schedule-4/bg.jpg">
+            data-background="assets/img/schedule/schedule-4/bg.webp">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
@@ -1044,9 +1035,12 @@ endforeach; ?>
                                     <div class="col-xl-4 col-lg-5">
                                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
                                             <div class="td-schedule-3-thumb p-relative d-about-thumb">
-                                                <img class="w-100" loading="lazy"
-                                                    src="assets/img/schedule/gemma_mengual2.png"
-                                                    alt="Gemma Mengual — Respirar bajo el agua, charla en Cangrejos Albinos">
+                                                <picture>
+                                                    <source srcset="assets/img/schedule/gemma_mengual2.webp" type="image/webp">
+                                                    <img class="w-100" loading="lazy"
+                                                        src="assets/img/schedule/gemma_mengual2.png"
+                                                        alt="Gemma Mengual — Respirar bajo el agua, charla en Cangrejos Albinos">
+                                                </picture>
                                             </div>
                                             <div class="td-about-video-inner text-center">
                                                 <a class="td-video-play td-pulse-border"
@@ -1113,9 +1107,12 @@ endforeach; ?>
                                     <div class="col-xl-4 col-lg-5">
                                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
                                             <div class="td-schedule-3-thumb p-relative d-about-thumb">
-                                                <img class="w-100" loading="lazy"
-                                                    src="assets/img/schedule/angel_leon2.jpg"
-                                                    alt="Ángel León — Cocinar el mar, charla en Cangrejos Albinos">
+                                                <picture>
+                                                    <source srcset="assets/img/schedule/angel_leon2.webp" type="image/webp">
+                                                    <img class="w-100" loading="lazy"
+                                                        src="assets/img/schedule/angel_leon2.jpg"
+                                                        alt="Ángel León — Cocinar el mar, charla en Cangrejos Albinos">
+                                                </picture>
                                             </div>
 
                                             <div class="td-about-video-inner text-center">
@@ -1182,9 +1179,12 @@ endforeach; ?>
                                     <div class="col-xl-4 col-lg-5">
                                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
                                             <div class="td-schedule-3-thumb p-relative d-about-thumb">
-                                                <img class="w-100" loading="lazy"
-                                                    src="assets/img/schedule/inaki_gabilondo2.png"
-                                                    alt="Iñaki Gabilondo — La palabra que queda, charla en Cangrejos Albinos">
+                                                <picture>
+                                                    <source srcset="assets/img/schedule/inaki_gabilondo2.webp" type="image/webp">
+                                                    <img class="w-100" loading="lazy"
+                                                        src="assets/img/schedule/inaki_gabilondo2.png"
+                                                        alt="Iñaki Gabilondo — La palabra que queda, charla en Cangrejos Albinos">
+                                                </picture>
                                             </div>
 
                                             <div class="td-about-video-inner text-center">
@@ -1255,9 +1255,12 @@ endforeach; ?>
                                     <div class="col-xl-4 col-lg-5">
                                         <div class="td-about-thumb-wrap bg-position p-relative text-center">
                                             <div class="td-schedule-3-thumb p-relative d-about-thumb">
-                                                <img class="w-100" loading="lazy"
-                                                    src="assets/img/schedule/elsa_punset2.png"
-                                                    alt="Elsa Punset — Educar las emociones, charla en Cangrejos Albinos">
+                                                <picture>
+                                                    <source srcset="assets/img/schedule/elsa_punset2.webp" type="image/webp">
+                                                    <img class="w-100" loading="lazy"
+                                                        src="assets/img/schedule/elsa_punset2.png"
+                                                        alt="Elsa Punset — Educar las emociones, charla en Cangrejos Albinos">
+                                                </picture>
                                             </div>
 
                                             <div class="td-about-video-inner text-center">
@@ -1403,7 +1406,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
 
         <!-- td-banner-area-start -->
         <div class="td-banner-area td-banner-spacing bg-position jarallax"
-            data-background="assets/img/banner/banner.png">
+            data-background="assets/img/banner/banner.webp">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-7 col-lg-9">
@@ -1434,9 +1437,12 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                         </div>
                         <span class="produced-by-divider"></span>
                         <div class="produced-by-logo">
-                            <a style="pointer-events: none; cursor: default;"><img loading="lazy"
-                                    src="assets/img/brands/mediaset.png"
-                                    alt="Mediaset España — Coproductora de Cangrejos Albinos"></a>
+                            <a style="pointer-events: none; cursor: default;"><picture>
+                                    <source srcset="assets/img/brands/mediaset.webp" type="image/webp">
+                                    <img loading="lazy"
+                                        src="assets/img/brands/mediaset.png"
+                                        alt="Mediaset España — Coproductora de Cangrejos Albinos">
+                                </picture></a>
                         </div>
                     </div>
                 </div>
@@ -1484,7 +1490,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
 
     <!-- footer-area-start -->
     <footer>
-        <div class="td-footer-area bg-position pt-80" data-background="assets/img/footer/bg.jpg">
+        <div class="td-footer-area bg-position pt-80" data-background="assets/img/footer/bg.webp">
             <div class="container">
                 <div class="row mb-30">
                     <div class="col-lg-3 col-md-5">
