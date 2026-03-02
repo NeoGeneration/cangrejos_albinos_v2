@@ -682,7 +682,7 @@ endif; ?>
                                     </span>
                                     <div>
                                         <span class="subtitle">Hora</span>
-                                        <p>20:30h</p>
+                                        <p>20:00h</p>
                                     </div>
                                 </div>
                                 <div class="td-venue-info mb-25">
@@ -874,7 +874,7 @@ endforeach; ?>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
-                                                    Sábado, 28 de Junio, 20:30h
+                                                    Sábado, 28 de Junio, 20:00h
                                                 </span>
                                                 <span>
                                                     <i class="flaticon-gps"></i>
@@ -919,7 +919,7 @@ endforeach; ?>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
-                                                    Sábado, 6 de Septiembre, 20:30h
+                                                    Sábado, 6 de Septiembre, 20:00h
                                                 </span>
                                                 <span>
                                                     <i class="flaticon-gps"></i>
@@ -963,7 +963,7 @@ endforeach; ?>
                                             <div class="td-schedule-3-destination mb-10">
                                                 <span class="mr-25">
                                                     <i class="flaticon-time"></i>
-                                                    Sábado, 25 de Octubre, 20:30h
+                                                    Sábado, 25 de Octubre, 20:00h
                                                 </span>
                                                 <span>
                                                     <i class="flaticon-gps"></i>

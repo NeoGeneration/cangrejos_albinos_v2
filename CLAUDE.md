@@ -110,7 +110,7 @@ define('EVENTO_MAXIMO_POR_PERSONA', 4);
 
 Datos del evento hardcodeados en templates de email:
 - **Fecha:** 17 de mayo de 2025
-- **Hora:** 20:30
+- **Hora:** 20:00
 - **Lugar:** Jameos del Agua, Lanzarote
 
 ## Flujo de reservas
