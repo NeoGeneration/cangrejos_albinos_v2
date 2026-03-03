@@ -2983,9 +2983,10 @@ textarea {
   left: 0;
 }
 .tdmenu__navbar-wrap > ul > li a {
-  font-family: var(--td-ff-poppins);
-  font-weight: 500;
+  font-family: var(--td-heading-font-family);
+  font-weight: 700;
   font-size: 16px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--td-common-white);
   padding: 48px 0px;
@@ -3539,7 +3540,7 @@ textarea {
 .td-hero-social {
   position: absolute;
   left: 0;
-  top: 247px;
+  top: 190px;
   writing-mode: vertical-rl;
   transform: translateY(-50%) rotate(-180deg);
   gap: 24px;

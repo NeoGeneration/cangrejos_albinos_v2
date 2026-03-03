@@ -572,7 +572,6 @@ endif; ?>
                             <!-- Aforo Completo  -->
 
                             <div class="td-hero-social d-flex align-items-center">
-                                <span>Síguenos en:</span>
                                 <span><a href="https://pinterest.com/cactlanzarote" target="_blank"
                                         rel="noopener noreferrer"><i class="fa-brands fa-pinterest"></i></a></span>
                                 <span><a href="https://www.youtube.com/channel/UCgTl_fSjIAxu93D2oWFGu-w" target="_blank"
