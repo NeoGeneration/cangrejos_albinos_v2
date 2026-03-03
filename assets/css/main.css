@@ -7821,40 +7821,56 @@ textarea {
 
 /* 2026 dynamic buttons: pill shape */
 .edicion-2026-section .td-btn-proximamente {
+  background: #e8eaed;
+  border: none;
   border-radius: 50px;
-  padding: 14px 32px;
+  padding: 10px 32px 10px 26px;
   font-size: 12px;
+  font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  color: #8a8f98;
 }
 
 .edicion-2026-section .td-btn-reservar {
+  background: #4A2D6E;
   border-radius: 50px;
-  padding: 14px 36px;
+  padding: 10px 32px 10px 26px;
   font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1.8px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  animation: reservar-pulse 3s ease-in-out infinite;
+  color: var(--td-common-white);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
 }
 
-@keyframes reservar-pulse {
-  0%, 100% {
-    box-shadow:
-      0 4px 15px rgba(138, 89, 148, 0.4),
-      0 1px 3px rgba(0, 0, 0, 0.1),
-      inset 0 1px 0 rgba(255, 255, 255, 0.15);
-  }
-  50% {
-    box-shadow:
-      0 4px 25px rgba(138, 89, 148, 0.6),
-      0 1px 3px rgba(0, 0, 0, 0.1),
-      inset 0 1px 0 rgba(255, 255, 255, 0.2);
-  }
+.edicion-2026-section .td-btn-reservar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #8A5994 0%, #6f4578 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  border-radius: 50px;
+  z-index: -1;
 }
 
 .edicion-2026-section .td-btn-reservar:hover {
-  animation: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(138, 89, 148, 0.3);
+  color: var(--td-common-white);
+}
+
+.edicion-2026-section .td-btn-reservar:hover::before {
+  opacity: 1;
+}
+
+.edicion-2026-section .td-btn-reservar .td-arrow-angle {
+  position: relative;
+  z-index: 1;
 }
 
 .edicion-2026-section .td-btn-agotado {
@@ -7973,79 +7989,32 @@ textarea {
   opacity: 0.7;
 }
 
-/* Reservar — premium volcanic CTA */
+/* Reservar — same as ver-evento but purple */
 .td-btn-reservar {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 14px 32px;
-  border-radius: 50px;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 8px;
   font-family: var(--td-ff-poppins);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   color: #fff;
-  background: linear-gradient(135deg, #8A5994 0%, #6B3FA0 50%, #4A2D6E 100%);
-  background-size: 200% 200%;
+  background: linear-gradient(135deg, #8A5994 0%, #6f4578 100%);
   border: none;
   cursor: pointer;
   text-decoration: none;
-  transition: all 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow:
-    0 4px 15px rgba(138, 89, 148, 0.4),
-    0 1px 3px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.15);
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.td-btn-reservar::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.12) 50%,
-    transparent 100%
-  );
-  transition: left 0.6s ease;
-  z-index: -1;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(138, 89, 148, 0.3);
+  letter-spacing: 0.2px;
 }
 
 .td-btn-reservar:hover {
-  background-position: 100% 0;
-  box-shadow:
-    0 8px 30px rgba(138, 89, 148, 0.55),
-    0 2px 8px rgba(0, 0, 0, 0.12),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2);
-  transform: translateY(-3px);
+  background: linear-gradient(135deg, #6f4578 0%, #5a3862 100%);
+  box-shadow: 0 4px 16px rgba(138, 89, 148, 0.4);
+  transform: translateY(-1px);
   color: #fff;
   text-decoration: none;
-}
-
-.td-btn-reservar:hover::before {
-  left: 100%;
-}
-
-.td-btn-reservar:active {
-  transform: translateY(-1px);
-  box-shadow:
-    0 3px 12px rgba(138, 89, 148, 0.4),
-    0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.td-btn-reservar svg {
-  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.td-btn-reservar:hover svg {
-  transform: translate(3px, -3px);
 }
 
 /* Agotado — amber disabled */
@@ -8697,9 +8666,10 @@ textarea {
 }
 
 .turitop-modal-title {
-  font-family: var(--td-ff-poppins);
+  font-family: var(--td-heading-font-family);
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
+  line-height: 30px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -8712,17 +8682,28 @@ textarea {
 }
 
 .turitop-modal-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.12);
   color: #fff;
-  opacity: 0.7;
-  text-shadow: none;
-  font-size: 28px;
-  padding: 0;
+  cursor: pointer;
   margin: -4px -4px -4px auto;
+  transition: all 0.25s ease;
+  flex-shrink: 0;
 }
 
 .turitop-modal-close:hover {
-  color: #fff;
-  opacity: 1;
+  background: rgba(255, 255, 255, 0.25);
+  transform: rotate(90deg);
+}
+
+.turitop-modal-close:active {
+  transform: rotate(90deg) scale(0.9);
 }
 
 .turitop-modal-body {

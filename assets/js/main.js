@@ -598,17 +598,25 @@
 	if (turitopModal) {
 		var currentTuritopService = null;
 
+		function cleanModalBody() {
+			var modalBody = document.getElementById('turitopModalBody');
+			var loading = document.getElementById('turitopLoading');
+			Array.prototype.slice.call(modalBody.children).forEach(function (el) {
+				if (el !== loading) el.remove();
+			});
+		}
+
 		turitopModal.addEventListener('show.bs.modal', function (event) {
 			var button = event.relatedTarget;
 			var serviceId = button.getAttribute('data-turitop-service');
 			var eventName = button.getAttribute('data-event-name');
+			var eventDate = button.getAttribute('data-event-date');
 
-			document.getElementById('turitopModalEventName').textContent = eventName || 'Reservar entrada';
+			var title = eventName || 'Reservar entrada';
+			if (eventDate) title += ' - ' + eventDate;
+			document.getElementById('turitopModalEventName').textContent = title;
 			document.getElementById('turitopLoading').style.display = '';
-
-			var modalBody = document.getElementById('turitopModalBody');
-			var oldWidgets = modalBody.querySelectorAll('.load-turitop, iframe');
-			oldWidgets.forEach(function (el) { el.remove(); });
+			cleanModalBody();
 
 			currentTuritopService = serviceId;
 		});
@@ -623,21 +631,16 @@
 			widget.setAttribute('data-numbered-seats', 'yes');
 			widget.setAttribute('data-embed', 'box');
 
+			document.getElementById('turitopLoading').style.display = 'none';
 			document.getElementById('turitopModalBody').appendChild(widget);
 
 			if (typeof turitopBuild === 'function') {
 				turitopBuild();
 			}
-
-			setTimeout(function () {
-				$('#turitopLoading').fadeOut(300);
-			}, 1500);
 		});
 
 		turitopModal.addEventListener('hidden.bs.modal', function () {
-			var modalBody = document.getElementById('turitopModalBody');
-			var oldWidgets = modalBody.querySelectorAll('.load-turitop, iframe');
-			oldWidgets.forEach(function (el) { el.remove(); });
+			cleanModalBody();
 			currentTuritopService = null;
 			document.getElementById('turitopLoading').style.display = '';
 		});
