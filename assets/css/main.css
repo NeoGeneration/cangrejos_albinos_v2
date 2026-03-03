@@ -7830,11 +7830,31 @@ textarea {
 
 .edicion-2026-section .td-btn-reservar {
   border-radius: 50px;
-  padding: 14px 32px;
+  padding: 14px 36px;
   font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
   text-transform: uppercase;
+  animation: reservar-pulse 3s ease-in-out infinite;
+}
+
+@keyframes reservar-pulse {
+  0%, 100% {
+    box-shadow:
+      0 4px 15px rgba(138, 89, 148, 0.4),
+      0 1px 3px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  }
+  50% {
+    box-shadow:
+      0 4px 25px rgba(138, 89, 148, 0.6),
+      0 1px 3px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  }
+}
+
+.edicion-2026-section .td-btn-reservar:hover {
+  animation: none;
 }
 
 .edicion-2026-section .td-btn-agotado {
@@ -7953,32 +7973,79 @@ textarea {
   opacity: 0.7;
 }
 
-/* Reservar — vibrant action */
+/* Reservar — premium volcanic CTA */
 .td-btn-reservar {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 12px 28px;
-  border-radius: 8px;
+  gap: 10px;
+  padding: 14px 32px;
+  border-radius: 50px;
   font-family: var(--td-ff-poppins);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   color: #fff;
-  background: linear-gradient(135deg, #00b894 0%, #00a381 100%);
+  background: linear-gradient(135deg, #8A5994 0%, #6B3FA0 50%, #4A2D6E 100%);
+  background-size: 200% 200%;
   border: none;
   cursor: pointer;
   text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 184, 148, 0.3);
-  letter-spacing: 0.2px;
+  transition: all 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow:
+    0 4px 15px rgba(138, 89, 148, 0.4),
+    0 1px 3px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.td-btn-reservar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.12) 50%,
+    transparent 100%
+  );
+  transition: left 0.6s ease;
+  z-index: -1;
 }
 
 .td-btn-reservar:hover {
-  background: linear-gradient(135deg, #00a381 0%, #009270 100%);
-  box-shadow: 0 4px 16px rgba(0, 184, 148, 0.4);
-  transform: translateY(-1px);
+  background-position: 100% 0;
+  box-shadow:
+    0 8px 30px rgba(138, 89, 148, 0.55),
+    0 2px 8px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
   color: #fff;
   text-decoration: none;
+}
+
+.td-btn-reservar:hover::before {
+  left: 100%;
+}
+
+.td-btn-reservar:active {
+  transform: translateY(-1px);
+  box-shadow:
+    0 3px 12px rgba(138, 89, 148, 0.4),
+    0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.td-btn-reservar svg {
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.td-btn-reservar:hover svg {
+  transform: translate(3px, -3px);
 }
 
 /* Agotado — amber disabled */
@@ -8603,6 +8670,172 @@ textarea {
   .edicion-2026-subtitle {
     font-size: 16px;
   }
+}
+
+/* ==========================================================================
+   TuriTop Ticket Modal
+   ========================================================================== */
+
+.turitop-modal-dialog {
+  max-width: 720px;
+  margin: 1.75rem auto;
+}
+
+.turitop-modal-content {
+  background: #fff;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+
+.turitop-modal-header {
+  background: linear-gradient(135deg, #8A5994 0%, #6B3FA0 50%, #4A2D6E 100%);
+  color: #fff;
+  border-bottom: none;
+  padding: 20px 28px;
+}
+
+.turitop-modal-title {
+  font-family: var(--td-ff-poppins);
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.turitop-modal-title i {
+  font-size: 20px;
+  opacity: 0.85;
+}
+
+.turitop-modal-close {
+  color: #fff;
+  opacity: 0.7;
+  text-shadow: none;
+  font-size: 28px;
+  padding: 0;
+  margin: -4px -4px -4px auto;
+}
+
+.turitop-modal-close:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.turitop-modal-body {
+  padding: 24px;
+  min-height: 400px;
+  position: relative;
+}
+
+.turitop-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  color: #8A5994;
+}
+
+.turitop-loading p {
+  margin-top: 16px;
+  font-family: var(--td-ff-poppins);
+  font-size: 14px;
+  color: #888;
+}
+
+.turitop-spinner {
+  width: 44px;
+  height: 44px;
+  border: 4px solid rgba(138, 89, 148, 0.15);
+  border-top-color: #8A5994;
+  border-radius: 50%;
+  animation: turitopSpin 0.8s linear infinite;
+}
+
+@keyframes turitopSpin {
+  to { transform: rotate(360deg); }
+}
+
+.turitop-modal-body .load-turitop {
+  width: 100%;
+}
+
+.turitop-modal-body iframe {
+  width: 100% !important;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Mobile: near-fullscreen modal */
+@media (max-width: 767px) {
+  .turitop-modal-dialog {
+    margin: 8px;
+    max-width: calc(100% - 16px);
+    min-height: calc(100vh - 16px);
+  }
+
+  .turitop-modal-content {
+    border-radius: 12px;
+    min-height: calc(100vh - 16px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .turitop-modal-header {
+    padding: 16px 20px;
+    flex-shrink: 0;
+  }
+
+  .turitop-modal-title {
+    font-size: 16px;
+  }
+
+  .turitop-modal-body {
+    padding: 16px;
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Small mobile: true fullscreen */
+@media (max-width: 575px) {
+  .turitop-modal-dialog {
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+  }
+
+  .turitop-modal-content {
+    border-radius: 0;
+    min-height: 100vh;
+  }
+
+  .turitop-modal-header {
+    padding: 14px 16px;
+    border-radius: 0;
+  }
+
+  .turitop-modal-body {
+    padding: 12px;
+  }
+}
+
+/* Button reset for <button> element */
+button.td-btn-reservar {
+  border: none;
+  outline: none;
+}
+
+button.td-btn-reservar:focus {
+  outline: none;
+  box-shadow:
+    0 4px 15px rgba(138, 89, 148, 0.4),
+    0 0 0 3px rgba(138, 89, 148, 0.25);
 }
 
 /*# sourceMappingURL=main.css.map */

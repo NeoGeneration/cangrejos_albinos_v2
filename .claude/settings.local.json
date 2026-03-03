@@ -11,7 +11,11 @@
       "Bash(which cwebp:*)",
       "Bash(cwebp:*)",
       "Bash(xargs ls -lhS)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "WebSearch",
+      "WebFetch(domain:help.turitop.com)",
+      "WebFetch(domain:app.turitop.com)",
+      "Bash(curl:*)"
     ]
   }
 }

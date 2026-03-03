@@ -590,4 +590,57 @@
 		window.addEventListener('load', highlightActiveMenuItem);
 	});
 
+	/*=============================================
+	=     TuriTop Modal Widget Logic     =
+	=============================================*/
+
+	var turitopModal = document.getElementById('turitopModal');
+	if (turitopModal) {
+		var currentTuritopService = null;
+
+		turitopModal.addEventListener('show.bs.modal', function (event) {
+			var button = event.relatedTarget;
+			var serviceId = button.getAttribute('data-turitop-service');
+			var eventName = button.getAttribute('data-event-name');
+
+			document.getElementById('turitopModalEventName').textContent = eventName || 'Reservar entrada';
+			document.getElementById('turitopLoading').style.display = '';
+
+			var modalBody = document.getElementById('turitopModalBody');
+			var oldWidgets = modalBody.querySelectorAll('.load-turitop, iframe');
+			oldWidgets.forEach(function (el) { el.remove(); });
+
+			currentTuritopService = serviceId;
+		});
+
+		turitopModal.addEventListener('shown.bs.modal', function () {
+			if (!currentTuritopService) return;
+
+			var widget = document.createElement('div');
+			widget.className = 'load-turitop loading-turitop';
+			widget.setAttribute('data-service', currentTuritopService);
+			widget.setAttribute('data-lang', 'es');
+			widget.setAttribute('data-numbered-seats', 'yes');
+			widget.setAttribute('data-embed', 'box');
+
+			document.getElementById('turitopModalBody').appendChild(widget);
+
+			if (typeof turitopBuild === 'function') {
+				turitopBuild();
+			}
+
+			setTimeout(function () {
+				$('#turitopLoading').fadeOut(300);
+			}, 1500);
+		});
+
+		turitopModal.addEventListener('hidden.bs.modal', function () {
+			var modalBody = document.getElementById('turitopModalBody');
+			var oldWidgets = modalBody.querySelectorAll('.load-turitop, iframe');
+			oldWidgets.forEach(function (el) { el.remove(); });
+			currentTuritopService = null;
+			document.getElementById('turitopLoading').style.display = '';
+		});
+	}
+
 })(jQuery);

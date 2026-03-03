@@ -16,8 +16,9 @@ $eventos_2026 = [
         'fecha' => '21 de Marzo, 20:00h',
         'descripcion' => 'Voz icónica del pop-rock español. De los 80 al bolero, una carrera internacional marcada por fuerza, elegancia y verdad.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos LUZ CASAL 1400x1400 copia.jpg',
-        'estado' => 'proximamente',
-        'link' => '#',
+        'estado' => 'reservar',
+        'link' => 'entradas-luz-casal.html',
+        'turitop_service_id' => 'P318',
     ],
     [
         'nombre' => 'Quique Dacosta',
@@ -28,6 +29,7 @@ $eventos_2026 = [
         'imagen' => 'assets/img/schedule/26/cangrejos albinos QUIQUE DACOSTA 1400x1400 copia.jpg',
         'estado' => 'proximamente',
         'link' => '#',
+        'turitop_service_id' => null,
     ],
     [
         'nombre' => 'Carolina Marín',
@@ -38,6 +40,7 @@ $eventos_2026 = [
         'imagen' => 'assets/img/schedule/26/cangrejos albinos CAROLINA MARIN 1400x1400 copia.jpg',
         'estado' => 'proximamente',
         'link' => '#',
+        'turitop_service_id' => null,
     ],
     [
         'nombre' => 'Paco León',
@@ -48,6 +51,7 @@ $eventos_2026 = [
         'imagen' => 'assets/img/schedule/26/cangrejos albinos PACO LEON 1400x1400 copia.jpg',
         'estado' => 'proximamente',
         'link' => '#',
+        'turitop_service_id' => null,
     ],
 ];
 
