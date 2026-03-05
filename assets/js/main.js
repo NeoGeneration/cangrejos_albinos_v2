@@ -612,7 +612,7 @@
 			var eventName = button.getAttribute('data-event-name');
 			var eventDate = button.getAttribute('data-event-date');
 
-			var title = eventName || 'Consigue tu entrada solidaria';
+			var title = eventName || 'Entrada solidaria';
 			if (eventDate) title += ' - ' + eventDate;
 			document.getElementById('turitopModalEventName').textContent = title;
 			document.getElementById('turitopLoading').style.display = '';

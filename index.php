@@ -120,18 +120,18 @@ if (isset($_SESSION['form_data'])) {
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=20260217-1">
-    <link rel="stylesheet" href="assets/css/animate.min.css?v=20260217-1">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css?v=20260217-1">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css?v=20260217-1">
-    <link rel="stylesheet" href="assets/css/flaticon_mycollection.css?v=20260217-1">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css?v=20260217-1">
-    <link rel="stylesheet" href="assets/css/odometer.css?v=20260217-1">
-    <link rel="stylesheet" href="assets/css/default.css?v=20260217-1">
-    <link rel="stylesheet" href="assets/css/main.css?v=20260217-1">
-    <link rel="stylesheet" href="assets/css/newsletter.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=20260306-1">
+    <link rel="stylesheet" href="assets/css/animate.min.css?v=20260306-1">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css?v=20260306-1">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css?v=20260306-1">
+    <link rel="stylesheet" href="assets/css/flaticon_mycollection.css?v=20260306-1">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css?v=20260306-1">
+    <link rel="stylesheet" href="assets/css/odometer.css?v=20260306-1">
+    <link rel="stylesheet" href="assets/css/default.css?v=20260306-1">
+    <link rel="stylesheet" href="assets/css/main.css?v=20260306-1">
+    <link rel="stylesheet" href="assets/css/newsletter.css?v=20260306-1">
     <!-- CSS para Klaro Cookie Consent Manager -->
-    <link rel="stylesheet" href="assets/css/klaro.css?v=20260217-1">
+    <link rel="stylesheet" href="assets/css/klaro.css?v=20260306-1">
     <!-- estilos para el formulario reserva -->
     <style>
         .error-message {
@@ -217,7 +217,7 @@ if (isset($_SESSION['form_data'])) {
     </style>
 
     <!-- Klaro Cookie Consent Manager Script -->
-    <script defer src="assets/js/klaro-config.js?v=20260217-1"></script>
+    <script defer src="assets/js/klaro-config.js?v=20260306-1"></script>
     <script defer src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
 
     <!-- NO ELIMINAR: Google Analytics se cargará a través de Klaro cuando se dé el consentimiento -->
@@ -549,9 +549,9 @@ endif; ?>
                                 </ul>
                             </div>
                 -->
-                            <!-- Consigue tu Entrada Solidaria
+                            <!-- Entrada Solidaria
                             <a class="td-btn-white td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="entradas-inaki-gabilondo.html">
-                                <span class="mr10 td-text d-inline-block mr-5">Consigue tu Entrada Solidaria</span>
+                                <span class="mr10 td-text d-inline-block mr-5">Entrada Solidaria</span>
                                 <span class="td-arrow-angle">
                                     <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="#000e2b" />
@@ -805,7 +805,7 @@ endif; ?>
                                                 data-turitop-service="<?php echo htmlspecialchars($evento['turitop_service_id']); ?>"
                                                 data-event-name="<?php echo htmlspecialchars($evento['nombre']); ?>"
                                                 data-event-date="<?php echo htmlspecialchars($evento['fecha']); ?>">
-                                                Consigue tu entrada solidaria
+                                                Entrada solidaria
                                                 <span class="td-arrow-angle">
                                                     <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
@@ -816,7 +816,7 @@ endif; ?>
                                             <?php else: ?>
                                             <a class="td-btn-reservar"
                                                 href="<?php echo htmlspecialchars($evento['link']); ?>">
-                                                Consigue tu entrada solidaria
+                                                Entrada solidaria
                                                 <svg width="13" height="14" viewBox="0 0 13 14" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path
@@ -994,7 +994,7 @@ endforeach; ?>
                                             <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
 
                                                 <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="entradas-inaki-gabilondo.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Consigue tu Entrada Solidaria</span>
+                                                    <span class="mr10 td-text d-inline-block mr-5">Entrada Solidaria</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
@@ -1039,7 +1039,7 @@ endforeach; ?>
     -->
         <!--
                                                 <a class="td-btn td-btn-3-squre td-left-right text3 mr-25" href="entradas-elsa-punset.html">
-                                                    <span class="mr10 td-text d-inline-block mr-5">Consigue tu Entrada Solidaria</span>
+                                                    <span class="mr10 td-text d-inline-block mr-5">Entrada Solidaria</span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z" fill="white" />
@@ -1557,7 +1557,7 @@ Déjanos tus datos y te avisaremos antes que a nadie.
                     <div class="modal-header turitop-modal-header">
                         <h5 class="modal-title turitop-modal-title" id="turitopModalLabel">
                             <i class="fa-regular fa-ticket"></i>
-                            <span id="turitopModalEventName">Consigue tu entrada solidaria</span>
+                            <span id="turitopModalEventName">Entrada solidaria</span>
                         </h5>
                         <button type="button" class="turitop-modal-close" data-bs-dismiss="modal" aria-label="Cerrar">
                             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1648,21 +1648,21 @@ Déjanos tus datos y te avisaremos antes que a nadie.
 
 
     <!-- JS here -->
-    <script src="assets/js/vendor/jquery.js?v=20260217-1"></script>
-    <script src="assets/js/bootstrap.min.js?v=20260217-1"></script>
-    <script src="assets/js/isotope.pkgd.min.js?v=20260217-1"></script>
-    <script src="assets/js/ion.rangeSlider.min.js?v=20260217-1"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js?v=20260217-1"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js?v=20260217-1"></script>
-    <script src="assets/js/jquery.odometer.min.js?v=20260217-1"></script>
-    <script src="assets/js/jquery-appear.js?v=20260217-1"></script>
-    <script src="assets/js/swiper-bundle.min.js?v=20260217-1"></script>
-    <script src="assets/js/Jarallax.js?v=20260217-1"></script>
-    <script src="assets/js/nice-select.js?v=20260217-1"></script>
-    <script src="assets/js/ajax-form.js?v=20260217-1"></script>
-    <script src="assets/js/wow.min.js?v=20260217-1"></script>
-    <script src="assets/js/main.js?v=20260217-1"></script>
-    <script src="assets/js/newsletter.js?v=20260217-1"></script>
+    <script src="assets/js/vendor/jquery.js?v=20260306-1"></script>
+    <script src="assets/js/bootstrap.min.js?v=20260306-1"></script>
+    <script src="assets/js/isotope.pkgd.min.js?v=20260306-1"></script>
+    <script src="assets/js/ion.rangeSlider.min.js?v=20260306-1"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js?v=20260306-1"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js?v=20260306-1"></script>
+    <script src="assets/js/jquery.odometer.min.js?v=20260306-1"></script>
+    <script src="assets/js/jquery-appear.js?v=20260306-1"></script>
+    <script src="assets/js/swiper-bundle.min.js?v=20260306-1"></script>
+    <script src="assets/js/Jarallax.js?v=20260306-1"></script>
+    <script src="assets/js/nice-select.js?v=20260306-1"></script>
+    <script src="assets/js/ajax-form.js?v=20260306-1"></script>
+    <script src="assets/js/wow.min.js?v=20260306-1"></script>
+    <script src="assets/js/main.js?v=20260306-1"></script>
+    <script src="assets/js/newsletter.js?v=20260306-1"></script>
 
     <!-- script para vormulario reservas -->
     <script>
