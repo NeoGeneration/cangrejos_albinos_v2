@@ -826,6 +826,12 @@ endif; ?>
                                             </a>
                                             <?php endif; ?>
                                             <?php break;
+        case 'proximamente_mediaset': ?>
+                                            <span class="td-btn-proximamente-mediaset">
+                                                <i class="fa-regular fa-clock"></i>
+                                                Próximamente en Mediaset Infinity
+                                            </span>
+                                            <?php break;
         case 'agotado': ?>
                                             <span class="td-btn-agotado">
                                                 Aforo completo
