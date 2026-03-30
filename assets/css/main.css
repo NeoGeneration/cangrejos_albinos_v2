@@ -7894,10 +7894,12 @@ textarea {
   text-transform: uppercase;
 }
 
-.edicion-2026-section .td-btn-ver-evento {
+.edicion-2026-section .td-btn.td-btn-3-squre {
   background: #1e1e1e;
+  border: none;
   border-radius: 50px;
   padding: 14px 32px 14px 26px;
+  font-family: var(--td-ff-poppins);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -7909,7 +7911,7 @@ textarea {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
 }
 
-.edicion-2026-section .td-btn-ver-evento::before {
+.edicion-2026-section .td-btn.td-btn-3-squre::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -7919,14 +7921,32 @@ textarea {
   border-radius: 50px;
 }
 
-.edicion-2026-section .td-btn-ver-evento:hover {
+.edicion-2026-section .td-btn.td-btn-3-squre:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 24px rgba(138, 89, 148, 0.3);
-  color: var(--td-common-white);
 }
 
-.edicion-2026-section .td-btn-ver-evento:hover::before {
+.edicion-2026-section .td-btn.td-btn-3-squre:hover::before {
   opacity: 1;
+}
+
+.edicion-2026-section .td-btn.td-btn-3-squre .td-text,
+.edicion-2026-section .td-btn.td-btn-3-squre .td-arrow-angle {
+  position: relative;
+  z-index: 1;
+}
+
+.edicion-2026-section .td-btn.td-btn-3-squre .td-arrow-angle {
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  display: inline-block;
+}
+
+.edicion-2026-section .td-btn.td-btn-3-squre:hover .td-arrow-angle {
+  transform: translateX(4px);
+}
+
+.edicion-2026-section .td-btn.td-btn-3-squre .td-arrow-angle svg path {
+  fill: var(--td-common-white);
 }
 
 /* --- Placeholder image overlay for 2026 cards --- */
