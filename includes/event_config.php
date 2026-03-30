@@ -16,8 +16,8 @@ $eventos_2026 = [
         'fecha' => '21 de Marzo, 20:00h',
         'descripcion' => 'Voz icónica del pop-rock español. De los 80 al bolero, una carrera internacional marcada por fuerza, elegancia y verdad.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos LUZ CASAL 1400x1400 copia.jpg',
-        'estado' => 'proximamente_mediaset',
-        'link' => '#',
+        'estado' => 'ver_evento',
+        'link' => 'https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-2/episodios/programa-5-40_018714809/player/',
         'turitop_service_id' => 'P318',
     ],
     [

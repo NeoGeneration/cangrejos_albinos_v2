@@ -839,7 +839,8 @@ endif; ?>
                                             <?php break;
         case 'ver_evento': ?>
                                             <a class="td-btn-ver-evento"
-                                                href="<?php echo htmlspecialchars($evento['link']); ?>">
+                                                href="<?php echo htmlspecialchars($evento['link']); ?>"
+                                                target="_blank" rel="noopener noreferrer">
                                                 Ver el evento completo
                                                 <svg width="13" height="14" viewBox="0 0 13 14" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
