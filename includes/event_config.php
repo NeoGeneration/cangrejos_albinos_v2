@@ -27,7 +27,7 @@ $eventos_2026 = [
         'fecha' => '02 de Mayo, 20:00h',
         'descripcion' => 'Chef creativo y vanguardista. Tres estrellas Michelin. Convierte el Mediterráneo en relato comestible: técnica, belleza y producto al servicio de una idea.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos QUIQUE DACOSTA 1400x1400 copia.jpg',
-        'estado' => 'reservar',
+        'estado' => 'proximamente',
         'link' => '#',
         'turitop_service_id' => 'P320',
     ],
