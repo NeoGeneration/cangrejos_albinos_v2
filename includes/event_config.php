@@ -38,9 +38,9 @@ $eventos_2026 = [
         'fecha' => '26 de Septiembre, 20:00h',
         'descripcion' => 'Campeona olímpica y referente mundial del bádminton. Talento, disciplina y mentalidad feroz: compite para ganar y entrena para superarse.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos CAROLINA MARIN 1400x1400 copia.jpg',
-        'estado' => 'proximamente',
+        'estado' => 'reservar',
         'link' => '#',
-        'turitop_service_id' => null,
+        'turitop_service_id' => 'P323',
     ],
     [
         'nombre' => 'Paco León',
