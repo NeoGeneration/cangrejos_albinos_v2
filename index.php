@@ -783,11 +783,14 @@ endif; ?>
                                             </span>
                                             <span>
                                                 <i class="flaticon-gps"></i>
-                                                Auditorio Jameos del Agua, Lanzarote
+                                                <?php echo htmlspecialchars(!empty($evento['ubicacion']) ? $evento['ubicacion'] : 'Auditorio Jameos del Agua, Lanzarote'); ?>
                                             </span>
                                         </div>
                                         <p class="mb-25 para">
                                             <?php echo htmlspecialchars($evento['descripcion']); ?>
+                                            <?php if (!empty($evento['nota'])): ?>
+                                            <span class="evento-nota d-block mt-10"><i class="fa-solid fa-circle-info mr-5"></i><?php echo htmlspecialchars($evento['nota']); ?></span>
+                                            <?php endif; ?>
                                         </p>
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <?php switch ($evento['estado']):

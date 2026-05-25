@@ -7820,6 +7820,22 @@ textarea {
   line-height: 1.75;
 }
 
+.edicion-2026-section .evento-nota {
+  font-size: 13px;
+  font-weight: 500;
+  color: #8A5994;
+  background: rgba(138, 89, 148, 0.08);
+  border-left: 3px solid #8A5994;
+  padding: 8px 12px;
+  border-radius: 4px;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.edicion-2026-section .evento-nota i {
+  color: #8A5994;
+}
+
 /* 2026 dynamic buttons: pill shape */
 .edicion-2026-section .td-btn-proximamente {
   background: #e8eaed;
