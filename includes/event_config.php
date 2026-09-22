@@ -8,6 +8,8 @@ define('EVENTO_MAXIMO_POR_PERSONA', 4); // Máximo de entradas que puede reserva
 
 // Configuración de eventos Edición 2026
 // Estados posibles: 'proximamente' | 'reservar' | 'agotado' | 'ver_evento' | 'proximamente_mediaset'
+// 'disponible_desde' (opcional, 'Y-m-d H:i' hora de Canarias): hasta esa fecha el evento se muestra como 'proximamente'.
+// Añadir ?preview=1 a la URL para ver el estado final antes de tiempo.
 $eventos_2026 = [
     [
         'nombre' => 'Luz Casal',
@@ -51,10 +53,23 @@ $eventos_2026 = [
         'fecha' => '14 de Noviembre, 20:00h',
         'descripcion' => 'Actor y director con sello propio. De Aída al cine de autor y series premiadas. Humor con filo, emoción sin maquillaje y riesgo creativo.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos PACO LEON 1400x1400 copia.jpg',
-        'estado' => 'proximamente',
+        'estado' => 'reservar',
         'link' => '#',
-        'turitop_service_id' => null,
+        'turitop_service_id' => 'P333',
+        'disponible_desde' => '2026-09-25 00:00',
     ],
 ];
+
+$ahora_eventos = new DateTime('now', new DateTimeZone('Atlantic/Canary'));
+$preview_eventos = isset($_GET['preview']) && $_GET['preview'] === '1';
+foreach ($eventos_2026 as &$evento_cfg) {
+    if (!$preview_eventos && !empty($evento_cfg['disponible_desde'])) {
+        $disponible = new DateTime($evento_cfg['disponible_desde'], new DateTimeZone('Atlantic/Canary'));
+        if ($ahora_eventos < $disponible) {
+            $evento_cfg['estado'] = 'proximamente';
+        }
+    }
+}
+unset($evento_cfg);
 
 ?>
