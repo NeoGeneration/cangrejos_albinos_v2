@@ -797,7 +797,7 @@ endif; ?>
         case 'proximamente': ?>
                                             <span class="td-btn-proximamente">
                                                 <i class="fa-regular fa-clock"></i>
-                                                Entradas próximamente
+                                                <?php echo htmlspecialchars($evento['texto_estado'] ?? 'Entradas próximamente'); ?>
                                             </span>
                                             <?php break;
         case 'reservar': ?>

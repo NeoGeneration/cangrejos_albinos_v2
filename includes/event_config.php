@@ -9,6 +9,7 @@ define('EVENTO_MAXIMO_POR_PERSONA', 4); // Máximo de entradas que puede reserva
 // Configuración de eventos Edición 2026
 // Estados posibles: 'proximamente' | 'reservar' | 'agotado' | 'ver_evento' | 'proximamente_mediaset'
 // 'disponible_desde' (opcional, 'Y-m-d H:i' hora de Canarias): hasta esa fecha el evento se muestra como 'proximamente'.
+// 'texto_estado' (opcional): sustituye el texto por defecto del estado 'proximamente'.
 // Añadir ?preview=1 a la URL para ver el estado final antes de tiempo.
 $eventos_2026 = [
     [
@@ -42,7 +43,8 @@ $eventos_2026 = [
         'fecha' => '26 de Septiembre, 20:00h',
         'descripcion' => 'Campeona olímpica y referente mundial del bádminton. Talento, disciplina y mentalidad feroz: compite para ganar y entrena para superarse.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos CAROLINA MARIN 1400x1400 copia.jpg',
-        'estado' => 'reservar',
+        'estado' => 'proximamente',
+        'texto_estado' => 'Evento disponible próximamente',
         'link' => '#',
         'turitop_service_id' => 'P323',
     ],
