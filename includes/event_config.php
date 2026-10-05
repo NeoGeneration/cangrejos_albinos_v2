@@ -43,9 +43,8 @@ $eventos_2026 = [
         'fecha' => '26 de Septiembre, 20:00h',
         'descripcion' => 'Campeona olímpica y referente mundial del bádminton. Talento, disciplina y mentalidad feroz: compite para ganar y entrena para superarse.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos CAROLINA MARIN 1400x1400 copia.jpg',
-        'estado' => 'proximamente',
-        'texto_estado' => 'Evento disponible próximamente',
-        'link' => '#',
+        'estado' => 'ver_evento',
+        'link' => 'https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-2/episodios/programa-7-40_020284326/player/',
         'turitop_service_id' => 'P323',
     ],
     [
