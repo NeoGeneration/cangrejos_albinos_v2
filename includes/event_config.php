@@ -54,10 +54,10 @@ $eventos_2026 = [
         'fecha' => '14 de Noviembre, 20:00h',
         'descripcion' => 'Actor y director con sello propio. De Aída al cine de autor y series premiadas. Humor con filo, emoción sin maquillaje y riesgo creativo.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos PACO LEON 1400x1400 copia.jpg',
-        'estado' => 'reservar',
+        'estado' => 'proximamente',
+        'texto_estado' => 'Evento disponible próximamente',
         'link' => '#',
         'turitop_service_id' => 'P333',
-        'disponible_desde' => '2026-09-25 00:00',
     ],
 ];
 

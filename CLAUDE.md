@@ -6,7 +6,7 @@ Guía para Claude Code al trabajar con este repositorio.
 
 **Cangrejos Albinos** — Sistema de reservas web para eventos de CACT Lanzarote (Centros de Arte, Cultura y Turismo) en Jameos del Agua.
 
-- **Repo:** https://github.com/NeoGeneration/cangrejos_albinos_26
+- **Repo:** https://github.com/NeoGeneration/cangrejos_albinos_v2
 - **Producción:** https://cangrejosalbinos.com/
 - **Hosting:** Hostinger
 - **Admin:** https://cangrejosalbinos.com/admin/

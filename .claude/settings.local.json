@@ -15,7 +15,12 @@
       "WebSearch",
       "WebFetch(domain:help.turitop.com)",
       "WebFetch(domain:app.turitop.com)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(git remote *)",
+      "Bash(git fetch *)"
     ]
   }
 }

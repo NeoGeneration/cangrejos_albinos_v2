@@ -730,8 +730,13 @@ endif; ?>
                     <div class="col-xxl-8 col-xl-9 col-lg-10">
                         <div class="text-center mb-40 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                             <h2 class="td-section-title edicion-2026-title">Edición 2026</h2>
-                            <p class="edicion-2026-subtitle mt-15">Nuevos encuentros, nuevas voces. Cuatro veladas
-                                únicas en Jameos del Agua.</p>
+                            <a class="mediaset-cta"
+                                href="https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/" target="_blank"
+                                rel="noopener noreferrer">
+                                <span class="mediaset-cta-play"><i class="fa-solid fa-play"></i></span>
+                                Ver episodios en Mediaset Infinity
+                                <i class="fa-solid fa-arrow-up-right-from-square mediaset-cta-arrow"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
