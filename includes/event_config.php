@@ -54,9 +54,8 @@ $eventos_2026 = [
         'fecha' => '14 de Noviembre, 20:00h',
         'descripcion' => 'Actor y director con sello propio. De Aída al cine de autor y series premiadas. Humor con filo, emoción sin maquillaje y riesgo creativo.',
         'imagen' => 'assets/img/schedule/26/cangrejos albinos PACO LEON 1400x1400 copia.jpg',
-        'estado' => 'proximamente',
-        'texto_estado' => 'Evento disponible próximamente',
-        'link' => '#',
+        'estado' => 'ver_evento',
+        'link' => 'https://www.mediasetinfinity.es/programas-tv/cangrejos-albinos/temporada-2/episodios/programa-8-40_020729607/player/',
         'turitop_service_id' => 'P333',
     ],
 ];
